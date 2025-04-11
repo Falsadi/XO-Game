@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity X O Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Updated CSS file name -->
+</head>
+<body>
+<div class="logo-container">
+    <img src="images/logo.png" alt="Game Logo">
+</div>
+
+<div class="container">
+    <h1>XO - Cyber Game</h1>
+    <div id="question-container" class="hidden">
+        <p id="question-text"></p>
+        <div id="options"></div> <!-- Dynamically filled with options for MCQ or buttons for TF -->
+    </div>
+    <div id="start-message"></div> <!-- Message below the boxes -->
+    <div id="timer"></div> <!-- Timer below the boxes -->
+    <button id="reset">Reset Game</button>
+</div>
+
+<div class="container">
+    <h2 id="current-player"></h2>
+    <div id="board">
+        <!-- Game board cells -->
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+</div>
+
+<!-- Footer with "All Rights Reserved" text -->
+<footer>
+    <p>2025 CamelCode Academy. All Rights Reserved</p>
+</footer>
+
+<script src="app.js"></script> <!-- Updated JS file name -->
+</body>
+</html>

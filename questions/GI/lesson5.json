@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MCQ",
+    "question": "Which of the following is a strong password practice?",
+    "options": ["Use only letters", "Include numbers and symbols", "Use your birthdate", "Use the same password everywhere"],
+    "answer": "Include numbers and symbols"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is a type of malware?",
+    "options": ["Phishing", "Ransomware", "Spyware", "All of the above"],
+    "answer": "All of the above"
+  }
+]

@@ -1,0 +1,188 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background: url('images/background.png') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensures full height on different screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  position: absolute; /* Keeps it fixed in the top-left corner */
+  top: 10px;
+  left: 10px;
+  z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.logo-container img {
+  width: 230px; /* Adjust size as needed */
+  height: auto;
+  filter: drop-shadow(0px 0px 10px #00ffff); /* Optional neon glow effect */
+}
+
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
+    width: 100%;
+    max-width: 400px;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #00ffff; /* Neon blue */
+    text-shadow: 0 0 10px #00ffff;
+  }
+
+  #question-container {
+    margin-bottom: 20px; /* Move question above the board */
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #question-text {
+    font-size: 20px;
+    color: #EB9B56; /* Neon green */
+  }
+
+  #options {
+    margin-top: 10px;
+  }
+
+  #options button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00ffff; /* Neon blue */
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+
+  #options button:hover {
+    background-color: #00cccc; /* Darker neon blue */
+  }
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 10px;
+    margin: 20px auto;
+    justify-content: center; /* Center the grid */
+  }
+
+  .cell {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00ffff; /* Neon blue border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ffff; /* Neon blue */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .cell:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+  }
+
+  #start-message {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #EB9B56; /* Neon green */
+    text-shadow: 0 0 10px #EB9B56;
+  }
+
+  #current-player{
+    color: #00ffff; /* Neon green */
+    text-shadow: 0 0 10px #00ffff;
+  }
+  #timer {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ff0000; /* Red */
+  }
+
+  #reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00ffff; /* Neon blue */
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+
+  #reset:hover {
+    background-color: #00cccc; /* Darker neon blue */
+  }
+
+  /* Big message styles */
+  .big-message {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    animation: popIn 0.5s ease-in-out;
+  }
+
+  .correct-message {
+    color: #00ff00; /* Green for correct answers */
+    text-shadow: 0 0 10px #00ff00;
+  }
+
+  .wrong-message {
+    color: #ff0000; /* Red for wrong answers */
+    text-shadow: 0 0 10px #ff0000;
+  }
+
+  @keyframes popIn {
+    0% { transform: scale(0); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for footer */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: auto; /* Pushes footer to the bottom */
+  z-index: 100; /* Ensure it stays on top of other content */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer p:before {
+  content: " \00a9 "; /* Unicode for copyright symbol */
+  margin-right: 5px;
+}
