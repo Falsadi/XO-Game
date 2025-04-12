@@ -65,7 +65,7 @@
     // Set number of lessons based on location
     let lessonCount = 0;
     if (loc === 'GI') {
-        lessonCount = 5;
+        lessonCount = 4;
     } else if (loc === 'ACAD') {
         lessonCount = 7;
     } else {
@@ -74,7 +74,12 @@
 
     for (let i = 1; i <= lessonCount; i++) {
         const btn = document.createElement('button');
+        if (i === 6 || i ===5){
+            continue;
+        }
+        else{
         btn.textContent = 'Lesson ' + i;
+        }
         btn.onclick = () => {
             sessionStorage.setItem('lesson', 'Lesson ' + i);
             window.location.href = 'home.html'; // redirect to home page

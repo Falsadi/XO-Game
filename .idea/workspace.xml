@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 003431.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 003551.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 004029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 004318.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 004528.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 005401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot 2025-03-22 023046.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/ACAD/lesson1.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/ACAD/lesson1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/ACAD/lesson7.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/ACAD/lesson7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/GI/lesson5.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +35,33 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2uLiQjRuZ2ARQGyakDPrja74eBr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zaine/Documents/GitHub/CyberSec-CourseHub&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.test.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/zaine/Documents/GitHub/XO-Cyber-Game",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zaine\Documents\GitHub\XO-Cyber-Game\questions\GI" />
       <recent name="C:\Users\zaine\Documents\GitHub\CyberSec-CourseHub" />
       <recent name="C:\Users\zaine\Documents\GitHub\CyberSec-CourseHub\sounds" />
       <recent name="C:\Users\zaine\Documents\GitHub\CyberSec-CourseHub\static" />
@@ -83,6 +79,7 @@
       <workItem from="1742034244674" duration="3899000" />
       <workItem from="1742125219926" duration="2111000" />
       <workItem from="1742578783647" duration="17135000" />
+      <workItem from="1744478702927" duration="6803000" />
     </task>
     <servers />
   </component>

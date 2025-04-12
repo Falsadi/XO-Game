@@ -1,0 +1,130 @@
+[
+  {
+    "type": "MCQ",
+    "question": "Why is it illegal to hack real websites without permission? / لماذا يُعد اختراق المواقع الحقيقية بدون إذن أمرًا غير قانوني؟",
+    "options": [
+      "Because it's too hard / لأنه صعب جدًا",
+      "Because it might make the internet faster / لأنه قد يجعل الإنترنت أسرع",
+      "Because it violates privacy and is against the law / لأنه ينتهك الخصوصية ويخالف القانون",
+      "Because websites are boring / لأن المواقع مملة"
+    ],
+    "answer": "Because it violates privacy and is against the law / لأنه ينتهك الخصوصية ويخالف القانون"
+  },
+  {
+    "type": "MCQ",
+    "question": "What platform did we use today to learn ethical hacking? / ما المنصة التي استخدمناها اليوم لتعلم الاختراق الأخلاقي؟",
+    "options": [
+      "CodeAcademy",
+      "GitHub",
+      "TryHackMe",
+      "Google Classroom"
+    ],
+    "answer": "TryHackMe"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of hidden pages on websites? / ما الهدف من الصفحات المخفية في المواقع؟",
+    "options": [
+      "To make the website colorful / لتجميل الموقع",
+      "To confuse visitors / لتشتيت الزوار",
+      "To store sensitive or admin-only content / لتخزين معلومات حساسة أو خاصة بالإدارة فقط",
+      "To improve speed / لتحسين السرعة"
+    ],
+    "answer": "To store sensitive or admin-only content / لتخزين معلومات حساسة أو خاصة بالإدارة فقط"
+  },
+  {
+    "type": "MCQ",
+    "question": "What tool did we use to find hidden pages? / ما الأداة التي استخدمناها للعثور على الصفحات المخفية؟",
+    "options": [
+      "Gobuster",
+      "HackScanner",
+      "PageFinder",
+      "BashBuster"
+    ],
+    "answer": "Gobuster"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does a URL represent in a website? / ما الذي يمثله الرابط (URL) في الموقع؟",
+    "options": [
+      "A folder name / اسم مجلد",
+      "The website’s digital address / العنوان الرقمي للموقع",
+      "A password / كلمة مرور",
+      "The homepage only / الصفحة الرئيسية فقط"
+    ],
+    "answer": "The website’s digital address / العنوان الرقمي للموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "How can we find hidden pages on a website? / كيف يمكننا العثور على صفحات مخفية في الموقع؟",
+    "options": [
+      "Look under the keyboard / ننظر تحت لوحة المفاتيح",
+      "Ask the website nicely / نطلب من الموقع بلطف",
+      "Use a tool like Gobuster or guess page names / نستخدم أداة مثل جو بوستر أو نخمّن الأسماء",
+      "Wait for them to show up / ننتظر أن تظهر"
+    ],
+    "answer": "Use a tool like Gobuster or guess page names / نستخدم أداة مثل جو بوستر أو نخمّن الأسماء"
+  },
+  {
+    "type": "MCQ",
+    "question": "In the TryHackMe lab, what did we try to simulate? / ما الذي حاولنا محاكاته في مختبر TryHackMe؟",
+    "options": [
+      "Fixing a website / إصلاح موقع",
+      "Posting on social media / النشر على وسائل التواصل",
+      "Hacking a bank and transferring money / اختراق بنك وتحويل الأموال",
+      "Watching YouTube / مشاهدة يوتيوب"
+    ],
+    "answer": "Hacking a bank and transferring money / اختراق بنك وتحويل الأموال"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does the command line/terminal do? / ما وظيفة سطر الأوامر/الطرفية؟",
+    "options": [
+      "Shows YouTube videos / يعرض فيديوهات يوتيوب",
+      "Lets you play games / يسمح لك بلعب الألعاب",
+      "Allows you to send commands to the computer / يتيح لك إرسال أوامر إلى الحاسوب",
+      "Sends emails / يرسل رسائل بريد إلكتروني"
+    ],
+    "answer": "Allows you to send commands to the computer / يتيح لك إرسال أوامر إلى الحاسوب"
+  },
+  {
+    "type": "TF",
+    "question": "It is legal to hack into your friend’s social media account if it’s just for fun. / اختراق حساب صديقك على وسائل التواصل مسموح إذا كان من باب المزاح.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "TryHackMe provides a safe and legal environment to learn hacking skills. / توفّر منصة TryHackMe بيئة آمنة وقانونية لتعلم مهارات الاختراق.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "All website pages are always shown on the home screen. / جميع صفحات الموقع تظهر دائمًا في الصفحة الرئيسية.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "The terminal allows us to send commands to the computer. / الطرفية تتيح لنا إرسال أوامر إلى الحاسوب.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Gobuster helps us play games on websites. / أداة Gobuster تساعدنا في لعب الألعاب على المواقع.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "We can use hacking tools like Gobuster on any website we find online. / يمكننا استخدام أدوات مثل Gobuster على أي موقع نجده.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "Hidden pages on a website can sometimes lead to sensitive or admin-only content. / قد تؤدي الصفحات المخفية في الموقع إلى محتوى حساس أو خاص بالإدارة.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "In today’s lab, we simulated a real-life attack on a social media platform. / في مختبر اليوم، قمنا بمحاكاة هجوم حقيقي على موقع تواصل اجتماعي.",
+    "answer": "false"
+  }
+]
