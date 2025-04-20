@@ -8,7 +8,7 @@ const resetButton = document.getElementById('reset');
 const currentPlayerElement = document.getElementById('current-player');
 
 // Sound effects
-const timerSound = new Audio('sounds/15sec_countdown.mp3');
+const timerSound = new Audio('sounds/30sec_countdown.mp3');
 const wrongAnswerSound = new Audio('sounds/wrong_answer.mp3');
 const correctAnswerSound = new Audio('sounds/correct_answer.mp3');
 const startGameSound = new Audio('sounds/change_player.mp3');
@@ -202,7 +202,7 @@ function showQuestion(cellIndex) {
 
 // Start 15-second timer
 function startTimer() {
-  timeLeft = 15;
+  timeLeft = 30;
   timerDisplay.textContent = `Time Left: ${timeLeft}`;
   clearInterval(countdown); // Ensure no previous timers are running
   countdown = setInterval(() => {

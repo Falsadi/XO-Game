@@ -51,7 +51,7 @@ body {
   }
 
   #question-text {
-    font-size: 20px;
+    font-size: 26px;
     color: #EB9B56; /* Neon green */
   }
 
@@ -62,7 +62,7 @@ body {
   #options button {
     padding: 10px 20px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     background-color: #00ffff; /* Neon blue */
     border: none;
