@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/zaine/Documents/GitHub/XO-Cyber-Game",
+    "last_opened_file_path": "C:/Users/zaine/Documents/GitHub/XO-Cyber-Game/questions/QAW",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zaine\Documents\GitHub\XO-Cyber-Game\questions\QAW" />
       <recent name="C:\Users\zaine\Documents\GitHub\XO-Cyber-Game\sounds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +84,7 @@
       <workItem from="1744478702927" duration="7337000" />
       <workItem from="1744545383760" duration="308000" />
       <workItem from="1745174024937" duration="1784000" />
-      <workItem from="1745222328950" duration="57000" />
+      <workItem from="1745222328950" duration="2027000" />
     </task>
     <servers />
   </component>

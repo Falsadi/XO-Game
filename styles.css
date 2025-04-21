@@ -42,8 +42,10 @@ body {
   margin: 30px;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
-  width: 100%;
+  width: 90%;
   max-width: 500px;
+  height: 90%;
+  max-height: 500px;
 }
 
   h1 {
@@ -61,7 +63,8 @@ body {
   }
 
   #question-text {
-    font-size: 26px;
+    font-size: 30px;
+    font-weight: bold;
     color: #EB9B56; /* Neon green */
   }
 
@@ -72,13 +75,21 @@ body {
   #options button {
     padding: 10px 20px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: bold;
     cursor: pointer;
     background-color: #00ffff; /* Neon blue */
     border: none;
     border-radius: 10px;
     color: #000;
+    width: 100px;
     transition: background-color 0.3s ease;
+  }
+
+  .button{
+    font-weight: bold;
+    font-size: 16em;
+    width: 13em;
   }
 
   #options button:hover {
