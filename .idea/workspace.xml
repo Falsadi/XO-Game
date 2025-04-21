@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/zaine/Documents/GitHub/XO-Cyber-Game/sounds",
+    "last_opened_file_path": "C:/Users/zaine/Documents/GitHub/XO-Cyber-Game",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,7 +81,8 @@
       <workItem from="1742578783647" duration="17135000" />
       <workItem from="1744478702927" duration="7337000" />
       <workItem from="1744545383760" duration="308000" />
-      <workItem from="1745174024937" duration="1189000" />
+      <workItem from="1745174024937" duration="1784000" />
+      <workItem from="1745222328950" duration="57000" />
     </task>
     <servers />
   </component>
