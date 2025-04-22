@@ -86,17 +86,17 @@
     ],
     "answer": "يحرك الشخصية – Moves"
   },
-  {
-    "type": "MCQ",
-    "question": "ما وظيفة “next costume”؟ / What does “next costume” do?",
-    "options": [
-      "يغير الشكل – Changes look",
-      "يتحرك – Moves",
-      "يختفي – Hides",
-      "يدور – Rotates"
-    ],
-    "answer": "يغير الشكل – Changes look"
-  },
+//  {
+//    "type": "MCQ",
+//    "question": "ما وظيفة “next costume”؟ / What does “next costume” do?",
+//    "options": [
+//      "يغير الشكل – Changes look",
+//      "يتحرك – Moves",
+//      "يختفي – Hides",
+//      "يدور – Rotates"
+//    ],
+//    "answer": "يغير الشكل – Changes look"
+//  },
   {
     "type": "MCQ",
     "question": "لماذا نستخدم الأحداث؟ / Why do we use events?",
@@ -108,17 +108,17 @@
     ],
     "answer": "لتنفيذ الأوامر – to take action"
   },
-  {
-    "type": "MCQ",
-    "question": "أي مكعب يساعد الشخصية على تغيير شكله؟ / Which block helps the Actor change its look?",
-    "options": [
-      "move 10 steps",
-      "next costume",
-      "point towards",
-      "wait 1 second"
-    ],
-    "answer": "next costume"
-  },
+//  {
+//    "type": "MCQ",
+//    "question": "أي مكعب يساعد الشخصية على تغيير شكله؟ / Which block helps the Actor change its look?",
+//    "options": [
+//      "move 10 steps",
+//      "next costume",
+//      "point towards",
+//      "wait 1 second"
+//    ],
+//    "answer": "next costume"
+//  },
   {
     "type": "MCQ",
     "question": "ما وظيفة مكعب \"point towards left edge\"؟ / What does the following block do?",
