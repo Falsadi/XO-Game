@@ -93,11 +93,6 @@
     "answer": "Replacing each letter with a number"
   },
   {
-    "type": "TF",
-    "question": "The word “SECRET” becomes “UGETGV” if we use a shift key of 2.",
-    "answer": "false"
-  },
-  {
     "type": "MCQ",
     "question": "Which of these is not a reason we need cybersecurity?",
     "options": [
