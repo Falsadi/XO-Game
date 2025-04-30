@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/ACAD/lesson1.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/ACAD/lesson1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/ACAD/lesson2.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/ACAD/lesson2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zaine/Documents/GitHub/XO-Cyber-Game/questions/QAW&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zaine/Documents/GitHub/web_app&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -86,7 +86,11 @@
       <workItem from="1745222328950" duration="2083000" />
       <workItem from="1745305637431" duration="65000" />
       <workItem from="1745313488586" duration="3021000" />
-      <workItem from="1745392885146" duration="1459000" />
+      <workItem from="1745392885146" duration="2071000" />
+      <workItem from="1745589448243" duration="1611000" />
+      <workItem from="1745593887708" duration="612000" />
+      <workItem from="1745851066742" duration="888000" />
+      <workItem from="1745998188648" duration="114000" />
     </task>
     <servers />
   </component>
