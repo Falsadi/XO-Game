@@ -33,43 +33,10 @@
   },
   {
     "type": "MCQ",
-    "question": "What does the Blue Team do? / ماذا يفعل الفريق الأزرق؟",
-    "options": [
-      "Defend and protect systems from attacks / الدفاع عن الأنظمة من الهجمات",
-      "Attack systems like hackers / مهاجمة الأنظمة مثل المخترقين",
-      "Create computer viruses / إنشاء برامج ضارة (فيروسات)",
-      "Hack social media accounts / اختراق حسابات وسائل التواصل الاجتماعي"
-    ],
-    "answer": "Defend and protect systems from attacks / الدفاع عن الأنظمة من الهجمات"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is encryption used for? / لماذا نستخدم التشفير؟",
-    "options": [
-      "To slow down the internet / لإبطاء الإنترنت",
-      "To allow everyone to read messages / للسماح للجميع بقراءة الرسائل",
-      "To make texts unreadable / لجعل النصوص غير قابلة للقراءة",
-      "To delete unwanted emails / لحذف رسائل البريد الإلكتروني غير المرغوب فيها"
-    ],
-    "answer": "To make texts unreadable / لجعل النصوص غير قابلة للقراءة"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is the main purpose of cybersecurity? / ما هو الهدف الرئيسي للأمن السيبراني؟",
-    "options": [
-      "To protect us from hackers / حمايتنا من المخترقين",
-      "To delete files / حذف الملفات",
-      "To improve internet speed / تحسين سرعة الإنترنت",
-      "To slow down computers / إبطاء الكمبيوتر"
-    ],
-    "answer": "To protect us from hackers / حمايتنا من المخترقين"
-  },
-  {
-    "type": "MCQ",
     "question": "Which of the following is a way hackers find hidden web pages? / أي من التالي يستخدمه المخترقون لاكتشاف الصفحات المخفية؟",
     "options": [
       "Playing games / لعب الألعاب",
-      "Asking Google / سؤال جوجل",
+      "Using a tool like Gobaster / استخدام أداة مثل Gobaster",
       "Using a tool like Gobuster / استخدام أداة مثل Gobuster",
       "Making random websites / إنشاء مواقع عشوائية"
     ],
@@ -86,33 +53,49 @@
     ],
     "answer": "To run special commands / لتنفيذ أوامر مخصصة"
   },
+{
+    "type": "MCQ",
+    "question": "What is the encrypted version of “BAG” with a shift of 3? / ما هو الشكل المشفر لكلمة “BAG” بإزاحة مقدارها 3؟",
+    "options": [
+      "EDJ",
+      "CBI",
+      "EDI",
+      "DCH"
+    ],
+    "answer": "EDJ"
+  },
   {
     "type": "TF",
-    "question": "The Red Team and Blue Team work together to make systems safer / يعمل الفريق الأحمر والفريق الأزرق معًا لجعل الأنظمة أكثر أمانًا.",
-    "answer": "true"
+    "question": "The word “SECRET” becomes “UGETGV” if we use a shift key of 2. / تصبح الكلمة “SECRET” هي “UGETGV” إذا استخدمنا مفتاح إزاحة قدره 2.",
+    "answer": "false"
   },
   {
-    "type": "MCQ",
-    "question": "Which of the following is safe to share online? / ما الذي يمكن مشاركته بأمان عبر الإنترنت؟",
-    "options": [
-      "Full name and address / الاسم الكامل والعنوان",
-      "Passwords / كلمات المرور",
-      "Favorite color / اللون المفضل",
-      "ID number / رقم الهوية الوطنية"
-    ],
-    "answer": "Favorite color / اللون المفضل"
+    "type": "TF",
+    "question": "Is encryption only used to protect text messages? / هل يُستخدم التشفير فقط لحماية الرسائل النصية؟",
+    "answer": "false"
   },
-  {
+{
     "type": "MCQ",
-    "question": "What can happen if you share personal information online? / ماذا يمكن أن يحدث إذا شاركت معلوماتك الشخصية على الإنترنت؟",
+    "question": "If a message is encrypted using a Shift Cipher with a shift of 3, what does \"DOG\" become? / إذا تم تشفير رسالة باستخدام تشفير الإزاحة بمقدار 3، ماذا تصبح كلمة \"DOG\"؟",
     "options": [
-      "You get free games / تحصل على ألعاب مجانية",
-      "Nothing bad ever happens / لا يحدث أي شيء سيئ",
-      "You might get scammed or bullied / قد تتعرض للاحتيال أو التنمر",
-      "You get more followers / تحصل على المزيد من المتابعين"
+      "DNG",
+      "FKR",
+      "GQI",
+      "AXL"
     ],
-    "answer": "You might get scammed or bullied / قد تتعرض للاحتيال أو التنمر"
+    "answer": "GQI"
   },
+{
+  "type": "MCQ",
+  "question": "How can hackers gain access to our information? / كيف يمكن للقراصنة الوصول إلى معلوماتنا؟",
+  "options": [
+    "By playing online games with us / من خلال اللعب معنا على الإنترنت",
+    "By sharing too much personal information online / من خلال مشاركة الكثير من المعلومات الشخصية عبر الإنترنت",
+    "By downloading games or apps from untrusted sources / من خلال تحميل الألعاب أو التطبيقات من مصادر غير موثوقة",
+    "Both B and C / الخياران ب وج معًا"
+  ],
+  "answer": "Both B and C / الخياران ب وج معًا"
+},
   {
     "type": "TF",
     "question": "Encryption makes messages harder to read for hackers / التشفير يجعل من الصعب على المخترقين قراءة رسائلنا.",
