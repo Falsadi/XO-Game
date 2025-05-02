@@ -89,12 +89,12 @@
   "type": "MCQ",
   "question": "How can hackers gain access to our information? / كيف يمكن للقراصنة الوصول إلى معلوماتنا؟",
   "options": [
-    "By playing online games with us / من خلال اللعب معنا على الإنترنت",
-    "By sharing too much personal information online / من خلال مشاركة الكثير من المعلومات الشخصية عبر الإنترنت",
-    "By downloading games or apps from untrusted sources / من خلال تحميل الألعاب أو التطبيقات من مصادر غير موثوقة",
-    "Both B and C / الخياران ب وج معًا"
+    "By playing online games with us",
+    "By sharing too much personal information online",
+    "By downloading games or apps from untrusted sources",
+    "Both B and C"
   ],
-  "answer": "Both B and C / الخياران ب وج معًا"
+  "answer": "Both B and C"
 },
   {
     "type": "TF",
