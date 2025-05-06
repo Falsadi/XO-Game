@@ -1,0 +1,188 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What is programming? / ما هي البرمجة؟",
+    "options": [
+      "Giving instructions. / إعطاء تعليمات.",
+      "Playing games. / لعب الألعاب.",
+      "Watching videos. / مشاهدة الفيديوهات.",
+      "Drawing pictures. / رسم الصور."
+    ],
+    "answer": "Giving instructions. / إعطاء تعليمات."
+  },
+  {
+    "type": "MCQ",
+    "question": "Why do we use programming? / لماذا نستخدم البرمجة؟",
+    "options": [
+      "To move computers. / لتحريك الكمبيوتر.",
+      "To turn on computers. / لتشغيل الكمبيوتر.",
+      "To watch cartoons. / لمشاهدة الرسوم.",
+      "To control computers. / للتحكم في الكمبيوتر."
+    ],
+    "answer": "To control computers. / للتحكم في الكمبيوتر."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which is programming? / أي مثال يعبر عن البرمجة؟",
+    "options": [
+      "Turning on a computer. / تشغيل الكمبيوتر.",
+      "Telling a robot to move. / إخبار الروبوت بالتحرك.",
+      "Clicking icons. / النقر على الرموز.",
+      "Typing words. / كتابة الكلمات."
+    ],
+    "answer": "Telling a robot to move. / إخبار الروبوت بالتحرك."
+  },
+  {
+    "type": "MCQ",
+    "question": "How does a computer follow instructions? / كيف يتبع الكمبيوتر التعليمات؟",
+    "options": [
+      "Randomly / عشوائيًا.",
+      "By guessing / بالتخمين.",
+      "Step by step / خطوة بخطوة.",
+      "Backwards / بالعكس."
+    ],
+    "answer": "Step by step / خطوة بخطوة."
+  },
+  {
+    "type": "MCQ",
+    "question": "What if instructions are in the wrong order? / ماذا إذا كانت التعليمات غير مرتبة؟",
+    "options": [
+      "It works fine / يعمل جيدًا.",
+      "It stops or fails / يتوقف أو يفشل.",
+      "It fixes itself / يصلح نفسه.",
+      "Nothing happens / لا يحدث شيء."
+    ],
+    "answer": "It stops or fails / يتوقف أو يفشل."
+  },
+  {
+    "type": "MCQ",
+    "question": "How does a computer know what to do? / كيف يعرف الكمبيوتر ما يفعله؟",
+    "options": [
+      "By learning / بالتعلم.",
+      "By guessing / بالتخمين.",
+      "By copying / بالنسخ.",
+      "By instructions / بالتعليمات."
+    ],
+    "answer": "By instructions / بالتعليمات."
+  },
+  {
+    "type": "TF",
+    "question": "Instructions must be given in the correct order. / يجب إعطاء التعليمات بالترتيب الصحيح.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Programming is only used by scientists. / البرمجة تُستخدم فقط من قبل العلماء.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما هو دور بلوك “move 10 pixels”؟",
+    "options": [
+      "يوقف الشخصية – Stops",
+      "يحرك الشخصية – Moves",
+      "يغير شكلها – Costume",
+      "يمسحها – Deletes"
+    ],
+    "answer": "يحرك الشخصية – Moves"
+  },
+  {
+    "type": "MCQ",
+    "question": "لماذا نستخدم الأحداث؟ / Why do we use events?",
+    "options": [
+      "للزينة – Decoration",
+      "لتنفيذ الأوامر – to take action",
+      "لتغيير الصوت – Change sound",
+      "لإيقاف اللعبة – Stop game"
+    ],
+    "answer": "لتنفيذ الأوامر – to take action"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما وظيفة بلوك \"point towards left edge\"؟ / What does the following block do?",
+    "options": [
+      "يغير لون الشخصية – Changes the Actor color",
+      "يجعل الشخصية يواجه اليسار – Turns the Actor to face left",
+      "يجعل الشخصية أسرع – Makes the Actor faster",
+      "يعيد الشخصية للمنزل – Sends the Actor home"
+    ],
+    "answer": "يجعل الشخصية يواجه اليسار – Turns the Actor to face left"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block detects a key press? | أي بلوك يكتشف ضغط مفتاح؟",
+    "options": [
+      "Repeat 10 | كرر 10 مرات.",
+      "If Touching? | إذا كان يلمس؟",
+      "Change [x] by 10 | غيّر [x] بـ 10.",
+      "When Key Pressed | عند الضغط على المفتاح."
+    ],
+    "answer": "When Key Pressed | عند الضغط على المفتاح."
+  },
+  {
+    "type": "MCQ",
+    "question": "What is a loop in programming? / ما هي الحلقة (Loop) في البرمجة؟",
+    "options": [
+      "A way to repeat actions. / طريقة لتكرار الأفعال.",
+      "A game level. / مستوى في اللعبة.",
+      "A drawing shape. / شكل للرسم.",
+      "A sound effect. / تأثير صوتي."
+    ],
+    "answer": "A way to repeat actions. / طريقة لتكرار الأفعال."
+  },
+  {
+    "type": "MCQ",
+    "question": "Why are loops useful in games? / لماذا الحلقات مفيدة في الألعاب؟",
+    "options": [
+      "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر.",
+      "To make the game harder. / لجعل اللعبة أصعب.",
+      "To stop the game. / لإيقاف اللعبة.",
+      "To change the colors. / لتغيير الألوان."
+    ],
+    "answer": "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block would you use to make a sprite repeat an action 10 times? / أي بلوك يستخدم لجعل الشخصية تكرر فعلًا 10 مرات؟",
+    "options": [
+      "Forever. / إلى الأبد.",
+      "If Touching. / إذا كان يلمس.",
+      "Change x by 10. / غير القيمه 10 مرات.",
+      "Repeat 10. / كرر 10 مرات."
+    ],
+    "answer": "Repeat 10. / كرر 10 مرات."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block makes something happen forever? / أي بلوك يجعل الشيء يستمر إلى الأبد؟",
+    "options": [
+      "Forever. / إلى الأبد.",
+      "When Key Pressed. / عند الضغط.",
+      "Change x by 10. / غير x بـ 10.",
+      "Repeat 10. / كرر 10 مرات."
+    ],
+    "answer": "Forever. / إلى الأبد."
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Mr. Farhan from? / ما جنسية الاستاذ فرحان؟",
+    "options": [
+      "Syrian / سوري",
+      "Qatari / قطري",
+      "Egyptian / مصري",
+      "Palestinian / فلسطيني"
+    ],
+    "answer": "Syrian / سوري"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Ms. Zaina from? / ما جنسية مس زينة؟",
+    "options": [
+      "Syrian / سورية",
+      "Qatari / قطرية",
+      "Egyptian / مصرية",
+      "Palestinian / فلسطينية"
+    ],
+    "answer": "Palestinian / فلسطينية"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What is programming? / ما هي البرمجة؟",
+    "options": [
+      "Giving instructions. / إعطاء تعليمات.",
+      "Playing games. / لعب الألعاب.",
+      "Watching videos. / مشاهدة الفيديوهات.",
+      "Drawing pictures. / رسم الصور."
+    ],
+    "answer": "Giving instructions. / إعطاء تعليمات."
+  },
+  {
+    "type": "MCQ",
+    "question": "How does a computer follow instructions? / كيف يتبع الكمبيوتر التعليمات؟",
+    "options": [
+      "Randomly / عشوائيًا.",
+      "By guessing / بالتخمين.",
+      "Step by step / خطوة بخطوة.",
+      "Backwards / بالعكس."
+    ],
+    "answer": "Step by step / خطوة بخطوة."
+  },
+  {
+    "type": "MCQ",
+    "question": "What if instructions are in the wrong order? / ماذا إذا كانت التعليمات غير مرتبة؟",
+    "options": [
+      "It works fine / يعمل جيدًا.",
+      "It stops or fails / يتوقف أو يفشل.",
+      "It fixes itself / يصلح نفسه.",
+      "Nothing happens / لا يحدث شيء."
+    ],
+    "answer": "It stops or fails / يتوقف أو يفشل."
+  },
+  {
+    "type": "TF",
+    "question": "Programming is only used by scientists. / البرمجة تُستخدم فقط من قبل العلماء.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما هو دور بلوك “move 10 pixels”؟",
+    "options": [
+      "يوقف الشخصية – Stops",
+      "يحرك الشخصية – Moves",
+      "يغير شكلها – Costume",
+      "يمسحها – Deletes"
+    ],
+    "answer": "يحرك الشخصية – Moves"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما وظيفة بلوك \"point towards left edge\"؟ / What does the following block do?",
+    "options": [
+      "يغير لون الشخصية – Changes the Actor color",
+      "يجعل الشخصية يواجه اليسار – Turns the Actor to face left",
+      "يجعل الشخصية أسرع – Makes the Actor faster",
+      "يعيد الشخصية للمنزل – Sends the Actor home"
+    ],
+    "answer": "يجعل الشخصية يواجه اليسار – Turns the Actor to face left"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block detects a key press? | أي بلوك يكتشف ضغط مفتاح؟",
+    "options": [
+      "Repeat 10 | كرر 10 مرات.",
+      "If Touching? | إذا كان يلمس؟",
+      "Change [x] by 10 | غيّر [x] بـ 10.",
+      "When Key Pressed | عند الضغط على المفتاح."
+    ],
+    "answer": "When Key Pressed | عند الضغط على المفتاح."
+  },
+  {
+    "type": "MCQ",
+    "question": "What is a loop in programming? / ما هي الحلقة (Loop) في البرمجة؟",
+    "options": [
+      "A way to repeat actions. / طريقة لتكرار الأفعال.",
+      "A game level. / مستوى في اللعبة.",
+      "A drawing shape. / شكل للرسم.",
+      "A sound effect. / تأثير صوتي."
+    ],
+    "answer": "A way to repeat actions. / طريقة لتكرار الأفعال."
+  },
+  {
+    "type": "MCQ",
+    "question": "Why are loops useful in games? / لماذا الحلقات مفيدة في الألعاب؟",
+    "options": [
+      "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر.",
+      "To make the game harder. / لجعل اللعبة أصعب.",
+      "To stop the game. / لإيقاف اللعبة.",
+      "To change the colors. / لتغيير الألوان."
+    ],
+    "answer": "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block would you use to make a sprite repeat an action 10 times? / أي بلوك تستخدم لجعل الشخصية تكرر فعلًا 10 مرات؟",
+    "options": [
+      "Forever. / إلى الأبد.",
+      "If Touching. / إذا كان يلمس.",
+      "Change x by 10. / غير القيمه 10 مرات.",
+      "Repeat 10. / كرر 10 مرات."
+    ],
+    "answer": "Repeat 10. / كرر 10 مرات."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block makes something happen forever? / أي بلوك يجعل الشيء يستمر إلى الأبد؟",
+    "options": [
+      "Forever. / إلى الأبد.",
+      "When Key Pressed. / عند الضغط.",
+      "Change x by 10. / غير x بـ 10.",
+      "Repeat 10. / كرر 10 مرات."
+    ],
+    "answer": "Forever. / إلى الأبد."
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Mr. Farhan from? / ما جنسية الاستاذ فرحان؟",
+    "options": [
+      "Syrian / سوري",
+      "Qatari / قطري",
+      "Egyptian / مصري",
+      "Palestinian / فلسطيني"
+    ],
+    "answer": "Syrian / سوري"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Ms. Zaina from? / ما جنسية مس زينة؟",
+    "options": [
+      "Syrian / سورية",
+      "Qatari / قطرية",
+      "Egyptian / مصرية",
+      "Palestinian / فلسطينية"
+    ],
+    "answer": "Palestinian / فلسطينية"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of using If/Else in programming? / ما الهدف من استخدام If/Else في البرمجة؟",
+    "options": [
+      "to store data. / لتخزين البيانات.",
+      "to repeat actions. / لتكرار الأفعال.",
+      "to make decisions. / لاتخاذ القرارات.",
+      "to create animations. / لإنشاء الرسوم المتحركة."
+    ],
+    "answer": "to make decisions. / لاتخاذ القرارات."
+  },
+  {
+    "type": "MCQ",
+    "question": "If the condition in an If/Else block is false, which part runs? / إذا كان الشرط في بلوك If/Else خاطئًا، أي جزء يتم تنفيذه؟",
+    "options": [
+      "else",
+      "if",
+      "both / كلاهما",
+      "nothing / لا شيء"
+    ],
+    "answer": "else"
+  },
+  {
+    "type": "MCQ",
+    "question": "If the condition in an If/Else block is true, which part runs? / إذا كان الشرط في بلوك If/Else صحيحًا، أي جزء يتم تنفيذه؟",
+    "options": [
+      "else",
+      "if",
+      "both / كلاهما",
+      "nothing / لا شيء"
+    ],
+    "answer": "if"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block in Tynker is used to check conditions? / أي بلوك في Tynker تُستخدم للتأكد من الشروط؟",
+    "options": [
+      "forever / إلى الأبد",
+      "repeat / كرر",
+      "If/Else",
+      "repeat until / كرر حتى"
+    ],
+    "answer": "If/Else"
+  },
+  {
+    "type": "TF",
+    "question": "In Tynker, an If/Else block can only check one condition. / في تنكر، يمكن لبلوك If/Else فحص شرط واحد فقط.",
+    "answer": "true"
+  }
+]
