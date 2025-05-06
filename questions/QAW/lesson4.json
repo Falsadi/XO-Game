@@ -50,14 +50,14 @@
   },
   {
     "type": "MCQ",
-    "question": "ما وظيفة بلوك \"point towards left edge\"؟ / What does the following block do?",
+    "question": "ما وظيفة بلوك \"point towards right edge\"؟ / What does the following block do?",
     "options": [
       "يغير لون الشخصية – Changes the Actor color",
-      "يجعل الشخصية يواجه اليسار – Turns the Actor to face left",
+      "يجعل الشخصية يواجه اليمين – Turns the Actor to face right",
       "يجعل الشخصية أسرع – Makes the Actor faster",
       "يعيد الشخصية للمنزل – Sends the Actor home"
     ],
-    "answer": "يجعل الشخصية يواجه اليسار – Turns the Actor to face left"
+    "answer": "يجعل الشخصية يواجه اليمين – Turns the Actor to face right"
   },
   {
     "type": "MCQ",
