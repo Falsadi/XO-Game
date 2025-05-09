@@ -16,11 +16,12 @@
   "options": [
     "Qatari / قطري",
     "Syrian / سوري",
-    "Pakistani / باكستاني",
-    "Indian / هندي"
+    "Jordanian / أردني",
+    "Egyptian / مصري"
   ],
   "answer": "Syrian / سوري"
-  },
+}
+,
   {
     "type": "MCQ",
     "question": "Why is using a strong password important? / لماذا من المهم استخدام كلمة مرور قوية؟",
