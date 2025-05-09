@@ -10,6 +10,17 @@
     ],
     "answer": "Using a tool like Gobuster / استخدام أداة مثل Gobuster"
   },
+{
+    "type": "MCQ",
+    "question": "How many legs does a spider have? / كم عدد أرجل العنكبوت؟",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "answer": "8"
+  },
   {
   "type": "MCQ",
   "question": "What is the nationality of the instructor Farhan? / ما جنسية المدرب فرحان؟",
