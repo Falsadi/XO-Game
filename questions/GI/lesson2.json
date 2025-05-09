@@ -9,8 +9,18 @@
       "Guessing URLs by hand / تخمين الروابط يدويًا"
     ],
     "answer": "Using a tool like Gobuster / استخدام أداة مثل Gobuster"
-  }
-  ,
+  },
+  {
+  "type": "MCQ",
+  "question": "What is the nationality of the instructor Farhan? / ما جنسية المدرب فرحان؟",
+  "options": [
+    "Qatari / قطري",
+    "Syrian / سوري",
+    "Pakistani / باكستاني",
+    "Indian / هندي"
+  ],
+  "answer": "Syrian / سوري"
+},  
   {
     "type": "MCQ",
     "question": "Why do we use the Terminal? / لماذا نستخدم الـ Terminal؟",
