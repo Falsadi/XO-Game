@@ -22,6 +22,18 @@
   "answer": "Syrian / سوري"
 }
 ,
+  You said:
+{
+    "type": "MCQ",
+    "question": "How many legs does a spider have? / كم عدد أرجل العنكبوت؟",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "answer": "8"
+  },
   {
     "type": "MCQ",
     "question": "Why is using a strong password important? / لماذا من المهم استخدام كلمة مرور قوية؟",
