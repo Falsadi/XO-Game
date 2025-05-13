@@ -15,7 +15,6 @@
     "question": "The 'repeat until' loop will stop as soon as the condition becomes true. | حلقة 'تكرار حتى' تتوقف بمجرد أن تصبح الحالة صحيحة.",
     "answer": "True | صحيح"
   },
-  ,
   {
     "type": "MCQ",
     "question": "What happens if a 'repeat until' condition is never true? | ماذا يحدث إذا لم تتحقق حالة 'تكرار حتى' أبدًا؟",
