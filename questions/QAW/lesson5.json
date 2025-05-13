@@ -31,7 +31,6 @@
     ],
     "answer": "Adds 1 to the score | يضيف ١ إلى النتيجة"
   },
-  ,
   {
     "type": "MCQ",
     "question": "What happens if a 'repeat until' condition is never true? | ماذا يحدث إذا لم تتحقق حالة 'تكرار حتى' أبدًا؟",
