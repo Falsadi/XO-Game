@@ -125,7 +125,6 @@
     "question": "The block 'set score to 0' resets the score to zero. | البلوك 'اضبط النتيجة إلى ٠' يعيد النتيجة إلى الصفر.",
     "answer": "True | صحيح"
   },
-  ,
   {
     "type": "TrueFalse",
     "question": "'Change score by 1' is the same as 'set score to 1'. | 'غير النتيجة بمقدار ١' يعني نفس الشيء مثل 'اضبط النتيجة إلى ١'.",
