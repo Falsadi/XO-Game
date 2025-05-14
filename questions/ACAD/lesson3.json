@@ -3,12 +3,34 @@
     "type": "MCQ",
     "question": "What is Hydra used for in hacking? / في الأختراق؟ Hydra ما فائدة أداة",
     "options": [
-      "Sending emails / إرسال رسائل إلكترونية",
+      "Enumerating directories / تعداد المجلدات",
       "Guessing usernames and passwords / تخمين أسماء المستخدمين وكلمات المرور",
-      "Playing games / لعب الألعاب",
-      "Making websites / إنشاء مواقع"
+      "Capturing network traffic / التقاط حركة المرور في الشبكة",
+      "Sniffing email content / تتبع محتوى البريد الإلكتروني"
     ],
     "answer": "Guessing usernames and passwords / تخمين أسماء المستخدمين وكلمات المرور"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Mr. Farhan from? / ما جنسية الاستاذ فرحان؟",
+    "options": [
+      "Syrian / سوري",
+      "Qatari / قطري",
+      "Egyptian / مصري",
+      "Palestinian / فلسطيني"
+    ],
+    "answer": "Syrian / سوري"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Ms. Zaina from? / ما جنسية مس زينة؟",
+    "options": [
+      "Syrian / سورية",
+      "Qatari / قطرية",
+      "Egyptian / مصرية",
+      "Palestinian / فلسطينية"
+    ],
+    "answer": "Palestinian / فلسطينية"
   },
   {
     "type": "MCQ",
@@ -80,27 +102,27 @@
     "answer": "To run special commands / لتنفيذ أوامر مخصصة"
   },
     {
-      "type": "MCQ",
-      "question": "What is the main purpose of using Hydra in authentication bypassing? / ما هو الهدف الرئيسي لاستخدام Hydra في تجاوز التوثيق؟",
-      "options": [
-        "To check email security / لفحص أمان البريد الإلكتروني",
-        "To break into websites through password guessing / لاختراق المواقع من خلال تخمين كلمات المرور",
-        "To encrypt login credentials / لتشفير بيانات تسجيل الدخول",
-        "To create login pages / لإنشاء صفحات تسجيل الدخول"
-      ],
-      "answer": "To break into websites through password guessing / لاختراق المواقع من خلال تخمين كلمات المرور"
-    },
-    {
-      "type": "MCQ",
-      "question": "What type of attack does Hydra perform? / ما نوع الهجوم الذي تقوم به أداة Hydra؟",
-      "options": [
-        "Phishing / التصيد",
-        "Dictionary Attack / هجوم القاموس",
-        "Ransomware / برامج الفدية",
-        "Man In The Middle / هجوم الرجل في المنتصف"
-      ],
-      "answer": "Dictionary Attack / هجوم القاموس"
-    },
+    "type": "MCQ",
+    "question": "What is the main purpose of using Hydra in authentication bypassing? / ما هو الهدف الرئيسي لاستخدام Hydra في تجاوز التوثيق؟",
+    "options": [
+      "To test for SQL injection / لاختبار إدخال SQL",
+      "To break into websites through password guessing / لاختراق المواقع من خلال تخمين كلمات المرور",
+      "To scan for open ports / لمسح المنافذ المفتوحة",
+      "To monitor HTTP traffic / لمراقبة حركة HTTP"
+    ],
+    "answer": "To break into websites through password guessing / لاختراق المواقع من خلال تخمين كلمات المرور"
+  },
+  {
+    "type": "MCQ",
+    "question": "What type of attack does Hydra perform? / ما نوع الهجوم الذي تقوم به أداة Hydra؟",
+    "options": [
+      "Brute Force / هجوم القوة العمياء",
+      "Dictionary Attack / هجوم القاموس",
+      "Spoofing / انتحال الهوية",
+      "SQL Injection / إدخال SQL"
+    ],
+    "answer": "Dictionary Attack / هجوم القاموس"
+  },
     {
       "type": "TF",
       "question": "Hydra can be used for both brute force and dictionary attacks to bypass authentication. / يمكن استخدام Hydra لكل من هجمات القوة العمياء وهجمات القاموس لتجاوز التوثيق.",
