@@ -12,6 +12,28 @@
   },
   {
     "type": "MCQ",
+    "question": "Where is Mr. Farhan from? / ما جنسية الاستاذ فرحان؟",
+    "options": [
+      "Syrian / سوري",
+      "Qatari / قطري",
+      "Egyptian / مصري",
+      "Palestinian / فلسطيني"
+    ],
+    "answer": "Syrian / سوري"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where is Ms. Zaina from? / ما جنسية مس زينة؟",
+    "options": [
+      "Syrian / سورية",
+      "Qatari / قطرية",
+      "Egyptian / مصرية",
+      "Palestinian / فلسطينية"
+    ],
+    "answer": "Palestinian / فلسطينية"
+  },
+  {
+    "type": "MCQ",
     "question": "What is Zphisher used for? – ؟Zphisher ما استخدام أداة",
     "options": [
       "To create fake login pages – لإنشاء صفحات تسجيل دخول وهمية",
