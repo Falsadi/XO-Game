@@ -11,6 +11,28 @@
     "answer": "To steal usernames and passwords – لسرقة أسماء المستخدمين وكلمات المرور"
   },
   {
+  "type": "MCQ",
+  "question": "What is the nationality of the instructor Farhan? / ما جنسية المدرب فرحان؟",
+  "options": [
+    "Qatari / قطري",
+    "Syrian / سوري",
+    "Jordanian / أردني",
+    "Egyptian / مصري"
+  ],
+  "answer": "Syrian / سوري"
+},
+  {
+  "type": "MCQ",
+  "question": "What is the nationality of the instructor Othman? / ما جنسية المدرب عثمان؟",
+  "options": [
+    "Qatari / قطري",
+    "Syrian / سوري",
+    "Jordanian / أردني",
+    "Egyptian / مصري"
+  ],
+  "answer": "Syrian / سوري"
+}
+  {
     "type": "MCQ",
     "question": "What is Zphisher used for? – ؟Zphisher ما استخدام أداة",
     "options": [
@@ -60,35 +82,8 @@
     "answer": "Like real websites – مثل مواقع حقيقية"
   },
   {
-    "type": "MCQ",
-    "question": "What is the main purpose of cybersecurity? ما هو الهدف الرئيسي للأمن السيبراني؟",
-    "options": [
-      "To delete files - حذف الملفات",
-      "To protect us from hackers - حمايتنا من المخترقين",
-      "To improve internet speed - تحسين سرعة الإنترنت",
-      "To slow down computers - إبطاء الكمبيوتر"
-    ],
-    "answer": "To protect us from hackers - حمايتنا من المخترقين"
-  },
-  {
-    "type": "MCQ",
-    "question": "Which of the following is safe to share online? ما الذي يمكن مشاركته بأمان عبر الإنترنت؟",
-    "options": [
-      "Full name and address - الاسم الكامل والعنوان",
-      "ID number - رقم الهوية الوطنية",
-      "Favorite color - اللون المفضل",
-      "Passwords - كلمات المرور"
-    ],
-    "answer": "Favorite color - اللون المفضل"
-  },
-  {
     "type": "TF",
     "question": "The Shift Cipher is a type of encryption that moves letters forward or backward in the alphabet. تشفير الإزاحة هو نوع من التشفير يحرك الحروف للأمام أو للخلف في الأحرف الأبجدية",
-    "answer": "true"
-  },
-  {
-    "type": "TF",
-    "question": "The Blue Team protects networks and systems from cyber attacks - الفريق الأزرق يحمي الشبكات والأنظمة من الهجمات الإلكترونية",
     "answer": "true"
   },
   {
@@ -104,17 +99,6 @@
   },
   {
     "type": "MCQ",
-    "question": "Who is responsible for attacking? من يقوم بعملية الهجوم؟",
-    "options": [
-      "Both Teams - الفريقين",
-      "Red Team - الفريق الأحمر",
-      "None - لا احد",
-      "Blue Team - الفريق الأزرق"
-    ],
-    "answer": "Red Team - الفريق الأحمر"
-  },
-  {
-    "type": "MCQ",
     "question": "If a message is encrypted using a Shift Cipher with a shift of 3, what does \"DOG\" become?",
     "options": [
       "FKR",
@@ -124,15 +108,4 @@
     ],
     "answer": "GRJ"
   },
-  {
-    "type": "MCQ",
-    "question": "What can happen if you share personal information online? ماذا يمكن أن يحدث إذا شاركت معلوماتك الشخصية على الإنترنت؟",
-    "options": [
-      "You get free games - تحصل على ألعاب مجانية",
-      "لا يحدث أي شيء سيئ - Nothing bad ever happens",
-      "You get more followers - تحصل على المزيد من المتابعين",
-      "You might get scammed or bullied - قد تتعرض للاحتيال أو التنمر"
-    ],
-    "answer": "You might get scammed or bullied - قد تتعرض للاحتيال أو التنمر"
-  }
 ]
