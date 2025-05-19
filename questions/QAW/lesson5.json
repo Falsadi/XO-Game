@@ -12,12 +12,12 @@
   },
     {
     "type": "TrueFalse",
-    "question": "You should use 'set score to 0' at the beginning of a game. | يجب استخدام 'اضبط النتيجة إلى ٠' في بداية اللعبة.",
+    "question": "You should use 'set score to 0' at the beginning of a game. | يجب استخدام بلوك في بداية اللعبة.",
     "answer": "True | صحيح"
   },
   {
     "type": "TrueFalse",
-    "question": "The 'repeat until' loop will stop as soon as the condition becomes true. | حلقة 'تكرار حتى' تتوقف بمجرد أن تصبح الحالة صحيحة.",
+    "question": "The 'repeat until' loop will stop as soon as the condition becomes true.",
     "answer": "True | صحيح"
   },
   {
@@ -33,7 +33,7 @@
   },
   {
     "type": "MCQ",
-    "question": "What happens if a 'repeat until' condition is never true? | ماذا يحدث إذا لم تتحقق حالة 'تكرار حتى' أبدًا؟",
+    "question": "What happens if a 'repeat until' condition is never true?",
     "options": [
       "The loop runs forever | تعمل الحلقة إلى الأبد",
       "The loop runs once | تعمل الحلقة مرة واحدة",
@@ -121,17 +121,17 @@
   },
   {
     "type": "TrueFalse",
-    "question": "The block 'set score to 0' resets the score to zero. | البلوك 'اضبط النتيجة إلى ٠' يعيد النتيجة إلى الصفر.",
+    "question": "The block 'set score to 0' resets the score to zero.",
     "answer": "True | صحيح"
   },
   {
     "type": "TrueFalse",
-    "question": "'Change score by 1' is the same as 'set score to 1'. | 'غير النتيجة بمقدار ١' يعني نفس الشيء مثل 'اضبط النتيجة إلى ١'.",
+    "question": "'Change score by 1' is the same as 'set score to 1'.",
     "answer": "False | خطأ"
   },
   {
     "type": "MCQ",
-    "question": "When is 'set score to 0' usually used? | متى يُستخدم البلوك 'اضبط النتيجة إلى ٠'؟",
+    "question": "When is 'set score to 0' usually used?",
     "options": [
       "At the end of the game | في نهاية اللعبة",
       "To increase the score | لزيادة النتيجة",
