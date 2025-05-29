@@ -72,6 +72,16 @@ function showQuestion(cellIndex) {
       <button id="true">True</button>
       <button id="false">False</button>
     `;
+    // Add this block:
+    document.getElementById('true').addEventListener('click', () => {
+      const correct = question.answer.trim().toLowerCase();
+      handleAnswer('true' === correct);
+    });
+
+    document.getElementById('false').addEventListener('click', () => {
+      const correct = question.answer.trim().toLowerCase();
+      handleAnswer('false' === correct);
+    });
   } else if (question.type === 'MCQ') {
     options.innerHTML = '';
     let buttonRow = null;
