@@ -7,6 +7,26 @@
   <title>Select Subject</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>
+    async function loadCourses() {
+      const response = await fetch('courses/courses.json');
+      const courses = await response.json();
+      const container = document.querySelector('.button-group');
+
+      Object.keys(courses).forEach(subject => {
+        const btn = document.createElement('button');
+        btn.textContent = subject.replaceAll('_', ' ');
+        btn.className = 'button';
+        btn.onclick = () => {
+          localStorage.setItem('selectedSubject', subject); // Save selected subject
+          window.location.href = 'lesson.html';
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    window.onload = loadCourses;
+  </script>
 </head>
 <body>
 <div class="logo-container">
@@ -15,10 +35,10 @@
 <div class="container">
   <h1>Welcome to XO Game</h1>
   <div class="button-group">
-    <button class="button" onclick="selectSubject('Cybersecurity')">Cybersecurity</button>
-    <button class="button" onclick="selectSubject('Programming')">Programming</button>
-    <button class="button" onclick="selectSubject('Robotics')">Robotics</button>
-    <button class="button" onclick="selectSubject('GameDesign')">Game Design</button>
+<!--    <button class="button" onclick="selectSubject('Cybersecurity')">Cybersecurity</button>-->
+<!--    <button class="button" onclick="selectSubject('Programming')">Programming</button>-->
+<!--    <button class="button" onclick="selectSubject('Robotics')">Robotics</button>-->
+<!--    <button class="button" onclick="selectSubject('GameDesign')">Game Design</button>-->
   </div>
 </div>
 <footer><p>2025 CamelCode Academy. All Rights Reserved</p></footer>

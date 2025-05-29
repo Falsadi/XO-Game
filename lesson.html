@@ -13,6 +13,43 @@
       background-color: #00cccc;
     }
   </style>
+  <script>
+    const selectedConcepts = new Set();
+    const subject = localStorage.getItem('selectedSubject');
+    async function loadConcepts() {
+      if (!subject) {
+        alert("No subject selected!");
+        window.location.href = 'index.html';
+        return;
+      }
+
+      const response = await fetch('courses/courses.json');
+      const courses = await response.json();
+      const conceptList = courses[subject] || [];
+
+      const container = document.getElementById('concept-buttons');
+
+      conceptList.forEach(concept => {
+        const btn = document.createElement('button');
+        btn.textContent = concept.replaceAll('_', ' ');
+        btn.className = 'concept-button';
+        btn.onclick = () => {
+          btn.classList.toggle('selected');
+          selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    window.onload = loadConcepts;
+
+    function startGame() {
+      if (selectedConcepts.size === 0) return alert('Select at least one concept');
+      sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));
+      sessionStorage.setItem('subject', subject);
+      window.location.href = 'home.html';
+    }
+  </script>
 </head>
 <body>
 <div class="logo-container">
@@ -24,38 +61,38 @@
   <button onclick="startGame()">Start Game</button>
 </div>
 <footer><p>2025 CamelCode Academy. All Rights Reserved</p></footer>
-<script>
-  const subject = sessionStorage.getItem('subject');
-  document.title = `${subject} Quiz - Select Concepts`;
-  document.getElementById('subject-title').textContent = subject + ' - Choose Concepts';
+<!--<script>-->
+<!--  const subject = sessionStorage.getItem('subject');-->
+<!--  document.title = `${subject} Quiz - Select Concepts`;-->
+<!--  document.getElementById('subject-title').textContent = subject + ' - Choose Concepts';-->
 
-  const conceptMap = {
-    Cybersecurity: ['phishing', 'encryption', 'red_blue_teams'],
-    Programming: ['variables', 'loops', 'functions'],
-    Robotics: ['sensors', 'motors', 'navigation'],
-    GameDesign: ['sprites', 'levels', 'mechanics']
-  };
+<!--  const conceptMap = {-->
+<!--    Cybersecurity: ['phishing', 'encryption', 'red_blue_teams'],-->
+<!--    Programming: ['variables', 'loops', 'functions'],-->
+<!--    Robotics: ['sensors', 'motors', 'navigation'],-->
+<!--    GameDesign: ['sprites', 'levels', 'mechanics']-->
+<!--  };-->
 
-  const container = document.getElementById('concept-buttons');
-  const selectedConcepts = new Set();
+<!--  const container = document.getElementById('concept-buttons');-->
+<!--  const selectedConcepts = new Set();-->
 
-  conceptMap[subject].forEach(concept => {
-    const btn = document.createElement('button');
-    btn.textContent = concept.replace('_', ' ');
-    btn.className = 'concept-button';
-    btn.onclick = () => {
-      btn.classList.toggle('selected');
-      selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);
-    };
-    container.appendChild(btn);
-  });
+<!--  conceptMap[subject].forEach(concept => {-->
+<!--    const btn = document.createElement('button');-->
+<!--    btn.textContent = concept.replaceAll('_', ' ');-->
+<!--    btn.className = 'concept-button';-->
+<!--    btn.onclick = () => {-->
+<!--      btn.classList.toggle('selected');-->
+<!--      selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);-->
+<!--    };-->
+<!--    container.appendChild(btn);-->
+<!--  });-->
 
-  function startGame() {
-    if (selectedConcepts.size === 0) return alert('Select at least one concept');
-    sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));
-    sessionStorage.setItem('subject', subject);
-    window.location.href = 'home.html';
-  }
-</script>
+<!--  function startGame() {-->
+<!--    if (selectedConcepts.size === 0) return alert('Select at least one concept');-->
+<!--    sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));-->
+<!--    sessionStorage.setItem('subject', subject);-->
+<!--    window.location.href = 'home.html';-->
+<!--  }-->
+<!--</script>-->
 </body>
 </html>

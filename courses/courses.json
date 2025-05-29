@@ -1,0 +1,6 @@
+{
+  "Cybersecurity": ["phishing", "encryption", "red_blue_teams"],
+  "Programming": ["variables", "loops", "functions", "if"],
+  "Robotics": ["sensors", "motors", "navigation"],
+  "GameDesign": ["sprites", "levels", "mechanics"]
+}
