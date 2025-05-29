@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="dynamic-title">Select Concepts</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/index-style.css">
+  <link rel="stylesheet" href="styles/lesson-style.css">
   <style>
     .concept-button.selected {
       background-color: #00cccc;
@@ -82,38 +84,5 @@
   <button onclick="startGame()">Start Game</button>
 </div>
 <footer><p>2025 CamelCode Academy. All Rights Reserved</p></footer>
-<!--<script>-->
-<!--  const subject = sessionStorage.getItem('subject');-->
-<!--  document.title = `${subject} Quiz - Select Concepts`;-->
-<!--  document.getElementById('subject-title').textContent = subject + ' - Choose Concepts';-->
-
-<!--  const conceptMap = {-->
-<!--    Cybersecurity: ['phishing', 'encryption', 'red_blue_teams'],-->
-<!--    Programming: ['variables', 'loops', 'functions'],-->
-<!--    Robotics: ['sensors', 'motors', 'navigation'],-->
-<!--    GameDesign: ['sprites', 'levels', 'mechanics']-->
-<!--  };-->
-
-<!--  const container = document.getElementById('concept-buttons');-->
-<!--  const selectedConcepts = new Set();-->
-
-<!--  conceptMap[subject].forEach(concept => {-->
-<!--    const btn = document.createElement('button');-->
-<!--    btn.textContent = concept.replaceAll('_', ' ');-->
-<!--    btn.className = 'concept-button';-->
-<!--    btn.onclick = () => {-->
-<!--      btn.classList.toggle('selected');-->
-<!--      selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);-->
-<!--    };-->
-<!--    container.appendChild(btn);-->
-<!--  });-->
-
-<!--  function startGame() {-->
-<!--    if (selectedConcepts.size === 0) return alert('Select at least one concept');-->
-<!--    sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));-->
-<!--    sessionStorage.setItem('subject', subject);-->
-<!--    window.location.href = 'home.html';-->
-<!--  }-->
-<!--</script>-->
 </body>
 </html>

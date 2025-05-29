@@ -1,8 +1,8 @@
-/* styles.css */
+/* body */
 body {
   font-family: 'Orbitron', sans-serif;
   text-align: center;
-  background: url('images/background.png') no-repeat center center fixed;
+  background: url('../images/background.png') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   margin: 0;
@@ -25,6 +25,44 @@ body {
   filter: drop-shadow(0px 0px 10px #00ffff);
 }
 
+/* Headers */
+h1 {
+  font-size: 48px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+h2 {
+  font-size: 28px;
+  color: white;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-top: auto;
+  z-index: 100;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer p:before {
+  content: " \00a9 ";
+  margin-right: 5px;
+}
+
+
+
+/* Containers */
+
 .container, .container2 {
   background: rgba(0, 0, 0, 0.7);
   padding: 30px 20px;
@@ -41,16 +79,7 @@ body {
   height: auto;
 }
 
-h1 {
-  font-size: 48px;
-  color: #00ffff;
-  text-shadow: 0 0 10px #00ffff;
-}
-
-h2 {
-  font-size: 28px;
-  color: white;
-}
+/* buttons */
 
 .button-group {
   display: flex;
@@ -110,57 +139,6 @@ h2 {
   color: #000;
   width: 120px;
   transition: background-color 0.3s ease;
-}
-
-.concept-button {
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-family: 'Orbitron', sans-serif;
-  background-color: #f19443;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  flex: 1 1 calc(25% - 20px);
-  max-width: 200px;
-  box-sizing: border-box;
-  margin: 10px;
-}
-
-.concept-button.selected {
-  background-color: #00cccc;
-  color: #000;
-}
-
-.concept-button:hover {
-  background-color: #ff9f00;
-}
-
-#concept-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-#concept-buttons + button {
-  background-color: #28a745;
-  font-size: 1.2rem;
-  padding: 0.8rem 2rem;
-  border-radius: 10px;
-  color: white;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  margin-top: 20px;
-  cursor: pointer;
-  border: none;
-  font-family: 'Orbitron', sans-serif;
-}
-
-#concept-buttons + button:hover {
-  background-color: #218838;
-  transform: scale(1.05);
 }
 
 #board {
@@ -251,27 +229,6 @@ h2 {
   100% { transform: scale(1); }
 }
 
-footer {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 16px;
-  margin-top: auto;
-  z-index: 100;
-}
-
-footer p {
-  margin: 0;
-  font-size: 14px;
-}
-
-footer p:before {
-  content: " \00a9 ";
-  margin-right: 5px;
-}
-
 .game-wrapper {
   display: flex;
   flex-direction: row;
@@ -279,10 +236,4 @@ footer p:before {
   gap: 40px;
   padding: 40px 0;
   width: 100%;
-}
-
-.concept-button.disabled {
-  background-color: grey;
-  color: white;
-  cursor: not-allowed;
 }
