@@ -16,6 +16,7 @@
   <script>
     const selectedConcepts = new Set();
     const subject = localStorage.getItem('selectedSubject');
+
     async function loadConcepts() {
       if (!subject) {
         alert("No subject selected!");
@@ -29,14 +30,31 @@
 
       const container = document.getElementById('concept-buttons');
 
-      conceptList.forEach(concept => {
+      conceptList.forEach(async (concept) => {
         const btn = document.createElement('button');
         btn.textContent = concept.replaceAll('_', ' ');
         btn.className = 'concept-button';
-        btn.onclick = () => {
-          btn.classList.toggle('selected');
-          selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);
-        };
+        btn.disabled = true; // start disabled
+
+        try {
+          const res = await fetch(`questions/${subject}/${concept}.json`);
+          if (!res.ok) throw new Error("File missing");
+          const data = await res.json();
+          if (!Array.isArray(data) || data.length === 0) throw new Error("Empty");
+
+          // Valid file: enable and add toggle logic
+          btn.disabled = false;
+          btn.onclick = () => {
+            btn.classList.toggle('selected');
+            selectedConcepts.has(concept)
+                    ? selectedConcepts.delete(concept)
+                    : selectedConcepts.add(concept);
+          };
+        } catch {
+          // File missing or empty: grey it out
+          btn.classList.add('disabled'); // Optional style
+        }
+
         container.appendChild(btn);
       });
     }
@@ -44,12 +62,15 @@
     window.onload = loadConcepts;
 
     function startGame() {
-      if (selectedConcepts.size === 0) return alert('Select at least one concept');
+      if (selectedConcepts.size === 0) {
+        return alert('Select at least one concept');
+      }
       sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));
       sessionStorage.setItem('subject', subject);
       window.location.href = 'home.html';
     }
   </script>
+
 </head>
 <body>
 <div class="logo-container">
