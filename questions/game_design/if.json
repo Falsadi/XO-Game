@@ -1,0 +1,24 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of using If/Else in programming?",
+    "options": [
+      "to store data. / لتخزين البيانات.",
+      "to repeat actions. / لتكرار الأفعال.",
+      "to make decisions. / لاتخاذ القرارات.",
+      "to create animations. / لإنشاء الرسوم المتحركة."
+    ],
+    "answer": "to make decisions. / لاتخاذ القرارات."
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block in Tynker is used to check conditions? / أي بلوك في Tynker تُستخدم للتأكد من الشروط؟",
+    "options": [
+      "forever",
+      "repeat",
+      "If/Else",
+      "repeat until"
+    ],
+    "answer": "If/Else"
+  }
+]

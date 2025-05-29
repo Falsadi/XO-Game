@@ -1,0 +1,39 @@
+[
+  {
+    "type": "TF",
+    "question": "You should use 'set score to 0' at the beginning of a game. | يجب استخدام بلوك في بداية اللعبة.",
+    "answer": "True | صحيح"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does the block 'change score by 1' do? | ماذا يفعل البلوك؟",
+    "options": [
+      "Sets the score to 1 | يضبط النتيجة إلى ١",
+      "Adds 1 to the score | يضيف ١ إلى النتيجة",
+      "Subtracts 1 from the score | يطرح ١ من النتيجة",
+      "Resets the score to 0 | يعيد تعيين النتيجة إلى ٠"
+    ],
+    "answer": "Adds 1 to the score | يضيف ١ إلى النتيجة"
+  },
+  {
+    "type": "TF",
+    "question": "The block 'set score to 0' resets the score to zero.",
+    "answer": "True | صحيح"
+  },
+  {
+    "type": "TF",
+    "question": "'Change score by 1' is the same as 'set score to 1'.",
+    "answer": "False | خطأ"
+  },
+  {
+    "type": "MCQ",
+    "question": "When is 'set score to 0' usually used?",
+    "options": [
+      "At the end of the game | في نهاية اللعبة",
+      "To increase the score | لزيادة النتيجة",
+      "To reset the score at the start | لإعادة تعيين النتيجة في البداية",
+      "To subtract points | لطرح النقاط"
+    ],
+    "answer": "To reset the score at the start | لإعادة تعيين النتيجة في البداية"
+  }
+]
