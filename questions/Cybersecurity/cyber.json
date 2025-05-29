@@ -1,0 +1,89 @@
+[
+  {
+    "type": "MCQ",
+    "question": "Which of these is a risk of sharing personal info online? / أي من هذه هي مخاطرة من مشاركة المعلومات الشخصية عبر الإنترنت؟",
+    "options": [
+      "Free Wi-Fi / الواي فاي المجاني",
+      "Identity theft / سرقة الهوية",
+      "Fast internet / الإنترنت السريع",
+      "Watching YouTube / مشاهدة يوتيوب"
+    ],
+    "answer": "Identity theft / سرقة الهوية"
+  },
+  {
+    "type": "TF",
+    "question": "Cybersecurity helps protect us online. / الأمن السيبراني يساعد في حمايتنا على الإنترنت.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is not a reason we need cybersecurity? / أي من هذه ليست سببًا لحاجتنا إلى الأمن السيبراني؟",
+    "options": [
+      "Protect private info / حماية المعلومات الخاصة",
+      "Prevent cyberbullying / منع التنمر الإلكتروني",
+      "Let hackers in / السماح للقراصنة بالدخول",
+      "Stop scams / إيقاف الاحتيال"
+    ],
+    "answer": "Let hackers in / السماح للقراصنة بالدخول"
+  },
+  {
+    "type": "TF",
+    "question": "It is safe to share your real name and ID on public websites. / من الآمن مشاركة اسمك الحقيقي ورقم هويتك على المواقع العامة.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can happen if someone steals your personal info online? / ماذا يمكن أن يحدث إذا سرق شخص ما معلوماتك الشخصية على الإنترنت؟",
+    "options": [
+      "You win a prize / تفوز بجائزة",
+      "You become famous / تصبح مشهورًا",
+      "You might be hacked or scammed / قد تتعرض للاختراق أو الاحتيال",
+      "You get free Wi-Fi / تحصل على واي فاي مجاني"
+    ],
+    "answer": "You might be hacked or scammed / قد تتعرض للاختراق أو الاحتيال"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the main purpose of cybersecurity? / ما هو الهدف الرئيسي من الأمن السيبراني؟",
+    "options": [
+      "To delete files / لحذف الملفات",
+      "To protect us from hackers / لحمايتنا من القراصنة",
+      "To improve internet speed / لتحسين سرعة الإنترنت",
+      "To slow down computers / لإبطاء الحواسيب"
+    ],
+    "answer": "To protect us from hackers / لحمايتنا من القراصنة"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is safe to share online? / أي من التالي من الآمن مشاركته على الإنترنت؟",
+    "options": [
+      "Full name and address / الاسم الكامل والعنوان",
+      "ID number / رقم الهوية",
+      "Favorite color / اللون المفضل",
+      "Passwords / كلمات المرور"
+    ],
+    "answer": "Favorite color / اللون المفضل"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can happen if you share personal information online? / ماذا يمكن أن يحدث إذا شاركت معلوماتك الشخصية على الإنترنت؟",
+    "options": [
+      "You get free games / تحصل على ألعاب مجانية",
+      "Nothing bad ever happens / لا يحدث شيء سيء",
+      "You might get scammed or bullied / قد تتعرض للاحتيال أو التنمر",
+      "You get more followers / تحصل على المزيد من المتابعين"
+    ],
+    "answer": "You might get scammed or bullied / قد تتعرض للاحتيال أو التنمر"
+  },
+  {
+    "type": "MCQ",
+    "question": "How can hackers gain access to our information? / كيف يمكن للقراصنة الوصول إلى معلوماتنا؟",
+    "options": [
+      "By playing online games with us",
+      "By sharing too much personal information online",
+      "By downloading games or apps from untrusted sources",
+      "Both B and C"
+    ],
+    "answer": "Both B and C"
+  }
+]

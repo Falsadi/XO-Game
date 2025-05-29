@@ -1,0 +1,111 @@
+[
+  {
+    "type": "TF",
+    "question": "Multi-factor authentication (MFA) adds an extra layer of security by requiring a second form of verification after the password",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "If an attacker has your password but not your OTP, they still cannot access your account — unless there's a vulnerability in the system",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the main goal of multi-factor authentication (MFA)?",
+    "options": [
+      "To speed up logins",
+      "To make websites load faster",
+      "To add extra security to user accounts",
+      "To increase the number of users"
+    ],
+    "answer": "To add extra security to user accounts"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is an example of a second factor in MFA?",
+    "options": [
+      "Username",
+      "OTP sent to your phone",
+      "Browser cookies",
+      "Password"
+    ],
+    "answer": "OTP sent to your phone"
+  },
+  {
+    "type": "MCQ",
+    "question": "What tool is built into every browser and is used to inspect website data during testing?",
+    "options": [
+      "Google Sheets",
+      "Terminal",
+      "Developer Tools",
+      "Task Manager"
+    ],
+    "answer": "Developer Tools"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which tab in Developer Tools lets you see website requests and responses?",
+    "options": [
+      "Console",
+      "Sources",
+      "Network",
+      "Elements"
+    ],
+    "answer": "Network"
+  },
+  {
+    "type": "MCQ",
+    "question": "How did the attacker bypass the OTP in the TryHackMe lab?",
+    "options": [
+      "By using a stolen password",
+      "By modifying the webpage source",
+      "By observing the OTP in the network response",
+      "By sending a fake email"
+    ],
+    "answer": "By observing the OTP in the network response"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why is exposing OTP in network responses dangerous?",
+    "options": [
+      "It helps the server run faster",
+      "It improves the user experience",
+      "It allows unauthorized users to intercept the code",
+      "It automatically changes the password"
+    ],
+    "answer": "It allows unauthorized users to intercept the code"
+  },
+  {
+    "type": "MCQ",
+    "question": "What mistake did the developer make in the lab scenario?",
+    "options": [
+      "They encrypted the OTP",
+      "They forgot to test the login",
+      "They displayed the OTP in the network request",
+      "They used two-factor authentication"
+    ],
+    "answer": "They displayed the OTP in the network request"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following best describes how hackers use Developer Tools to bypass OTP?",
+    "options": [
+      "They guess the OTP manually",
+      "They use Developer Tools to read JavaScript files",
+      "They view network traffic to extract the OTP from server responses",
+      "They change their IP address"
+    ],
+    "answer": "They view network traffic to extract the OTP from server responses"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is NOT a valid second factor in MFA?",
+    "options": [
+      "Fingerprint",
+      "OTP via SMS",
+      "Email address",
+      "Biometric scan"
+    ],
+    "answer": "Email address"
+  }
+]

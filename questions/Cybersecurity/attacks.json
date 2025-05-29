@@ -1,0 +1,39 @@
+[
+  {
+    "type": "TF",
+    "question": "DoS attacks are meant to slow down or crash websites / تهدف هجمات حجب الخدمة إلى إبطاء أو تعطيل عمل المواقع",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "A Man-In-The-Middle (MITM) attack is when someone secretly intercepts communication between two people / هجوم MITM هو عندما يتجسس شخص سريًا على الاتصال بين شخصين",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Ransomware locks files and asks for money to unlock them / تقوم برامج الفدية بقفل الملفات وتطلب المال لفتحها",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is a symptom of a ransomware attack? / أي مما يلي يعتبر من أعراض هجوم برنامج الفدية؟",
+    "options": [
+      "Files being renamed with strange extensions / إعادة تسمية الملفات بامتدادات غريبة",
+      "Internet speed becoming faster / زيادة سرعة الإنترنت",
+      "More ads appearing on websites / ظهور المزيد من الإعلانات",
+      "Login screen changing colors / تغيير لون شاشة تسجيل الدخول"
+    ],
+    "answer": "Files being renamed with strange extensions / إعادة تسمية الملفات بامتدادات غريبة"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is an example of a Distributed Denial of Service (DDoS) attack? / أي من هذه يعد مثالًا على هجوم حجب الخدمة الموزع؟",
+    "options": [
+      "A fake login page / صفحة تسجيل دخول وهمية",
+      "A hacker using many devices to crash a website / مخترق يستخدم العديد من الأجهزة لتعطيل موقع إلكتروني",
+      "Sending a virus by email / إرسال فيروس عبر البريد الإلكتروني",
+      "Recording keystrokes on a device / تسجيل ضغطات المفاتيح على جهاز"
+    ],
+    "answer": "A hacker using many devices to crash a website / مخترق يستخدم العديد من الأجهزة لتعطيل موقع إلكتروني"
+  }
+]
