@@ -272,8 +272,9 @@ footer p:before {
 
 .game-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   gap: 40px;
-  flex-wrap: wrap;
+  padding: 40px 0;
+  width: 100%;
 }
