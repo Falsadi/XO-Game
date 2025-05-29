@@ -1,7 +1,7 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
@@ -127,24 +127,31 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     gap: 40px;
     padding: 40px 0;
+    margin-top: 5rem;
     width: 100%;
 }
 
 
-/* Containers */
-.container, .container2 {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 30px 20px;
-    margin: 40px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
-    max-width: 600px;
-    width: 90%;
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
+    width: 100%;
+    max-width: 400px;
 }
 
-
 .container2 {
-    height: auto;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
+    width: 90%;
+    max-width: 500px;
+    height: 90%;
 }
