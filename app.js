@@ -48,6 +48,8 @@ function decideStartingTeam() {
 }
 
 function showQuestion(cellIndex) {
+  console.log("q")
+  console.log(questions)
   currentCellIndex = cellIndex;
   if (usedIndexes.size === questions.length) usedIndexes.clear();
   let randomIndex;
