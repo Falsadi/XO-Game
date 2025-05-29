@@ -1,66 +1,31 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cybersecurity X O Game</title>
+  <title>Select Subject</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"> <!-- Updated CSS file name -->
-  <style>
-    .button-group {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      margin: 2rem 0;
-      padding: 3rem;
-    }
-
-    .button-group button {
-      padding: 2rem;
-      font-size: 1.2rem;
-      font-family: 'Orbitron', sans-serif;
-      cursor: pointer;
-      border: none;
-      border-radius: 8px;
-      background-color: #f19443;
-      color: white;
-      transition: background-color 0.3s ease;
-    }
-
-    .button-group button:hover {
-      background-color: #00cccc; /* Darker neon blue */
-    }
-
-
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="logo-container">
   <img src="images/logo.png" alt="Game Logo">
 </div>
-
 <div class="container">
-  <h2>Welcome to</h2>
+  <h1>Welcome to</h1>
   <h1>XO Game</h1>
-
-  <!-- New Buttons -->
   <div class="button-group">
-    <button class="button" onclick="selectLocation('GI')" >Green Island</button>
-    <button class="button" onclick="selectLocation('ACAD')">Academyati</button>
-    <button class="button" onclick="selectLocation('QAW')">QAW</button>
+    <button class="button" onclick="selectSubject('Cybersecurity')">Cybersecurity</button>
+    <button class="button" onclick="selectSubject('Programming')">Programming</button>
+    <button class="button" onclick="selectSubject('Robotics')">Robotics</button>
+    <button class="button" onclick="selectSubject('GameDesign')">Game Design</button>
   </div>
 </div>
-
-
-<!-- Footer -->
-<footer>
-  <p>2025 CamelCode Academy. All Rights Reserved</p>
-</footer>
-
+<footer><p>2025 CamelCode Academy. All Rights Reserved</p></footer>
 <script>
-  function selectLocation(location) {
-    sessionStorage.setItem('location', location);
+  function selectSubject(subject) {
+    sessionStorage.setItem('subject', subject);
     window.location.href = 'lesson.html';
   }
 </script>

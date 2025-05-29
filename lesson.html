@@ -1,95 +1,61 @@
+
+<!-- lesson.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Select Lesson</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /*.lesson-container {*/
-        /*    display: flex;*/
-        /*    flex-direction: column;*/
-        /*    align-items: center;*/
-        /*    gap: 1rem;*/
-        /*    margin-top: 3rem;*/
-        /*}*/
-        .lesson-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-
-        .lesson-container button {
-            padding: 1rem 2rem;
-            font-size: 1.1rem;
-            font-family: 'Orbitron', sans-serif;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .lesson-container button:hover {
-            background-color: #218838;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="dynamic-title">Select Concepts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .concept-button.selected {
+      background-color: #00cccc;
+    }
+  </style>
 </head>
 <body>
 <div class="logo-container">
-    <img src="images/logo.png" alt="Game Logo">
+  <img src="images/logo.png" alt="Game Logo">
 </div>
 <div class="container">
-    <h1 id="location-title"></h1>
-    <div class="lesson-container" id="lesson-buttons">
-        <!-- Buttons will be added by JS -->
-    </div>
+  <h1 id="subject-title"></h1>
+  <div class="lesson-container" id="concept-buttons"></div>
+  <button onclick="startGame()">Start Game</button>
 </div>
-<!-- Footer -->
-<footer>
-    <p>2025 CamelCode Academy. All Rights Reserved</p>
-</footer>
-
+<footer><p>2025 CamelCode Academy. All Rights Reserved</p></footer>
 <script>
-    const loc = sessionStorage.getItem('location');
-    document.getElementById('location-title').textContent = loc + ' - Choose a Lesson';
+  const subject = sessionStorage.getItem('subject');
+  document.title = `${subject} Quiz - Select Concepts`;
+  document.getElementById('subject-title').textContent = subject + ' - Choose Concepts';
 
-    const lessonContainer = document.getElementById('lesson-buttons');
+  const conceptMap = {
+    Cybersecurity: ['phishing', 'encryption', 'red_team', 'blue_team'],
+    Programming: ['variables', 'loops', 'functions'],
+    Robotics: ['sensors', 'motors', 'navigation'],
+    GameDesign: ['sprites', 'levels', 'mechanics']
+  };
 
-    // Set number of lessons based on location
-    let lessonCount = 0;
-    if (loc === 'GI') {
-        lessonCount = 4;
-    } else if (loc === 'ACAD') {
-        lessonCount = 7;
-    }
-    else if (loc === 'QAW') {
-        lessonCount = 7;
-    }
-    else {
-        lessonCount = 0; // fallback
-    }
+  const container = document.getElementById('concept-buttons');
+  const selectedConcepts = new Set();
 
-    for (let i = 1; i <= lessonCount; i++) {
-        const btn = document.createElement('button');
-        if (loc === 'ACAD' && (i === 6)){
-            continue;
-        }
-        else{
-        btn.textContent = 'Lesson ' + i;
-        }
-        btn.onclick = () => {
-            sessionStorage.setItem('lesson', 'Lesson ' + i);
-            window.location.href = 'home.html'; // redirect to home page
-        };
-        lessonContainer.appendChild(btn);
-    }
+  conceptMap[subject].forEach(concept => {
+    const btn = document.createElement('button');
+    btn.textContent = concept.replace('_', ' ');
+    btn.className = 'concept-button';
+    btn.onclick = () => {
+      btn.classList.toggle('selected');
+      selectedConcepts.has(concept) ? selectedConcepts.delete(concept) : selectedConcepts.add(concept);
+    };
+    container.appendChild(btn);
+  });
+
+  function startGame() {
+    if (selectedConcepts.size === 0) return alert('Select at least one concept');
+    sessionStorage.setItem('concepts', JSON.stringify([...selectedConcepts]));
+    sessionStorage.setItem('subject', subject);
+    window.location.href = 'home.html';
+  }
 </script>
 </body>
 </html>

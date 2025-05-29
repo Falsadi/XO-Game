@@ -1,200 +1,263 @@
+/* styles.css */
 body {
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   background: url('images/background.png') no-repeat center center fixed;
-  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-size: cover;
   color: #fff;
   margin: 0;
   padding: 0;
-  min-height: 100vh; /* Ensures full height on different screens */
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .logo-container {
-  position: absolute; /* Keeps it fixed in the top-left corner */
+  position: absolute;
   top: 10px;
   left: 10px;
-  z-index: 1000; /* Ensures it stays above other elements */
+  z-index: 1000;
 }
 
 .logo-container img {
-  width: 230px; /* Adjust size as needed */
+  width: 230px;
   height: auto;
-  filter: drop-shadow(0px 0px 10px #00ffff); /* Optional neon glow effect */
+  filter: drop-shadow(0px 0px 10px #00ffff);
 }
 
-
-.container {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    padding: 20px;
-    margin: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
-    width: 100%;
-    max-width: 400px;
-  }
+.container, .container2 {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  max-width: 600px;
+  width: 90%;
+}
 
 .container2 {
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  padding: 20px;
-  margin: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Neon blue shadow */
-  width: 90%;
-  max-width: 500px;
-  height: 90%;
+  height: auto;
 }
 
-  h1 {
-    font-size: 40px;
-    color: #00ffff; /* Neon blue */
-    text-shadow: 0 0 10px #00ffff;
-  }
+h1 {
+  font-size: 48px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
 
-  #question-container {
-    margin-bottom: 20px; /* Move question above the board */
-  }
+h2 {
+  font-size: 28px;
+  color: white;
+}
 
-  .hidden {
-    display: none;
-  }
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
 
-  #question-text {
-    font-size: 30px;
-    font-weight: bold;
-    color: #EB9B56; /* Neon green */
-  }
+.button-group .button {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #f19443;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 320px;
+}
 
-  #options {
-    margin-top: 10px;
-  }
+.button-group .button:hover {
+  background-color: #00cccc;
+  transform: scale(1.05);
+}
 
-  #options button {
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 26px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #00ffff; /* Neon blue */
-    border: none;
-    border-radius: 10px;
-    color: #000;
-    width: 100px;
-    transition: background-color 0.3s ease;
-  }
+#question-container {
+  margin-bottom: 20px;
+}
 
-  .button{
-    font-weight: bold;
-    font-size: 16em;
-    width: 13em;
-  }
+.hidden {
+  display: none;
+}
 
-  #options button:hover {
-    background-color: #00cccc; /* Darker neon blue */
-  }
+#question-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #EB9B56;
+}
 
-  #board {
-    display: grid;
-    grid-template-columns: repeat(3, 120px);
-    grid-template-rows: repeat(3, 120px);
-    gap: 10px;
-    margin: 20px auto;
-    justify-content: center; /* Center the grid */
-  }
+#options {
+  margin-top: 10px;
+}
 
-  .cell {
-    width: 120px;
-    height: 120px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid #00ffff; /* Neon blue border */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: bold;
-    color: #00ffff; /* Neon blue */
-    border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
+#options button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #00ffff;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  width: 120px;
+  transition: background-color 0.3s ease;
+}
 
-  .cell:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.1);
-  }
+.concept-button {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #f19443;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1 1 calc(25% - 20px);
+  max-width: 200px;
+  box-sizing: border-box;
+  margin: 10px;
+}
 
-  #start-message {
-    font-size: 24px;
-    margin: 20px 0;
-    color: #EB9B56; /* Neon green */
-    text-shadow: 0 0 10px #EB9B56;
-  }
+.concept-button.selected {
+  background-color: #00cccc;
+  color: #000;
+}
 
-  #current-player{
-    color: #00ffff; /* Neon green */
-    text-shadow: 0 0 10px #00ffff;
-  }
-  #timer {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-    color: #ff0000; /* Red */
-  }
+.concept-button:hover {
+  background-color: #ff9f00;
+}
 
-  #reset {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #00ffff; /* Neon blue */
-    border: none;
-    border-radius: 20px;
-    color: #000;
-    transition: background-color 0.3s ease;
-  }
+#concept-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
 
-  #reset:hover {
-    background-color: #00cccc; /* Darker neon blue */
-  }
+#concept-buttons + button {
+  background-color: #28a745;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+}
 
-  /* Big message styles */
-  .big-message {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px 0;
-    animation: popIn 0.5s ease-in-out;
-  }
+#concept-buttons + button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
 
-  .correct-message {
-    color: #00ff00; /* Green for correct answers */
-    text-shadow: 0 0 10px #00ff00;
-  }
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+  gap: 10px;
+  margin: 20px auto;
+  justify-content: center;
+}
 
-  .wrong-message {
-    color: #ff0000; /* Red for wrong answers */
-    text-shadow: 0 0 10px #ff0000;
-  }
+.cell {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #00ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #00ffff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
-  @keyframes popIn {
-    0% { transform: scale(0); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-  }
+.cell:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+#start-message {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #EB9B56;
+  text-shadow: 0 0 10px #EB9B56;
+}
+
+#current-player {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ff0000;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #00ffff;
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+#reset:hover {
+  background-color: #00cccc;
+}
+
+.big-message {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+  animation: popIn 0.5s ease-in-out;
+}
+
+.correct-message {
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.wrong-message {
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
 
 footer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for footer */
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
   text-align: center;
   padding: 10px 0;
   font-size: 16px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-top: auto; /* Pushes footer to the bottom */
-  z-index: 100; /* Ensure it stays on top of other content */
+  margin-top: auto;
+  z-index: 100;
 }
 
 footer p {
@@ -203,6 +266,14 @@ footer p {
 }
 
 footer p:before {
-  content: " \00a9 "; /* Unicode for copyright symbol */
+  content: " \00a9 ";
   margin-right: 5px;
+}
+
+.game-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
 }
