@@ -1,39 +1,137 @@
 [
   {
-    "type": "TF",
-    "question": "DoS attacks are meant to slow down or crash websites / تهدف هجمات حجب الخدمة إلى إبطاء أو تعطيل عمل المواقع",
-    "answer": "true"
+    "type": "MCQ",
+    "question": "What does the command 'ls' do in Linux? / ماذا يفعل الأمر 'ls' في لينكس؟",
+    "options": [
+      "Deletes files / يحذف الملفات",
+      "Lists files and directories / يعرض الملفات والمجلدات",
+      "Logs out the user / يسجل خروج المستخدم",
+      "Shuts down the computer / يطفئ الجهاز"
+    ],
+    "answer": "Lists files and directories / يعرض الملفات والمجلدات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which command changes directories in the terminal? / أي أمر يُستخدم لتغيير المجلد في الطرفية؟",
+    "options": [
+      "ls",
+      "rm",
+      "cd",
+      "cat"
+    ],
+    "answer": "cd"
   },
   {
     "type": "TF",
-    "question": "A Man-In-The-Middle (MITM) attack is when someone secretly intercepts communication between two people / هجوم MITM هو عندما يتجسس شخص سريًا على الاتصال بين شخصين",
-    "answer": "true"
-  },
-  {
-    "type": "TF",
-    "question": "Ransomware locks files and asks for money to unlock them / تقوم برامج الفدية بقفل الملفات وتطلب المال لفتحها",
+    "question": "The terminal allows you to control the computer using text commands. / الطرفية تتيح لك التحكم في الحاسوب باستخدام أوامر نصية.",
     "answer": "true"
   },
   {
     "type": "MCQ",
-    "question": "Which of the following is a symptom of a ransomware attack? / أي مما يلي يعتبر من أعراض هجوم برنامج الفدية؟",
+    "question": "Which command is used to display the contents of a file? / ما الأمر المستخدم لعرض محتوى ملف؟",
     "options": [
-      "Files being renamed with strange extensions / إعادة تسمية الملفات بامتدادات غريبة",
-      "Internet speed becoming faster / زيادة سرعة الإنترنت",
-      "More ads appearing on websites / ظهور المزيد من الإعلانات",
-      "Login screen changing colors / تغيير لون شاشة تسجيل الدخول"
+      "nano",
+      "cat",
+      "cd",
+      "clear"
     ],
-    "answer": "Files being renamed with strange extensions / إعادة تسمية الملفات بامتدادات غريبة"
+    "answer": "cat"
   },
   {
     "type": "MCQ",
-    "question": "Which of these is an example of a Distributed Denial of Service (DDoS) attack? / أي من هذه يعد مثالًا على هجوم حجب الخدمة الموزع؟",
+    "question": "Which of the following is used to edit text files in Linux? / أي من التالي يُستخدم لتحرير الملفات النصية في لينكس؟",
     "options": [
-      "A fake login page / صفحة تسجيل دخول وهمية",
-      "A hacker using many devices to crash a website / مخترق يستخدم العديد من الأجهزة لتعطيل موقع إلكتروني",
-      "Sending a virus by email / إرسال فيروس عبر البريد الإلكتروني",
-      "Recording keystrokes on a device / تسجيل ضغطات المفاتيح على جهاز"
+      "cd",
+      "nano",
+      "ls",
+      "pwd"
     ],
-    "answer": "A hacker using many devices to crash a website / مخترق يستخدم العديد من الأجهزة لتعطيل موقع إلكتروني"
+    "answer": "nano"
+  },
+  {
+    "type": "TF",
+    "question": "The 'cd' command can be used to go back to the previous directory. / يمكن استخدام الأمر 'cd' للرجوع إلى المجلد السابق.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first step in a cyber attack? / ما هي الخطوة الأولى في الهجوم السيبراني؟",
+    "options": [
+      "Exploitation / الاستغلال",
+      "Information gathering / جمع المعلومات",
+      "Covering tracks / محو الأثر",
+      "Installing malware / تثبيت البرمجيات الخبيثة"
+    ],
+    "answer": "Information gathering / جمع المعلومات"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is a vulnerability? / ما هي الثغرة؟",
+    "options": [
+      "A type of antivirus / نوع من مضاد الفيروسات",
+      "A weakness in a system / نقطة ضعف في النظام",
+      "A strong password / كلمة مرور قوية",
+      "A secure connection / اتصال آمن"
+    ],
+    "answer": "A weakness in a system / نقطة ضعف في النظام"
+  },
+  {
+    "type": "TF",
+    "question": "Cyber attacks always start with exploiting a vulnerability. / الهجمات السيبرانية تبدأ دائمًا باستغلال ثغرة.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the last step in a successful cyber attack? / ما هي آخر خطوة في الهجوم السيبراني؟",
+    "options": [
+      "Exploitation / الاستغلال",
+      "Covering tracks / محو الأثر",
+      "Information gathering / جمع المعلومات",
+      "Scanning / الفحص"
+    ],
+    "answer": "Covering tracks / محو الأثر"
+  },
+  {
+    "type": "TF",
+    "question": "The command 'nano' allows you to write and edit files in the terminal. / الأمر 'nano' يتيح لك كتابة وتحرير الملفات في الطرفية.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is part of the hacking methodology? / أي مما يلي هو جزء من منهجية الاختراق؟",
+    "options": [
+      "Guessing randomly / التخمين العشوائي",
+      "Taking screenshots / التقاط لقطات شاشة",
+      "Gathering information, finding vulnerabilities, exploiting, covering tracks / جمع المعلومات، إيجاد الثغرات، الاستغلال، محو الأثر",
+      "Opening games / فتح الألعاب"
+    ],
+    "answer": "Gathering information, finding vulnerabilities, exploiting, covering tracks / جمع المعلومات، إيجاد الثغرات، الاستغلال، محو الأثر"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of 'cat' command in Linux? / ما هو الغرض من أمر 'cat' في لينكس؟",
+    "options": [
+      "Change directory / تغيير المجلد",
+      "Concatenate and show file content / دمج الملفات وعرض محتواها",
+      "Delete files / حذف الملفات",
+      "Check battery / التحقق من البطارية"
+    ],
+    "answer": "Concatenate and show file content / دمج الملفات وعرض محتواها"
+  },
+  {
+    "type": "TF",
+    "question": "Hackers use the terminal to perform advanced attacks. / يستخدم المخترقون الطرفية لتنفيذ هجمات متقدمة.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is a Linux terminal tool? / أي من التالي هو أداة في الطرفية الخاصة بلينكس؟",
+    "options": [
+      "Facebook",
+      "Nano",
+      "Excel",
+      "Google"
+    ],
+    "answer": "Nano"
   }
 ]
