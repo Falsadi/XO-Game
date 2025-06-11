@@ -36,7 +36,7 @@
     "question": "Creating fake pages to steal data is called? – إنشاء صفحات وهمية لسرقة البيانات يسمى؟",
     "options": [
       "Phishing – التصيد",
-      "Brute force - هجمة التخمينات الكثيرة",
+      "Brute force – هجمة التخمينات الكثيرة",
       "Encryption – التشفير",
       "Debugging – تصحيح الأخطاء"
     ],
@@ -81,57 +81,57 @@
     "answer": "To steal usernames and passwords – لسرقة أسماء المستخدمين وكلمات المرور"
   },
   {
-    "type": "MCQ",
-    "question": "What is Zphisher used for? – ؟Zphisher ما استخدام أداة",
-    "options": [
-      "To create fake login pages – لإنشاء صفحات تسجيل دخول وهمية",
-      "To check internet speed – لفحص سرعة الإنترنت",
-      "To design real websites – لتصميم مواقع حقيقية",
-      "To write secure code – لكتابة شفرة آمنة"
-    ],
-    "answer": "To create fake login pages – لإنشاء صفحات تسجيل دخول وهمية"
+    "type": "TF",
+    "question": "Phishing emails are always easy to detect because they contain viruses / رسائل التصيد دائمًا يسهل اكتشافها لأنها تحتوي على فيروسات",
+    "answer": "false"
   },
   {
     "type": "MCQ",
-    "question": "Creating fake pages to steal data is called? – إنشاء صفحات وهمية لسرقة البيانات يسمى؟",
+    "question": "Which of these is a common phishing trick? / أي من هذه خدعة تصيّد شائعة؟",
     "options": [
-      "Phishing – التصيد",
-      "Brute force - هجمة التخمينات الكثيرة",
-      "Encryption – التشفير",
-      "Debugging – تصحيح الأخطاء"
+      "Win a free gift card / اربح بطاقة هدايا مجانية",
+      "You won a trip! / لقد ربحت رحلة!",
+      "Your account was hacked / تم اختراق حسابك",
+      "All of the above / كل ما سبق"
     ],
-    "answer": "Phishing – التصيد"
+    "answer": "All of the above / كل ما سبق"
   },
   {
     "type": "MCQ",
-    "question": "Which of the following is an example of phishing? – أي من التالي مثال على التصيد؟",
+    "question": "What should you do if an email says your password has changed but you didn’t do it? / ماذا يجب أن تفعل إذا أخبرك البريد الإلكتروني بأن كلمة مرورك تغيرت وأنت لم تفعل ذلك؟",
     "options": [
-      "A message from your friend – رسالة من صديقك",
-      "A slow internet connection – اتصال إنترنت بطيء",
-      "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام",
-      "A coding error – خطأ برمجي"
+      "Ignore it / تجاهله",
+      "Click the link quickly / اضغط على الرابط بسرعة",
+      "Check the email source and visit the real website / تحقق من مصدر البريد الإلكتروني وادخل الموقع الحقيقي",
+      "Reply to the email / رد على الرسالة"
     ],
-    "answer": "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام"
+    "answer": "Check the email source and visit the real website / تحقق من مصدر البريد الإلكتروني وادخل الموقع الحقيقي"
   },
   {
     "type": "TF",
-    "question": "Phishing is illegal and dangerous – التصيد غير قانوني وخطير",
+    "question": "Phishing messages often create fear or urgency / رسائل التصيّد غالبًا ما تخلق الخوف أو الاستعجال",
     "answer": "true"
   },
   {
     "type": "MCQ",
-    "question": "Phishing pages usually look – صفحات التصيد عادةً ما تبدو",
+    "question": "You receive an email with a link that says you won a phone, what should you do? / استلمت بريدًا إلكترونيًا يحتوي على رابط يقول أنك ربحت هاتفًا، ماذا تفعل؟",
     "options": [
-      "Very ugly – قبيحة جدًا",
-      "Colorful and fun – ملونة وممتعة",
-      "Full of ads – مليئة بالإعلانات",
-      "Like real websites – مثل مواقع حقيقية"
+      "Click and enter your info / اضغط وأدخل معلوماتك",
+      "Delete the email / احذف البريد",
+      "Forward it to your friends / أرسله لأصدقائك",
+      "Reply to claim the phone / رد للحصول على الهاتف"
     ],
-    "answer": "Like real websites – مثل مواقع حقيقية"
+    "answer": "Delete the email / احذف البريد"
   },
   {
-    "type": "TF",
-    "question": "Phishing emails are always easy to detect because they contain viruses",
-    "answer": "false"
+    "type": "MCQ",
+    "question": "Which website is most likely a phishing site? / أي موقع على الأرجح هو موقع تصيّد؟",
+    "options": [
+      "https://instagram.com / الموقع الرسمي لإنستغرام",
+      "https://insta-login-security.co / موقع إنستا مشبوه",
+      "https://gmail.com / الموقع الرسمي لجيميل",
+      "https://microsoft.com / الموقع الرسمي لمايكروسوفت"
+    ],
+    "answer": "https://insta-login-security.co / موقع إنستا مشبوه"
   }
 ]
