@@ -12,13 +12,126 @@
   },
   {
     "type": "MCQ",
-    "question": "Why do we use the Terminal? / لماذا نستخدم الـ Terminal؟",
+    "question": "What is Gobuster used for? / ما فائدة أداة Gobuster؟",
     "options": [
-      "To open games / لفتح الألعاب",
-      "To run special commands / لتنفيذ أوامر مخصصة",
-      "To send messages / لإرسال رسائل",
-      "To change background colors / لتغيير ألوان الخلفية"
+      "To delete websites / لحذف المواقع",
+      "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية",
+      "To make websites / لصنع مواقع إلكترونية",
+      "To change passwords / لتغيير كلمات المرور"
     ],
-    "answer": "To run special commands / لتنفيذ أوامر مخصصة"
+    "answer": "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية"
+  },
+  {
+    "type": "TF",
+    "question": "Gobuster helps you discover secret pages that are not shown to the public. / تساعدك أداة Gobuster في اكتشاف الصفحات السرية التي لا تظهر للعامة.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Typing every possible page name by hand is faster than using Gobuster. / كتابة أسماء الصفحات يدويًا أسرع من استخدام Gobuster.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which page is most likely to have secret admin controls? / أي صفحة من المحتمل أن تحتوي على أدوات تحكم سرية للمسؤول؟",
+    "options": [
+      "/images",
+      "/about-us",
+      "/admin",
+      "/home"
+    ],
+    "answer": "/admin"
+  },
+  {
+    "type": "MCQ",
+    "question": "What kind of pages can Gobuster help find? / ما نوع الصفحات التي يمكن أن تساعد أداة Gobuster في اكتشافها؟",
+    "options": [
+      "Pages hidden from navigation / الصفحات المخفية من القائمة",
+      "Random game pages / صفحات ألعاب عشوائية",
+      "Password reset pages / صفحات إعادة تعيين كلمة المرور",
+      "All of the above / كل ما سبق"
+    ],
+    "answer": "All of the above / كل ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why would a hacker want to find hidden pages? / لماذا قد يرغب المخترق في اكتشاف الصفحات المخفية؟",
+    "options": [
+      "To improve website design / لتحسين تصميم الموقع",
+      "To find sensitive data or login pages / للعثور على بيانات حساسة أو صفحات تسجيل الدخول",
+      "To report bugs / للإبلاغ عن الأخطاء",
+      "To help the developer / لمساعدة المبرمج"
+    ],
+    "answer": "To find sensitive data or login pages / للعثور على بيانات حساسة أو صفحات تسجيل الدخول"
+  },
+  {
+    "type": "TF",
+    "question": "Hidden pages can sometimes contain backups or login portals. / الصفحات المخفية يمكن أن تحتوي أحيانًا على نسخ احتياطية أو بوابات تسجيل الدخول.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is NOT a common hidden page name? / أي من هذه الأسماء ليس شائعًا للصفحات المخفية؟",
+    "options": [
+      "/admin",
+      "/hidden",
+      "/control-panel",
+      "/fun-games"
+    ],
+    "answer": "/fun-games"
+  },
+  {
+    "type": "MCQ",
+    "question": "What tool would you use to find hidden pages on a website? / ما الأداة التي تستخدمها لاكتشاف الصفحات المخفية؟",
+    "options": [
+      "Hydra",
+      "Gobuster",
+      "Zphisher",
+      "Nmap"
+    ],
+    "answer": "Gobuster"
+  },
+  {
+    "type": "TF",
+    "question": "You can use Gobuster with a list of common words to search for hidden URLs. / يمكنك استخدام Gobuster مع قائمة كلمات شائعة للبحث عن روابط مخفية.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can you find in a secret web page? / ماذا يمكن أن تجد في صفحة ويب سرية؟",
+    "options": [
+      "Nothing at all / لا شيء",
+      "Games and ads / ألعاب وإعلانات",
+      "Usernames, backups, admin panels / أسماء مستخدمين، نسخ احتياطية، لوحات تحكم",
+      "Just images / صور فقط"
+    ],
+    "answer": "Usernames, backups, admin panels / أسماء مستخدمين، نسخ احتياطية، لوحات تحكم"
+  },
+  {
+    "type": "TF",
+    "question": "Some hidden pages are used for website testing and should not be public. / بعض الصفحات المخفية تُستخدم لاختبار المواقع ولا يجب أن تكون عامة.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which wordlist would be useful when using Gobuster? / أي قائمة كلمات مفيدة عند استخدام Gobuster؟",
+    "options": [
+      "shopping_list.txt",
+      "games_list.docx",
+      "directory-list-2.3-small.txt",
+      "passwords.xlsx"
+    ],
+    "answer": "directory-list-2.3-small.txt"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the best method to find many hidden pages quickly? / ما هي أفضل طريقة لاكتشاف العديد من الصفحات المخفية بسرعة؟",
+    "options": [
+      "Guessing random URLs / تخمين روابط عشوائية",
+      "Using a scanner like Gobuster / استخدام ماسح مثل Gobuster",
+      "Looking at the page design / النظر إلى تصميم الصفحة",
+      "Asking the developer / سؤال المبرمج"
+    ],
+    "answer": "Using a scanner like Gobuster / استخدام ماسح مثل Gobuster"
   }
 ]
