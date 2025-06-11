@@ -1,0 +1,91 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What does a shift cipher do? / ماذا يفعل تشفير الإزاحة؟",
+    "options": [
+      "Reverses the message / يعكس الرسالة",
+      "Changes the font / يغير الخط",
+      "Shifts each letter by a certain number / يحرك كل حرف بعدد معين",
+      "Makes the text bold / يجعل النص عريضًا"
+    ],
+    "answer": "Shifts each letter by a certain number / يحرك كل حرف بعدد معين"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does the number in a shift cipher represent? / ماذا يمثل الرقم في تشفير الإزاحة؟",
+    "options": [
+      "How many words to shift / عدد الكلمات التي سيتم إزاحتها",
+      "The number of vowels in the message / عدد الحروف المتحركة في الرسالة",
+      "The number of positions each letter moves / عدد المواقع التي يتحركها كل حرف",
+      "The time it takes to decrypt / الوقت المستغرق لفك التشفير"
+    ],
+    "answer": "The number of positions each letter moves / عدد المواقع التي يتحركها كل حرف"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is encryption used for? / ما هو استخدام التشفير؟",
+    "options": [
+      "To delete unwanted emails / لحذف الرسائل غير المرغوب فيها",
+      "To allow everyone to read messages / للسماح للجميع بقراءة الرسائل",
+      "To slow down the internet / لإبطاء الإنترنت",
+      "To make texts unreadable / لجعل النصوص غير قابلة للقراءة"
+    ],
+    "answer": "To make texts unreadable / لجعل النصوص غير قابلة للقراءة"
+  },
+  {
+    "type": "TF",
+    "question": "Encryption makes messages harder to read for hackers / هل يجعل التشفير قراءة الرسائل أصعب على القراصنة؟",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Is encryption only used to protect text messages? / هل يُستخدم التشفير فقط لحماية الرسائل النصية؟",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why is it important to keep your encryption key secret? / لماذا من المهم إبقاء مفتاح التشفير سريًا؟",
+    "options": [
+      "So your friends don't laugh / حتى لا يضحك أصدقاؤك",
+      "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك",
+      "So the message looks more colorful / حتى تبدو الرسالة أكثر ألوانًا",
+      "So the app works faster / حتى يعمل التطبيق بسرعة أكبر"
+    ],
+    "answer": "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is an example of encryption? / أي من هذه يعتبر مثالاً على التشفير؟",
+    "options": [
+      "Writing a message in capital letters / كتابة رسالة بحروف كبيرة",
+      "Replacing each letter with a number / استبدال كل حرف برقم",
+      "Drawing a picture instead of writing / رسم صورة بدلاً من الكتابة",
+      "Writing the message in another language / كتابة الرسالة بلغة أخرى"
+    ],
+    "answer": "Replacing each letter with a number / استبدال كل حرف برقم"
+  },
+  {
+    "type": "MCQ",
+    "question": "If you shift the letter 'C' by 2 using a shift cipher, what do you get? / إذا قمت بإزاحة الحرف 'C' بمقدار 2، ماذا ستحصل؟",
+    "options": [
+      "D",
+      "E",
+      "A",
+      "F"
+    ],
+    "answer": "E"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the encrypted version of “BAG” with a shift of 3? / ما هو الشكل المشفر لكلمة “BAG” بإزاحة مقدارها 3؟",
+    "options": [
+      "EDJ",
+      "CBI",
+      "EDI",
+      "DCH"
+    ],
+    "answer": "EDJ"
+  },
+  {
+    "type": "TF",
+    "ques
