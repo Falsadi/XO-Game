@@ -252,7 +252,7 @@
     "type": "MCQ",
     "question": "Which command is used to display the contents of a file? / ما الأمر المستخدم لعرض محتوى ملف؟",
     "options": [
-      "nano",
+      "mkdir",
       "cat",
       "cd",
       "clear"
@@ -403,7 +403,7 @@
     "type": "TF",
     "question": "Using the same password for all your accounts is safe. / استخدام نفس كلمة المرور لجميع حساباتك آمن.",
     "answer": "false"
-  }و
+  },
   {
     "type": "MCQ",
     "question": "Which of the following is a weak password? / أي من التالي كلمة مرور ضعيفة؟",
