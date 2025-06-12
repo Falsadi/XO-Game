@@ -87,5 +87,370 @@
     "answer": "EDJ"
   },
   {
+    "type": "MCQ",
+    "question": "What is the main goal of a phishing attack? / ما الهدف الرئيسي من هجوم التصيد؟",
+    "options": [
+      "To speed up your internet / لتسريع الإنترنت",
+      "To protect your computer / لحماية حاسوبك",
+      "To steal personal information / لسرقة المعلومات الشخصية",
+      "To fix broken websites / لإصلاح المواقع المعطلة"
+    ],
+    "answer": "To steal personal information / لسرقة المعلومات الشخصية"
+  },
+  {
     "type": "TF",
-    "ques
+    "question": "Phishing attacks often use fake websites or emails / هجمات التصيد غالبًا ما تستخدم مواقع أو رسائل بريد إلكتروني مزيفة",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "You should always check any link before clicking it / يجب عليك دائمًا التحقق من الرابط قبل الدخول عليه",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is Zphisher used for? – ؟Zphisher ما استخدام أداة",
+    "options": [
+      "To create fake login pages – لإنشاء صفحات تسجيل دخول وهمية",
+      "To check internet speed – لفحص سرعة الإنترنت",
+      "To design real websites – لتصميم مواقع حقيقية",
+      "To write secure code – لكتابة شفرة آمنة"
+    ],
+    "answer": "To create fake login pages – لإنشاء صفحات تسجيل دخول وهمية"
+  },
+  {
+    "type": "MCQ",
+    "question": "Creating fake pages to steal data is called? – إنشاء صفحات وهمية لسرقة البيانات يسمى؟",
+    "options": [
+      "Phishing – التصيد",
+      "Brute force – هجمة التخمينات الكثيرة",
+      "Encryption – التشفير",
+      "Debugging – تصحيح الأخطاء"
+    ],
+    "answer": "Phishing – التصيد"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is an example of phishing? – أي من التالي مثال على التصيد؟",
+    "options": [
+      "A message from your friend – رسالة من صديقك",
+      "A slow internet connection – اتصال إنترنت بطيء",
+      "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام",
+      "A coding error – خطأ برمجي"
+    ],
+    "answer": "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام"
+  },
+  {
+    "type": "TF",
+    "question": "Phishing is illegal and dangerous – التصيد غير قانوني وخطير",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Phishing pages usually look – صفحات التصيد عادةً ما تبدو",
+    "options": [
+      "Very ugly – قبيحة جدًا",
+      "Colorful and fun – ملونة وممتعة",
+      "Full of ads – مليئة بالإعلانات",
+      "Like real websites – مثل مواقع حقيقية"
+    ],
+    "answer": "Like real websites – مثل مواقع حقيقية"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is phishing mainly used for? – ما هو الهدف الرئيسي من التصيد؟",
+    "options": [
+      "To steal usernames and passwords – لسرقة أسماء المستخدمين وكلمات المرور",
+      "To help protect your account – للمساعدة في حماية حسابك",
+      "To fix login pages – لإصلاح صفحات تسجيل الدخول",
+      "To make websites faster – لجعل المواقع أسرع"
+    ],
+    "answer": "To steal usernames and passwords – لسرقة أسماء المستخدمين وكلمات المرور"
+  },
+  {
+    "type": "TF",
+    "question": "Phishing emails are always easy to detect because they contain viruses / رسائل التصيد دائمًا يسهل اكتشافها لأنها تحتوي على فيروسات",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is a common phishing trick? / أي من هذه خدعة تصيّد شائعة؟",
+    "options": [
+      "Win a free gift card / اربح بطاقة هدايا مجانية",
+      "You won a trip! / لقد ربحت رحلة!",
+      "Your account was hacked / تم اختراق حسابك",
+      "All of the above / كل ما سبق"
+    ],
+    "answer": "All of the above / كل ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What should you do if an email says your password has changed but you didn’t do it? / ماذا يجب أن تفعل إذا أخبرك البريد الإلكتروني بأن كلمة مرورك تغيرت وأنت لم تفعل ذلك؟",
+    "options": [
+      "Ignore it / تجاهله",
+      "Click the link quickly / اضغط على الرابط بسرعة",
+      "Check the email source and visit the real website / تحقق من مصدر البريد الإلكتروني وادخل الموقع الحقيقي",
+      "Reply to the email / رد على الرسالة"
+    ],
+    "answer": "Check the email source and visit the real website / تحقق من مصدر البريد الإلكتروني وادخل الموقع الحقيقي"
+  },
+  {
+    "type": "TF",
+    "question": "Phishing messages often create fear or urgency / رسائل التصيّد غالبًا ما تخلق الخوف أو الاستعجال",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "You receive an email with a link that says you won a phone, what should you do? / استلمت بريدًا إلكترونيًا يحتوي على رابط يقول أنك ربحت هاتفًا، ماذا تفعل؟",
+    "options": [
+      "Click and enter your info / اضغط وأدخل معلوماتك",
+      "Delete the email / احذف البريد",
+      "Forward it to your friends / أرسله لأصدقائك",
+      "Reply to claim the phone / رد للحصول على الهاتف"
+    ],
+    "answer": "Delete the email / احذف البريد"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which website is most likely a phishing site? / أي موقع على الأرجح هو موقع تصيّد؟",
+    "options": [
+      "https://instagram.com / الموقع الرسمي لإنستغرام",
+      "https://insta-login-security.co / موقع إنستا مشبوه",
+      "https://gmail.com / الموقع الرسمي لجيميل",
+      "https://microsoft.com / الموقع الرسمي لمايكروسوفت"
+    ],
+    "answer": "https://insta-login-security.co / موقع إنستا مشبوه"
+  },
+   {
+    "type": "MCQ",
+    "question": "What does the command 'ls' do in Linux? / ماذا يفعل الأمر 'ls' في لينكس؟",
+    "options": [
+      "Deletes files / يحذف الملفات",
+      "Lists files and directories / يعرض الملفات والمجلدات",
+      "Logs out the user / يسجل خروج المستخدم",
+      "Shuts down the computer / يطفئ الجهاز"
+    ],
+    "answer": "Lists files and directories / يعرض الملفات والمجلدات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which command changes directories in the terminal? / أي أمر يُستخدم لتغيير المجلد في الطرفية؟",
+    "options": [
+      "ls",
+      "rm",
+      "cd",
+      "cat"
+    ],
+    "answer": "cd"
+  },
+  {
+    "type": "TF",
+    "question": "The terminal allows you to control the computer using text commands. / الطرفية تتيح لك التحكم في الحاسوب باستخدام أوامر نصية.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which command is used to display the contents of a file? / ما الأمر المستخدم لعرض محتوى ملف؟",
+    "options": [
+      "nano",
+      "cat",
+      "cd",
+      "clear"
+    ],
+    "answer": "cat"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of the following is used to edit text files in Linux? / أي من التالي يُستخدم لتحرير الملفات النصية في لينكس؟",
+    "options": [
+      "cd",
+      "nano",
+      "ls",
+      "pwd"
+    ],
+    "answer": "nano"
+  },
+  {
+    "type": "TF",
+    "question": "The 'cd' command can be used to go back to the previous directory. / يمكن استخدام الأمر 'cd' للرجوع إلى المجلد السابق.",
+    "answer": "true"
+  },
+    {
+    "type": "MCQ",
+    "question": "What is Gobuster used for? / ما فائدة أداة Gobuster؟",
+    "options": [
+      "To delete websites / لحذف المواقع",
+      "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية",
+      "To make websites / لصنع مواقع إلكترونية",
+      "To change passwords / لتغيير كلمات المرور"
+    ],
+    "answer": "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية"
+  },
+  {
+    "type": "TF",
+    "question": "Gobuster helps you discover secret pages that are not shown to the public. / تساعدك أداة Gobuster في اكتشاف الصفحات السرية التي لا تظهر للعامة.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Typing every possible page name by hand is faster than using Gobuster. / كتابة أسماء الصفحات يدويًا أسرع من استخدام Gobuster.",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which page is most likely to have secret admin controls? / أي صفحة من المحتمل أن تحتوي على أدوات تحكم سرية للمسؤول؟",
+    "options": [
+      "/images",
+      "/about-us",
+      "/admin",
+      "/home"
+    ],
+    "answer": "/admin"
+  },
+  {
+    "type": "MCQ",
+    "question": "What kind of pages can Gobuster help find? / ما نوع الصفحات التي يمكن أن تساعد أداة Gobuster في اكتشافها؟",
+    "options": [
+      "Pages hidden from navigation / الصفحات المخفية من القائمة",
+      "Random game pages / صفحات ألعاب عشوائية",
+      "Password reset pages / صفحات إعادة تعيين كلمة المرور",
+      "All of the above / كل ما سبق"
+    ],
+    "answer": "All of the above / كل ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why would a hacker want to find hidden pages? / لماذا قد يرغب المخترق في اكتشاف الصفحات المخفية؟",
+    "options": [
+      "To improve website design / لتحسين تصميم الموقع",
+      "To find sensitive data or login pages / للعثور على بيانات حساسة أو صفحات تسجيل الدخول",
+      "To report bugs / للإبلاغ عن الأخطاء",
+      "To help the developer / لمساعدة المبرمج"
+    ],
+    "answer": "To find sensitive data or login pages / للعثور على بيانات حساسة أو صفحات تسجيل الدخول"
+  },
+  {
+    "type": "TF",
+    "question": "Hidden pages can sometimes contain backups or login portals. / الصفحات المخفية يمكن أن تحتوي أحيانًا على نسخ احتياطية أو بوابات تسجيل الدخول.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these is NOT a common hidden page name? / أي من هذه الأسماء ليس شائعًا للصفحات المخفية؟",
+    "options": [
+      "/admin",
+      "/hidden",
+      "/control-panel",
+      "/fun-games"
+    ],
+    "answer": "/fun-games"
+  },
+  {
+    "type": "MCQ",
+    "question": "What tool would you use to find hidden pages on a website? / ما الأداة التي تستخدمها لاكتشاف الصفحات المخفية؟",
+    "options": [
+      "Hydra",
+      "Gobuster",
+      "Zphisher",
+      "Nmap"
+    ],
+    "answer": "Gobuster"
+  },
+   {
+    "type": "MCQ",
+    "question": "What is Hydra used for in hacking? /في الاختراق؟ Hydra ما فائدة أداة",
+    "options": [
+      "Sending emails / إرسال رسائل إلكترونية",
+      "Guessing usernames and passwords / تخمين أسماء المستخدمين وكلمات المرور",
+      "Playing games / لعب الألعاب",
+      "Making websites / إنشاء مواقع"
+    ],
+    "answer": "Guessing usernames and passwords / تخمين أسماء المستخدمين وكلمات المرور"
+  },
+  {
+    "type": "TF",
+    "question": "Hydra can guess login credentials using many tries / يمكن لأداة Hydra تخمين بيانات الدخول من خلال عدد كبير من المحاولات",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What makes a password strong? / ما الذي يجعل كلمة المرور قوية؟",
+    "options": [
+      "Using your name / استخدام اسمك",
+      "Short and easy / قصيرة وسهلة",
+      "123456 / 123456",
+      "Mix of letters, numbers, symbols / مزيج من الحروف والأرقام والرموز"
+    ],
+    "answer": "Mix of letters, numbers, symbols / مزيج من الحروف والأرقام والرموز"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where do hackers get passwords to try in attacks? / من أين يحصل المخترقون على كلمات مرور لتجربتها؟",
+    "options": [
+      "Leaked passwords / كلمات مرور مسربة",
+      "Commonly used passwords / كلمات مرور شائعة",
+      "Passwords related to personal info / كلمات مرور مرتبطة بالمعلومات الشخصية",
+      "All of the above / كل ما سبق"
+    ],
+    "answer": "All of the above / كل ما سبق"
+  },
+  {
+    "type": "TF",
+    "question": "It is safe to use your birthday in a long password. / من الآمن استخدام تاريخ ميلادك في كلمة مرور طويلة.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "Using the same password for all your accounts is safe. / استخدام نفس كلمة المرور لجميع حساباتك آمن.",
+    "answer": "false"
+  }و
+  {
+    "type": "MCQ",
+    "question": "Which of the following is a weak password? / أي من التالي كلمة مرور ضعيفة؟",
+    "options": [
+      "P@ssw0rd123!",
+      "mybirthday2008",
+      "qwerty",
+      "All of the above / كل ما سبق"
+    ],
+    "answer": "All of the above / كل ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What tool is commonly used for password guessing? / ما الأداة الشائعة لتخمين كلمات السر؟",
+    "options": [
+      "Zphisher",
+      "Hydra",
+      "Gobuster",
+      "Nmap"
+    ],
+    "answer": "Hydra"
+  },
+  {
+    "type": "TF",
+    "question": "Hydra can try thousands of password guesses very quickly. / يمكن لأداة Hydra تجربة آلاف كلمات المرور بسرعة.",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which file is often used in Hydra for password lists? / أي ملف يُستخدم غالبًا في Hydra لقوائم كلمات المرور؟",
+    "options": [
+      "rockyou.txt",
+      "game-list.txt",
+      "images.zip",
+      "login.csv"
+    ],
+    "answer": "rockyou.txt"
+  },
+  {
+    "type": "MCQ",
+    "question": "What should you do to protect your account? / ماذا يجب أن تفعل لحماية حسابك؟",
+    "options": [
+      "Use a strong and unique password / استخدم كلمة مرور قوية وفريدة",
+      "Share it with friends / شاركها مع الأصدقاء",
+      "Use '123456' / استخدم 123456",
+      "Write it on your desk / اكتبها على مكتبك"
+    ],
+    "answer": "Use a strong and unique password / استخدم كلمة مرور قوية وفريدة"
+  },
+]
