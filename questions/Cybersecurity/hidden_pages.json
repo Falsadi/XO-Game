@@ -114,24 +114,13 @@
   },
   {
     "type": "MCQ",
-    "question": "Which wordlist would be useful when using Gobuster? / أي قائمة كلمات مفيدة عند استخدام Gobuster؟",
-    "options": [
-      "shopping_list.txt",
-      "games_list.docx",
-      "directory-list-2.3-small.txt",
-      "passwords.xlsx"
-    ],
-    "answer": "directory-list-2.3-small.txt"
-  },
-  {
-    "type": "MCQ",
     "question": "What is the best method to find many hidden pages quickly? / ما هي أفضل طريقة لاكتشاف العديد من الصفحات المخفية بسرعة؟",
     "options": [
       "Guessing random URLs / تخمين روابط عشوائية",
-      "Using a scanner like Gobuster / استخدام ماسح مثل Gobuster",
+      "Using a tool like Gobuster / استخدام اداة مثل Gobuster",
       "Looking at the page design / النظر إلى تصميم الصفحة",
       "Asking the developer / سؤال المبرمج"
     ],
-    "answer": "Using a scanner like Gobuster / استخدام ماسح مثل Gobuster"
+    "answer": "Using a tool like Gobuster / استخدام اداة مثل Gobuster"
   }
 ]
