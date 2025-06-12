@@ -12,7 +12,7 @@
   },
   {
     "type": "MCQ",
-    "question": "If you shift the letter “C” by 2 using a shift cipher, what do you get? / إذا قمت بإزاحة الحرف “C” بمقدار 2 باستخدام تشفير الإزاحة، ماذا ستحصل؟",
+    "question": "If you shift the letter “C” by 2, what do you get? / مرتين على ماذا ستحصل؟ "C" إذا قمت بإزاحة الحرف ",
     "options": ["D", "E", "A", "F"],
     "answer": "E"
   },
