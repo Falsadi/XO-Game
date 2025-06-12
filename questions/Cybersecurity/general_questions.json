@@ -91,7 +91,7 @@
     "options": [
       "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
       "Using only a fingerprint / استخدام بصمة فقط",
-      "Using only face ID / استخدام التعرف على الوجه فقط",
+      "Using only face ID / استخدام تقنية التعرف على الوجه فقط",
       "Using your pet’s name / استخدام اسم الحيوان الأليف"
     ],
     "answer": "Using a password and another step / استخدام كلمة مرور وخطوة إضافية"
