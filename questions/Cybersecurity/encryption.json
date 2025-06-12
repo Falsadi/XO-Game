@@ -66,17 +66,6 @@
   },
   {
     "type": "MCQ",
-    "question": "Which of these is okay to share online? / أي من هذه المعلومات يمكن مشاركتها عبر الإنترنت؟",
-    "options": [
-      "Your favorite color / لونك المفضل",
-      "Your password / كلمة مرورك",
-      "Your phone number / رقم هاتفك",
-      "Your home address / عنوان منزلك"
-    ],
-    "answer": "Your favorite color / لونك المفضل"
-  },
-  {
-    "type": "MCQ",
     "question": "What is phishing? / ما هو التصيّد؟",
     "options": [
       "A kind of fish / نوع من الأسماك",
