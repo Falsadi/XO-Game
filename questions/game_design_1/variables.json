@@ -1,12 +1,13 @@
+
 [
   {
     "type": "TF",
-    "question": "You should use 'set score to 0' at the beginning of a game. | يجب استخدام بلوك في بداية اللعبة.",
-    "answer": "True | صحيح"
+    "question": "You should use 'set score to 0' at the beginning of a game | يجب استخدام بلوك في بداية اللعبة",
+    "answer": "true"
   },
   {
     "type": "MCQ",
-    "question": "What does the block 'change score by 1' do? | ماذا يفعل البلوك؟",
+    "question": "What does this block do 'change score by 1' ماذا يفعل البلوك",
     "options": [
       "Sets the score to 1 | يضبط النتيجة إلى ١",
       "Adds 1 to the score | يضيف ١ إلى النتيجة",
@@ -16,14 +17,36 @@
     "answer": "Adds 1 to the score | يضيف ١ إلى النتيجة"
   },
   {
-    "type": "TF",
-    "question": "The block 'set score to 0' resets the score to zero.",
-    "answer": "True | صحيح"
+    "type": "MCQ",
+    "question": "ما وظيفة هذا المكعب ؟'What does this block do 'set score to 0",
+    "options": [
+      "يعطي قيمة في البداية – Sets the starting value",
+      "يكرر النقاط – Repeats score",
+      "يزيد النقاط – Increases score",
+      "يخفي المتغير – Hides variable"
+    ],
+    "answer": "يعطي قيمة في البداية – Sets the starting value"
+  },
+  {
+    "type": "MCQ",
+    "question": "How can we decrease score value? كيف يمكننا تقليل قيمة العدّاد؟",
+    "options": [
+      "change score by -1",
+      "set score to 0",
+      "change score by 1",
+      "set score to -1"
+    ],
+    "answer": "change score by -1"
   },
   {
     "type": "TF",
-    "question": "'Change score by 1' is the same as 'set score to 1'.",
-    "answer": "False | خطأ"
+    "question": "The block 'set score to 0' resets the score to zero",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "'Change score by 1' is the same as 'set score to 1'",
+    "answer": "false"
   },
   {
     "type": "MCQ",
@@ -35,5 +58,10 @@
       "To subtract points | لطرح النقاط"
     ],
     "answer": "To reset the score at the start | لإعادة تعيين النتيجة في البداية"
+  },
+  {
+    "type": "TF",
+    "question": "لا يمكن تغيير النقاط أثناء اللعب.",
+    "answer": "false"
   }
 ]

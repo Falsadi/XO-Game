@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/if-else.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/if-else.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/game_design_1/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/variables.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1747656535658" duration="191000" />
       <workItem from="1747810987148" duration="2051000" />
       <workItem from="1748502662953" duration="15544000" />
-      <workItem from="1749815304901" duration="3756000" />
+      <workItem from="1749815304901" duration="4251000" />
     </task>
     <servers />
   </component>
