@@ -47,5 +47,15 @@
       "4"
     ],
     "answer": "1"
-  }
+  },
+  {
+      "type": "TF",
+      "question": "You can have multiple If blocks in a program",
+      "answer": "true"
+    },
+    {
+      "type": "TF",
+      "question": "Else blocks can be used without an If block",
+      "answer": "false"
+    }
 ]
