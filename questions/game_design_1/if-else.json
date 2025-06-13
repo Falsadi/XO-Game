@@ -1,18 +1,18 @@
 [
   {
     "type": "MCQ",
-    "question": "What is the purpose of using If/Else in programming?",
+    "question": "What is the purpose of using the following block 'If/Else' ما هو الغرض من استخدام المكعب التالي",
     "options": [
-      "to store data. / لتخزين البيانات.",
-      "to repeat actions. / لتكرار الأفعال.",
-      "to make decisions. / لاتخاذ القرارات.",
-      "to create animations. / لإنشاء الرسوم المتحركة."
+      "To store data / لتخزين البيانات",
+      "To repeat actions / لتكرار الأفعال",
+      "To make decisions / لاتخاذ القرارات",
+      "To create animations / لإنشاء الرسوم المتحركة"
     ],
-    "answer": "to make decisions. / لاتخاذ القرارات."
+    "answer": "To make decisions / لاتخاذ القرارات"
   },
   {
     "type": "MCQ",
-    "question": "Which block in Tynker is used to check conditions? / أي بلوك في Tynker تُستخدم للتأكد من الشروط؟",
+    "question": "Which block is used to check conditions? / أي بلوك نستخدم للتأكد من الشروط؟",
     "options": [
       "forever",
       "repeat",
@@ -20,5 +20,32 @@
       "repeat until"
     ],
     "answer": "If/Else"
+  },
+  {
+    "type": "MCQ",
+    "question": "If the condition in an If/Else block is true, which part runs? / إذا تحقق الشرط في المكعب أي جزء يتم تشغيله؟",
+    "options": [
+      "Else",
+      "If",
+      "Both / كلاهما",
+      "Nothing / لا شيء"
+    ],
+    "answer": "If"
+  },
+  {
+    "type": "TF",
+    "question": "Can we use If without Else?",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "How many Else blocks can we have with an If block?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
   }
 ]
