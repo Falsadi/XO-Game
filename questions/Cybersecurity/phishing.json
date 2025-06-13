@@ -127,11 +127,11 @@
     "type": "MCQ",
     "question": "Which website is most likely a phishing site? / أي موقع على الأرجح هو موقع تصيّد؟",
     "options": [
-      "https://instagram.com / الموقع الرسمي لإنستغرام",
-      "https://insta-login-security.co / موقع إنستا مشبوه",
-      "https://gmail.com / الموقع الرسمي لجيميل",
-      "https://microsoft.com / الموقع الرسمي لمايكروسوفت"
+      "https://instagram.com",
+      "https://insta-login-security.co",
+      "https://gmail.com",
+      "https://microsoft.com"
     ],
-    "answer": "https://insta-login-security.co / موقع إنستا مشبوه"
+    "answer": "https://insta-login-security.co"
   }
 ]
