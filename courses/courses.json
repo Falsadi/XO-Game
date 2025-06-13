@@ -1,5 +1,5 @@
 {
   "Cybersecurity": ["cyber", "encryption", "hidden_pages", "phishing", "guessing_passwords", "attacks", "MFA"],
   "Robotics": ["sensors", "motors", "navigation"],
-  "game_design_1": ["what_is_programming", "loops", "if-else", "variables", "design_thinking"]
+  "Game_Design_1": ["what_is_programming", "loops", "if-else", "variables", "design_thinking"]
 }

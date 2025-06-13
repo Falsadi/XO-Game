@@ -1,0 +1,66 @@
+[
+  {
+    "type": "MCQ",
+
+    "question": "In the planning stage, what can you think about? / في مرحلة التخطيط، ماذا يمكن أن تفكر فيه؟",
+    "options": [
+      "كم عدد الشخصيات في اللعبة / How many characters are in the game",
+      "لون زر البدء / The color of the start button",
+      "شكل الماوس / The shape of the mouse",
+      "صوت الخلفية / The background sound"
+    ],
+    "answer": "كم عدد الشخصيات في اللعبة / How many characters are in the game"
+  },
+  {
+    "type": "TF",
+    "question": "التخطيط الجيد يساعدنا نصمم لعبة أفضل / Good planning helps us design a better game",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "كل الألعاب يجب أن تكون بنفس الشكل والخلفية / All games must have the same background and design",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "في مرحلة التنفيذ، نضيف الشخصيات ونحدد أماكنها / In the implementation stage, we add characters and set their positions",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "لا يمكن تغيير اللعبة بعد برمجتها / The game cannot be changed after programming it",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first step in designing a game? / ما أول خطوة لتصميم لعبة؟",
+    "options": [
+      "كتابة الكود / Writing the code",
+      "اختيار الشخصيات / Choosing characters",
+      "التخطيط للفكرة / Planning the idea",
+      "اختبار اللعبة / Testing the game"
+    ],
+    "answer": "التخطيط للفكرة / Planning the idea"
+  },
+  {
+    "type": "MCQ",
+    "question": "When do we add the coding blocks? / متى نضيف المكعبات البرمجية؟",
+    "options": [
+      "قبل التخطيط / Before planning",
+      "بعد التخطيط / After planning",
+      "قبل اختيار الشخصيات / Before choosing characters",
+      "في نهاية اللعبة / At the end of the game"
+    ],
+    "answer": "بعد التخطيط / After planning"
+  },
+  {
+    "type": "TF",
+    "question": "يمكنك إضافة مراحل جديدة بعد الانتهاء من تصميم اللعبة / You can add new levels after finishing the game design",
+    "answer": "true"
+  },
+  {
+  "type": "TF",
+  "question": "تجربة اللعبة غير مهم في تصميم الألعاب / Testing is not important in game design",
+  "answer": "false"
+  }
+]
