@@ -1,52 +1,57 @@
 [
   {
     "type": "MCQ",
-    "question": "What is a loop in programming? / ما هي الحلقة (Loop) في البرمجة؟",
+    "question": "What is a loop in programming? / ما هي الحلقات في البرمجة؟",
     "options": [
-      "A way to repeat actions. / طريقة لتكرار الأفعال.",
-      "A game level. / مستوى في اللعبة.",
-      "A drawing shape. / شكل للرسم.",
-      "A sound effect. / تأثير صوتي."
+      "Fixing errors / إصلاح الأخطاء",
+      "Moving sprites randomly / تحريك الشخصيات عشوائيًا",
+      "Changing backgrounds / تغيير الخلفيات",
+      "Repeating instructions / تكرار التعليمات"
     ],
-    "answer": "A way to repeat actions. / طريقة لتكرار الأفعال."
+    "answer": "Repeating instructions / تكرار التعليمات"
   },
   {
     "type": "MCQ",
     "question": "Why are loops useful in games? / لماذا الحلقات مفيدة في الألعاب؟",
     "options": [
-      "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر.",
-      "To make the game harder. / لجعل اللعبة أصعب.",
-      "To stop the game. / لإيقاف اللعبة.",
-      "To change the colors. / لتغيير الألوان."
+      "To move objects repeatedly / لتحريك الأشياء بشكل متكرر",
+      "To make the game harder / لجعل اللعبة أصعب",
+      "To stop the game / لإيقاف اللعبة",
+      "To change the colors / لتغيير الألوان"
     ],
-    "answer": "To move objects repeatedly. / لتحريك الأشياء بشكل متكرر."
+    "answer": "To move objects repeatedly / لتحريك الأشياء بشكل متكرر"
   },
   {
     "type": "MCQ",
-    "question": "Which block would you use to make a sprite repeat an action 10 times? / أي بلوك يستخدم لجعل الشخصية تكرر فعلًا 10 مرات؟",
+    "question": "Which block would you use to make a sprite repeat an action 10 times? / أي مكعب يستخدم لجعل الشخصية تكرر فعلًا 10 مرات؟",
     "options": [
-      "Forever. / إلى الأبد.",
-      "If Touching. / إذا كان يلمس.",
-      "Change x by 10. / غير القيمه 10 مرات.",
-      "Repeat 10. / كرر 10 مرات."
+      "Forever",
+      "If Touching",
+      "Change x by 10",
+      "Repeat 10"
     ],
-    "answer": "Repeat 10. / كرر 10 مرات."
+    "answer": "Repeat 10"
   },
   {
     "type": "MCQ",
-    "question": "Which block makes something happen forever? / أي بلوك يجعل الشيء يستمر إلى الأبد؟",
+    "question": "Which block makes something happen forever? / أي مكعب يجعل الشيء يستمر إلى الأبد؟",
     "options": [
-      "Forever. / إلى الأبد.",
-      "When Key Pressed. / عند الضغط.",
-      "Change x by 10. / غير x بـ 10.",
-      "Repeat 10. / كرر 10 مرات."
+      "When Key Pressed",
+      "Forever",
+      "Change x by 10",
+      "Repeat 10"
     ],
-    "answer": "Forever. / إلى الأبد."
+    "answer": "Forever"
   },
   {
-    "type": "TrueFalse",
-    "question": "The 'repeat until' loop will stop as soon as the condition becomes true. | حلقة 'تكرار حتى' تتوقف بمجرد أن تصبح الحالة صحيحة.",
-    "answer": "True | صحيح"
+    "type": "TF",
+    "question": "A loop must always repeat forever / يجب أن تكرر الحلقة دائمًا إلى الأبد",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "The 'repeat until' loop will stop as soon as the condition becomes true | حلقة 'تكرار حتى' تتوقف بمجرد أن تصبح الحالة صحيحة",
+    "answer": "true"
   },
   {
     "type": "MCQ",
@@ -58,5 +63,25 @@
       "The program stops immediately | يتوقف البرنامج فورًا"
     ],
     "answer": "The loop runs forever | تعمل الحلقة إلى الأبد"
-  }
+  },
+  {
+      "type": "TF",
+      "question": "Loops help repeat actions without writing the same block again / تساعد الحلقات في تكرار الأفعال دون كتابة نفس المكعب مرة أخرى",
+      "answer": "true"
+  },
+    {
+      "type": "TF",
+      "question": "The following block repeats an action forever 'Repeat 10' المكعب التالي يكرر الفعل للأبد",
+      "answer": "false"
+    },
+    {
+      "type": "TF",
+      "question": "The following block repeat actions only once 'Forever' المكعب التالي ينفذ الأوامر مرة واحدة فقط",
+      "answer": "false"
+    },
+    {
+      "type": "TF",
+      "question": "Loops are used only in games / تُستخدم الحلقات فقط في الألعاب",
+      "answer": "false"
+    }
 ]
