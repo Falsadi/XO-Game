@@ -3,103 +3,103 @@
     "type": "MCQ",
     "question": "What is programming? / ما هي البرمجة؟",
     "options": [
-      "Giving instructions. / إعطاء تعليمات.",
-      "Playing games. / لعب الألعاب.",
-      "Watching videos. / مشاهدة الفيديوهات.",
-      "Drawing pictures. / رسم الصور."
+      "Giving instructions / إعطاء تعليمات",
+      "Playing games / لعب الألعاب",
+      "Watching videos / مشاهدة الفيديوهات",
+      "Drawing pictures / رسم الصور"
     ],
-    "answer": "Giving instructions. / إعطاء تعليمات."
+    "answer": "Giving instructions / إعطاء تعليمات"
   },
   {
     "type": "MCQ",
     "question": "Why do we use programming? / لماذا نستخدم البرمجة؟",
     "options": [
-      "To move computers. / لتحريك الكمبيوتر.",
-      "To turn on computers. / لتشغيل الكمبيوتر.",
-      "To watch cartoons. / لمشاهدة الرسوم.",
-      "To control computers. / للتحكم في الكمبيوتر."
+      "To move computers / لتحريك الكمبيوتر",
+      "To turn on computers / لتشغيل الكمبيوتر",
+      "To watch cartoons / لمشاهدة الرسوم",
+      "To control computers / للتحكم في الكمبيوتر"
     ],
-    "answer": "To control computers. / للتحكم في الكمبيوتر."
+    "answer": "To control computers / للتحكم في الكمبيوتر"
   },
   {
     "type": "MCQ",
     "question": "Which is programming? / أي مثال يعبر عن البرمجة؟",
     "options": [
-      "Turning on a computer. / تشغيل الكمبيوتر.",
-      "Telling a robot to move. / إخبار الروبوت بالتحرك.",
-      "Clicking icons. / النقر على الرموز.",
-      "Typing words. / كتابة الكلمات."
+      "Turning on a computer / تشغيل الكمبيوتر",
+      "Telling a robot to move / إخبار الروبوت بالتحرك",
+      "Clicking icons / النقر على الرموز",
+      "Typing words / كتابة الكلمات"
     ],
-    "answer": "Telling a robot to move. / إخبار الروبوت بالتحرك."
+    "answer": "Telling a robot to move / إخبار الروبوت بالتحرك"
   },
   {
     "type": "MCQ",
     "question": "How does a computer follow instructions? / كيف يتبع الكمبيوتر التعليمات؟",
     "options": [
-      "Randomly / عشوائيًا.",
-      "By guessing / بالتخمين.",
-      "Step by step / خطوة بخطوة.",
-      "Backwards / بالعكس."
+      "Randomly / عشوائيًا",
+      "By guessing / بالتخمين",
+      "Step by step / خطوة بخطوة",
+      "Backwards / بالعكس"
     ],
-    "answer": "Step by step / خطوة بخطوة."
+    "answer": "Step by step / خطوة بخطوة"
   },
   {
     "type": "MCQ",
     "question": "What if instructions are in the wrong order? / ماذا إذا كانت التعليمات غير مرتبة؟",
     "options": [
-      "It works fine / يعمل جيدًا.",
-      "It stops or fails / يتوقف أو يفشل.",
-      "It fixes itself / يصلح نفسه.",
-      "Nothing happens / لا يحدث شيء."
+      "It works fine / يعمل جيدًا",
+      "It stops or fails / يتوقف أو يفشل",
+      "It fixes itself / يصلح نفسه",
+      "Nothing happens / لا يحدث شيء"
     ],
-    "answer": "It stops or fails / يتوقف أو يفشل."
+    "answer": "It stops or fails / يتوقف أو يفشل"
   },
   {
     "type": "MCQ",
     "question": "How does a computer know what to do? / كيف يعرف الكمبيوتر ما يفعله؟",
     "options": [
-      "By learning / بالتعلم.",
-      "By guessing / بالتخمين.",
-      "By copying / بالنسخ.",
-      "By instructions / بالتعليمات."
+      "By learning / بالتعلم",
+      "By guessing / بالتخمين",
+      "By copying / بالنسخ",
+      "By instructions / بالتعليمات"
     ],
-    "answer": "By instructions / بالتعليمات."
+    "answer": "By instructions / بالتعليمات"
   },
   {
     "type": "TF",
-    "question": "Instructions must be given in the correct order. / يجب إعطاء التعليمات بالترتيب الصحيح.",
+    "question": "Instructions must be given in the correct order / يجب إعطاء التعليمات بالترتيب الصحيح",
     "answer": "true"
   },
   {
     "type": "TF",
-    "question": "Programming is only used by scientists. / البرمجة تُستخدم فقط من قبل العلماء.",
+    "question": "Programming is only used by scientists / البرمجة تُستخدم فقط من قبل العلماء",
     "answer": "false"
   },
   {
     "type": "MCQ",
-    "question": "ما هو دور مكعب “move 10 pixels”؟",
+    "question": "What does the following block do 'move 10 pixels' ما هو دور مكعب",
     "options": [
-      "يوقف الشخصية – Stops",
-      "يحرك الشخصية – Moves",
-      "يغير شكلها – Costume",
-      "يمسحها – Deletes"
+      "Stops / يوقف الشخصية",
+      "Moves / يحرك الشخصية",
+      "Costume change / يغير شكلها",
+      "Deletes it / يمسحها"
     ],
-    "answer": "يحرك الشخصية – Moves"
+    "answer": "Moves / يحرك الشخصية"
   },
   {
     "type": "MCQ",
-    "question": "لماذا نستخدم الأحداث؟ / Why do we use events?",
+    "question": "Why do we use events? / لماذا نستخدم الأحداث؟",
     "options": [
-      "للزينة – Decoration",
-      "لتنفيذ الأوامر – to take action",
-      "لتغيير الصوت – Change sound",
-      "لإيقاف اللعبة – Stop game"
+      "Decoration / للزينة",
+      "To take action / لتنفيذ الأوامر",
+      "Change sound / لتغيير الصوت",
+      "Stop game / لإيقاف اللعبة"
     ],
-    "answer": "لتنفيذ الأوامر – to take action"
+    "answer": "To take action / لتنفيذ الأوامر"
   },
   {
     "type": "MCQ",
-    "question": "ما وظيفة مكعب \"point towards left edge\"؟ / What does the following block do?",
+    "question": "ما وظيفة مكعب 'What does the following block do 'point towards left edge",
     "options": [
       "يغير لون الشخصية – Changes the Actor color",
       "يجعل الشخصية يواجه اليسار – Turns the Actor to face left",
@@ -110,24 +110,40 @@
   },
   {
     "type": "MCQ",
-    "question": "Which block detects a key press? | أي بلوك يكتشف ضغط مفتاح؟",
+    "question": "Which block detects a key press? / أي مكعب يكتشف ضغط مفتاح؟",
     "options": [
-      "Repeat 10 | كرر 10 مرات.",
-      "If Touching? | إذا كان يلمس؟",
-      "Change [x] by 10 | غيّر [x] بـ 10.",
-      "When Key Pressed | عند الضغط على المفتاح."
+      "Repeat 10",
+      "If Touching?",
+      "Change [x] by 10",
+      "When Key Pressed"
     ],
-    "answer": "When Key Pressed | عند الضغط على المفتاح."
+    "answer": "When Key Pressed"
+  },
+  {
+    "type": "TF",
+    "question": "Computers can guess what you want them to do / يمكن للكمبيوتر أن يخمن ما تريد أن يفعله",
+    "answer": "false"
   },
   {
     "type": "MCQ",
-    "question": "Which block detects a key press? | أي بلوك يكتشف ضغط مفتاح؟",
+    "question": "What happens in a program when the user presses a specific key? / ماذا يحدث في البرنامج عندما يضغط المستخدم على مفتاح معين؟",
     "options": [
-      "Repeat 10 | كرر 10 مرات.",
-      "If Touching? | إذا كان يلمس؟",
-      "Change [x] by 10 | غيّر [x] بـ 10.",
-      "When Key Pressed | عند الضغط على المفتاح."
+      "Program repeats forever / يكرر البرنامج للأبد",
+      "Sprite moves randomly / تتحرك الشخصية عشوائيًا",
+      "Takes an action / يقوم بفعل معين",
+      "Game stops / تتوقف اللعبة"
     ],
-    "answer": "When Key Pressed | عند الضغط على المفتاح."
+    "answer": "Takes an action / يقوم بفعل معين"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block makes actor move right when a key is pressed? / أي مكعب يجعل الشخصية تتحرك يمينًا عند الضغط على مفتاح؟",
+    "options": [
+      "Change background",
+      "Forever loop",
+      "Track score",
+      "When Key Pressed Move"
+    ],
+    "answer": "When Key Pressed Move"
   }
 ]
