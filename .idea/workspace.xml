@@ -7,9 +7,10 @@
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/courses/courses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/encryption.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity/encryption.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/phishing.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity/phishing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/red_Blue_Teams.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/game_design/if.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/if-else.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/game_design/loops.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/loops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/game_design/programming.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/what_is_programming.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/game_design/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/game_design_1/variables.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,8 @@
       <workItem from="1746608049214" duration="757000" />
       <workItem from="1747656535658" duration="191000" />
       <workItem from="1747810987148" duration="2051000" />
-      <workItem from="1748502662953" duration="15388000" />
+      <workItem from="1748502662953" duration="15544000" />
+      <workItem from="1749815304901" duration="751000" />
     </task>
     <servers />
   </component>
