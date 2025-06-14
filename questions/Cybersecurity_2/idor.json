@@ -1,0 +1,119 @@
+[
+  {
+    "type": "MCQ",
+    "question": "ما هي ثغرة IDOR؟ / What is an IDOR vulnerability?",
+    "options": [
+      "تشفير البيانات / Data encryption",
+      "عرض بيانات غير مصرح بها بتغيير الرابط / Viewing unauthorized data by changing the URL",
+      "تعطل الموقع / Website crash",
+      "تغيير كلمة المرور تلقائيًا / Automatic password change"
+    ],
+    "answer": "عرض بيانات غير مصرح بها بتغيير الرابط / Viewing unauthorized data by changing the URL"
+  },
+  {
+    "type": "MCQ",
+    "question": "إذا كان عنوان الرابط يحتوي على id=1234، فماذا يحدث غالبًا عند تغييره إلى id=1235؟ / What usually happens if a URL contains id=1234 and it's changed to id=1235?",
+    "options": [
+      "إعادة إلى صفحة الدخول / Redirect to login page",
+      "رسالة منع / Access denied message",
+      "عرض بيانات طالب آخر / View another student's data",
+      "حذف الحساب / Account deletion"
+    ],
+    "answer": "عرض بيانات طالب آخر / View another student's data"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما الفرق بين المصادقة والتفويض؟ / What is the difference between authentication and authorization?",
+    "options": [
+      "المصادقة = من أنت، التفويض = ما يمكنك فعله / Authentication = who you are, Authorization = what you can do",
+      "كلاهما نفس الشيء / They are the same",
+      "المصادقة تحدد رقم فقط / Authentication just assigns an ID",
+      "التفويض يسبق المصادقة / Authorization comes before authentication"
+    ],
+    "answer": "المصادقة = من أنت، التفويض = ما يمكنك فعله / Authentication = who you are, Authorization = what you can do"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما الإجراء الأمني الصحيح لمنع استغلال IDOR؟ / What is the correct security measure to prevent IDOR?",
+    "options": [
+      "حذف أرقام ID / Remove ID numbers",
+      "التحقق من صلاحية المستخدم / Check user's access permissions",
+      "كلمات مرور طويلة / Use long passwords",
+      "إخفاء الرابط / Hide the URL"
+    ],
+    "answer": "التحقق من صلاحية المستخدم / Check user's access permissions"
+  },
+  {
+    "type": "MCQ",
+    "question": "ما السبب الحقيقي الذي سمح له بمشاهدة ملف ليس له؟ / What is the real reason someone could view another user’s file?",
+    "options": [
+      "لأن الموقع مشفر بـ HTTPS / Because the site uses HTTPS",
+      "لأن الموقع لم يتحقق من هوية المستخدم / Because the site didn’t verify user identity",
+      "الملف تم تحميله / File was cached",
+      "الجهاز مختلف / Different device was used"
+    ],
+    "answer": "لأن الموقع لم يتحقق من هوية المستخدم / Because the site didn’t verify user identity"
+  },
+  {
+    "type": "MCQ",
+    "question": "أي من العبارات التالية تعبر عن تصرف آمن عند تصميم روابط الملفات؟ / Which of the following reflects a secure practice when designing file URLs?",
+    "options": [
+      "استخدام ID واضح / Use clear numeric ID",
+      "عرض مباشر للملف / Direct file access",
+      "التحقق من الصلاحية قبل العرض / Check permissions before access",
+      "السماح بعد الدخول فقط / Allow access after login only"
+    ],
+    "answer": "التحقق من الصلاحية قبل العرض / Check permissions before access"
+  },
+  {
+    "type": "MCQ",
+    "question": "لماذا تعتبر المعرفات الرقمية المتسلسلة خطيرة؟ / Why are sequential numeric IDs dangerous?",
+    "options": [
+      "تسبب بطء / Cause slowness",
+      "سهلة التخمين / Easy to guess",
+      "تمنع تسجيل الدخول / Prevent login",
+      "لا تعمل على الهاتف / Don’t work on phones"
+    ],
+    "answer": "سهلة التخمين / Easy to guess"
+  },
+  {
+    "type": "TF",
+    "question": "إذا سجل المستخدم الدخول، فهذا يعني أنه يمكنه رؤية ملفات جميع الطلاب. / If a user logs in, they can view all students' files.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "تغيير الرقم في الرابط يمكن أن يكشف بيانات غير مصرح بها. / Changing the ID in the URL can reveal unauthorized data.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "ثغرة IDOR تعتبر بسيطة وغير خطيرة. / IDOR is a simple and harmless vulnerability.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "المصادقة تحدث بعد التفويض دائمًا. / Authentication always happens after authorization.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "أفضل وسيلة للحماية هي التحقق ممن يطلب وليس فقط مما يُطلب. / The best protection is to check who is requesting, not just what is requested.",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "HTTPS كافٍ لحماية الموقع من IDOR. / HTTPS is enough to protect against IDOR.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "التحقق من الصلاحيات ليس ضروريًا دائمًا. / Authorization checks are not always necessary.",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "يمكن كشف ثغرة IDOR بتجريب أرقام مختلفة في الرابط يدويًا. / IDOR vulnerabilities can be detected by manually trying different IDs in the URL.",
+    "answer": "true"
+  }
+]

@@ -7,11 +7,13 @@
     <list default="true" id="f138ef0d-c1af-4d23-b218-93afe1f3682c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses/courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/courses/courses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/design_thinking.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Game_Design_1/design_thinking.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/if-else.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Game_Design_1/if-else.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/loops.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Game_Design_1/loops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Game_Design_1/variables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/game_design_1/what_is_programming.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Game_Design_1/what_is_programming.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/encryption.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/encryption.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/final_challenge.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/final_challenge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/general_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/general_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/guessing_passwords.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/guessing_passwords.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/hidden_pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/hidden_pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/linux_attack_methodology.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/linux_attack_methodology.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cybersecurity/phishing.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cybersecurity_1/phishing.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,8 @@
       <workItem from="1747656535658" duration="191000" />
       <workItem from="1747810987148" duration="2051000" />
       <workItem from="1748502662953" duration="15544000" />
-      <workItem from="1749815304901" duration="4734000" />
+      <workItem from="1749815304901" duration="4848000" />
+      <workItem from="1749895053293" duration="1760000" />
     </task>
     <servers />
   </component>
