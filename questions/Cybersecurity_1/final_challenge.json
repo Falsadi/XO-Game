@@ -42,17 +42,18 @@
     "question": "Is encryption only used to protect text messages? / هل يُستخدم التشفير فقط لحماية الرسائل النصية؟",
     "answer": "false"
   },
-  {
-    "type": "MCQ",
-    "question": "Why is it important to keep your encryption key secret? / لماذا من المهم إبقاء مفتاح التشفير سريًا؟",
-    "options": [
-      "So your friends don't laugh / حتى لا يضحك أصدقاؤك",
-      "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك",
-      "So the message looks more colorful / حتى تبدو الرسالة أكثر ألوانًا",
-      "So the app works faster / حتى يعمل التطبيق بسرعة أكبر"
-    ],
-    "answer": "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك"
-  },
+{
+  "type": "MCQ",
+  "question": "Why is it important to keep your encryption key secret? / لماذا من المهم إبقاء مفتاح التشفير سريًا؟",
+  "options": [
+    "To prevent others from decoding your messages / لمنع الآخرين من فك تشفير رسائلك",
+    "To make the encryption process faster / لجعل عملية التشفير أسرع",
+    "To reduce storage space used / لتقليل مساحة التخزين المستخدمة",
+    "To allow the recipient to access the encrypted data / للسماح للمستلم بالوصول إلى البيانات المشفرة"
+  ],
+  "answer": "To prevent others from decoding your messages / لمنع الآخرين من فك تشفير رسائلك"
+}
+,
   {
     "type": "MCQ",
     "question": "Which of these is an example of encryption? / أي من هذه يعتبر مثالاً على التشفير؟",
@@ -141,11 +142,6 @@
     "answer": "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام"
   },
   {
-    "type": "TF",
-    "question": "Phishing is illegal and dangerous – التصيد غير قانوني وخطير",
-    "answer": "true"
-  },
-  {
     "type": "MCQ",
     "question": "Phishing pages usually look – صفحات التصيد عادةً ما تبدو",
     "options": [
@@ -214,12 +210,12 @@
     "type": "MCQ",
     "question": "Which website is most likely a phishing site? / أي موقع على الأرجح هو موقع تصيّد؟",
     "options": [
-      "https://instagram.com / الموقع الرسمي لإنستغرام",
-      "https://insta-login-security.co / موقع إنستا مشبوه",
-      "https://gmail.com / الموقع الرسمي لجيميل",
-      "https://microsoft.com / الموقع الرسمي لمايكروسوفت"
+      "https://instagram.com",
+      "https://insta-login-security.co",
+      "https://gmail.com",
+      "https://microsoft.com"
     ],
-    "answer": "https://insta-login-security.co / موقع إنستا مشبوه"
+    "answer": "https://insta-login-security.co"
   },
    {
     "type": "MCQ",
@@ -280,11 +276,11 @@
     "question": "What is Gobuster used for? / ما فائدة أداة Gobuster؟",
     "options": [
       "To delete websites / لحذف المواقع",
-      "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية",
+      "To find hidden pages / لاكتشاف الصفحات المخفية",
       "To make websites / لصنع مواقع إلكترونية",
       "To change passwords / لتغيير كلمات المرور"
     ],
-    "answer": "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية"
+    "answer": "To find hidden pages / لاكتشاف الصفحات المخفية"
   },
   {
     "type": "TF",
@@ -447,7 +443,7 @@
     "question": "What should you do to protect your account? / ماذا يجب أن تفعل لحماية حسابك؟",
     "options": [
       "Use a strong and unique password / استخدم كلمة مرور قوية وفريدة",
-      "Share it with friends / شاركها مع الأصدقاء",
+      "Share your password with friends / شارك كلمة السر مع الأصدقاء",
       "Use '123456' / استخدم 123456",
       "Write it on your desk / اكتبها على مكتبك"
     ],
