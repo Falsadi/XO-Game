@@ -15,11 +15,11 @@
     "question": "What is Gobuster used for? / ما فائدة أداة Gobuster؟",
     "options": [
       "To delete websites / لحذف المواقع",
-      "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية",
+      "To find secret pages / لاكتشاف الصفحات السرية",
       "To make websites / لصنع مواقع إلكترونية",
       "To change passwords / لتغيير كلمات المرور"
     ],
-    "answer": "To find hidden files and folders / لاكتشاف الملفات والمجلدات المخفية"
+    "answer": "To find secret pages / لاكتشاف الصفحات السرية"
   },
   {
     "type": "TF",
