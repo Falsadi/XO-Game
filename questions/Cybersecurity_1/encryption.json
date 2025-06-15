@@ -22,17 +22,17 @@
     "options": ["EDJ", "CBI", "EDI", "DCH"],
     "answer": "EDJ"
   },
-  {
-    "type": "MCQ",
-    "question": "Why is it important to keep your encryption key secret? / لماذا من المهم إبقاء مفتاح التشفير سريًا؟",
-    "options": [
-      "So your friends don't laugh / حتى لا يضحك أصدقاؤك",
-      "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك",
-      "So the message looks more colorful / حتى تبدو الرسالة أكثر ألوانًا",
-      "So the app works faster / حتى يعمل التطبيق بسرعة أكبر"
-    ],
-    "answer": "So no one can read your messages / حتى لا يستطيع أحد قراءة رسائلك"
-  },
+{
+  "type": "MCQ",
+  "question": "Why is it important to keep your encryption key secret? / لماذا من المهم إبقاء مفتاح التشفير سريًا؟",
+  "options": [
+    "To prevent others from decoding your messages / لمنع الآخرين من فك تشفير رسائلك",
+    "To make the encryption process faster / لجعل عملية التشفير أسرع",
+    "To reduce storage space used / لتقليل مساحة التخزين المستخدمة",
+    "To allow the recipient to access the encrypted data / للسماح للمستلم بالوصول إلى البيانات المشفرة"
+  ],
+  "answer": "To prevent others from decoding your messages / لمنع الآخرين من فك تشفير رسائلك"
+},
   {
     "type": "MCQ",
     "question": "Which of these is an example of encryption? / أي من هذه يعتبر مثالاً على التشفير؟",
@@ -65,17 +65,6 @@
     "answer": "True"
   },
   {
-    "type": "MCQ",
-    "question": "What is phishing? / ما هو التصيّد؟",
-    "options": [
-      "A kind of fish / نوع من الأسماك",
-      "A game on the internet / لعبة على الإنترنت",
-      "A trick to steal your information / خدعة لسرقة معلوماتك",
-      "An app to watch videos / تطبيق لمشاهدة الفيديوهات"
-    ],
-    "answer": "A trick to steal your information / خدعة لسرقة معلوماتك"
-  },
-  {
     "type": "TF",
     "question": "Encryption helps protect private information online. / يساعد التشفير في حماية المعلومات الخاصة على الإنترنت.",
     "answer": "True"
@@ -90,7 +79,7 @@
     "question": "What does encryption do? / ماذا يفعل التشفير؟",
     "options": [
       "Deletes messages / يحذف الرسائل",
-      "Changes photos / يغير الصور",
+      "Changes texts to photos / يحول النصوص الى صور",
       "Makes messages secret / يجعل الرسائل سرية",
       "Draws emojis / يرسم رموز تعبيرية"
     ],
@@ -103,7 +92,7 @@
       "http://example.com",
       "ftp://example.com",
       "https://example.com",
-      "www.example.com"
+      "http://www.example.com"
     ],
     "answer": "https://example.com"
   }
