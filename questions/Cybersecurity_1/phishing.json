@@ -54,11 +54,6 @@
     "answer": "A fake Instagram login page – صفحة تسجيل دخول وهمية لإنستغرام"
   },
   {
-    "type": "TF",
-    "question": "Phishing is illegal and dangerous – التصيد غير قانوني وخطير",
-    "answer": "true"
-  },
-  {
     "type": "MCQ",
     "question": "Phishing pages usually look – صفحات التصيد عادةً ما تبدو",
     "options": [
