@@ -39,7 +39,7 @@
   },
   {
     "type": "MCQ",
-    "question": "Which of the following is used to edit text files in Linux? / أي من التالي يُستخدم لتحرير الملفات النصية في لينكس؟",
+    "question": "Which of the following is used to edit text files in Linux? / أي من التالي يُستخدم لتعديل الملفات النصية في لينكس؟",
     "options": [
       "cd",
       "nano",
@@ -102,21 +102,10 @@
     "options": [
       "Guessing randomly / التخمين العشوائي",
       "Taking screenshots / التقاط لقطات شاشة",
-      "Gathering information, finding vulnerabilities, exploiting, covering tracks / جمع المعلومات، إيجاد الثغرات، الاستغلال، محو الأثر",
+      "finding vulnerabilities / إيجاد الثغرات",
       "Opening games / فتح الألعاب"
     ],
-    "answer": "Gathering information, finding vulnerabilities, exploiting, covering tracks / جمع المعلومات، إيجاد الثغرات، الاستغلال، محو الأثر"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is the purpose of 'cat' command in Linux? / ما هو الغرض من أمر 'cat' في لينكس؟",
-    "options": [
-      "Change directory / تغيير المجلد",
-      "Concatenate and show file content / دمج الملفات وعرض محتواها",
-      "Delete files / حذف الملفات",
-      "Check battery / التحقق من البطارية"
-    ],
-    "answer": "Concatenate and show file content / دمج الملفات وعرض محتواها"
+    "answer": "finding vulnerabilities / إيجاد الثغرات"
   },
   {
     "type": "TF",
