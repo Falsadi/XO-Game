@@ -15,7 +15,7 @@
     "question": "Which of these is okay to share online? / ما هو الآمن مشاركته عبر الإنترنت؟",
     "options": [
       "Your address / عنوانك",
-      "Your school name / اسم مدرستك",
+      "Your birthday date / تاريخ ميلادك",
       "Your password / كلمة مرورك",
       "Your favorite color / لونك المفضل"
     ],
@@ -76,17 +76,6 @@
   },
   {
     "type": "MCQ",
-    "question": "Which of these is a cyberbullying example? / أي من هذه يعتبر تنمراً إلكترونياً؟",
-    "options": [
-      "Sending kind messages / إرسال رسائل لطيفة",
-      "Helping in games / المساعدة في الألعاب",
-      "Making fun of someone online / السخرية من شخص على الإنترنت",
-      "Studying together / الدراسة معاً"
-    ],
-    "answer": "Making fun of someone online / السخرية من شخص على الإنترنت"
-  },
-  {
-    "type": "MCQ",
     "question": "What is two-factor authentication? / ما هو التحقق بخطوتين؟",
     "options": [
       "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
@@ -103,7 +92,7 @@
       "http://example.com",
       "ftp://example.com",
       "https://example.com",
-      "www.example.com"
+      "http://www.example.com"
     ],
     "answer": "https://example.com"
   },
@@ -151,17 +140,17 @@
     ],
     "answer": "No, they might contain viruses / لا، قد تحتوي على فيروسات"
   },
-  {
-    "type": "MCQ",
-    "question": "What should you do before downloading anything online? / ماذا يجب أن تفعل قبل تحميل أي شيء من الإنترنت؟",
-    "options": [
-      "Ask a parent or teacher / تسأل أحد الوالدين أو المعلم",
-      "Just click download / تضغط تحميل فوراً",
-      "Ignore and move on / تتجاهل وتتابع",
-      "Search for more games / تبحث عن ألعاب أكثر"
-    ],
-    "answer": "Ask a parent or teacher / تسأل أحد الوالدين أو المعلم"
-  },
+{
+  "type": "MCQ",
+  "question": "What should you do before downloading anything online? / ماذا يجب أن تفعل قبل تحميل أي شيء من الإنترنت؟",
+  "options": [
+    "Check the website’s reputation / التحقق من سمعة الموقع",
+    "Download it quickly before it disappears / تحميله بسرعة قبل أن يختفي",
+    "Click the biggest download button / النقر على أكبر زر تحميل",
+    "Ignore the warning messages / تجاهل رسائل التحذير"
+  ],
+  "answer": "Check the website’s reputation / التحقق من سمعة الموقع"
+},
   {
     "type": "MCQ",
     "question": "Why are trusted websites safer? / لماذا تعتبر المواقع الموثوقة أكثر أماناً؟",
