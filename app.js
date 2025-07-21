@@ -112,7 +112,7 @@ function showQuestion(cellIndex) {
 }
 
 function startTimer() {
-  timeLeft = 30;
+  timeLeft = 15;
   timerDisplay.textContent = `Time Left: ${timeLeft}`;
   clearInterval(countdown);
   countdown = setInterval(() => {
