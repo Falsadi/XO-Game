@@ -56,3 +56,6 @@
     background-color: #218838;
     transform: scale(1.05);
 }
+footer{
+ display: none;
+} 
