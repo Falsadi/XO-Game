@@ -17,3 +17,6 @@ body {
     width: 90%;
     margin-top: 7rem;
 }
+footer{
+ display: none;
+} 
