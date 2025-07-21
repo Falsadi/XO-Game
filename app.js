@@ -9,7 +9,7 @@ const resetButton = document.getElementById('reset');
 const currentPlayerElement = document.getElementById('current-player');
 
 // Sound effects
-const timerSound = new Audio('sounds/30sec_countdown.mp3');
+const timerSound = new Audio('sounds/15sec_countdown.mp3');
 const wrongAnswerSound = new Audio('sounds/wrong_answer.mp3');
 const correctAnswerSound = new Audio('sounds/correct_answer.mp3');
 const startGameSound = new Audio('sounds/change_player.mp3');
@@ -18,7 +18,7 @@ const gameWinSound = new Audio('sounds/game_win.mp3');
 let currentPlayer = '';
 let gameActive = true;
 let countdown;
-let timeLeft = 30;
+let timeLeft = 15;
 let currentCellIndex = null;
 let questionActive = false;
 let usedIndexes = new Set();
