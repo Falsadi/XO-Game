@@ -155,3 +155,6 @@ body {
     max-width: 500px;
     height: 90%;
 }
+footer{
+ display: none;
+} 
