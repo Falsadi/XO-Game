@@ -93,3 +93,6 @@ footer p:before {
 .hidden {
   display: none;
 }
+footer{
+ display: none;
+} 
