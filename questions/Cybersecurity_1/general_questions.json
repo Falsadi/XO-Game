@@ -3,54 +3,78 @@
     "type": "MCQ",
     "question": "What is phishing? / ما هو التصيّد؟",
     "options": [
-      "A kind of fish / نوع من الأسماك",
-      "A game on the internet / لعبة على الإنترنت",
-      "A trick to steal your information / خدعة لسرقة معلوماتك",
-      "An app to watch videos / تطبيق لمشاهدة الفيديوهات"
+      "A kind of virus / نوع من الفيروسات",
+      "A hacking tool / أداة اختراق",
+      "A cyber attack / هجوم إلكتروني",
+      "A cybersecurity tool / أداة للأمن السيبراني"
     ],
-    "answer": "A trick to steal your information / خدعة لسرقة معلوماتك"
+    "answer": "A cyber attack / هجوم إلكتروني"
   },
   {
     "type": "MCQ",
-    "question": "Which of these is okay to share online? / ما هو الآمن مشاركته عبر الإنترنت؟",
+    "question": "How do we get hacked? / كيف يتم اختراقنا؟",
     "options": [
-      "Your address / عنوانك",
-      "Your birthday date / تاريخ ميلادك",
-      "Your password / كلمة مرورك",
-      "Your favorite color / لونك المفضل"
+      "Download games from untrusted sources / تنزيل الألعاب من مصادر غير موثوقة",
+      "Download apps from random websites / تنزيل تطبيقات من مواقع عشوائية",
+      "Having weak passwords / امتلاك كلمات مرور ضعيفة",
+      "All of the above / جميع ما سبق"
     ],
-    "answer": "Your favorite color / لونك المفضل"
+    "answer": "All of the above / جميع ما سبق"
   },
   {
     "type": "MCQ",
-    "question": "How do hackers usually trick people online? / كيف يخدع الهاكرز الناس على الإنترنت؟",
+    "question": "What is the first thing to do after our device gets hacked? / ما أول شيء يجب فعله بعد اختراق جهازنا؟",
     "options": [
-      "By sending nice messages / إرسال رسائل لطيفة",
-      "By sending fake links / إرسال روابط مزيفة",
-      "By playing games / لعب الألعاب",
-      "By helping with homework / المساعدة في الواجب"
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Call the police / الاتصال بالشرطة",
+      "Format the device / تهيئة الجهاز"
     ],
-    "answer": "By sending fake links / إرسال روابط مزيفة"
+    "answer": "Disconnect from the internet / فصل الاتصال بالإنترنت"
   },
   {
     "type": "MCQ",
-    "question": "Which one is a good password? / أي من هذه كلمات مرور قوية؟",
+    "question": "What is the first thing to do after our social media account gets hacked? / ما أول شيء يجب فعله بعد اختراق حساب التواصل الاجتماعي؟",
     "options": [
-      "Password123",
-      "abcd1234",
-      "MyCatIs#3!",
-      "hello"
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Reset the password / إعادة تعيين كلمة المرور",
+      "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
     ],
-    "answer": "MyCatIs#3!"
+    "answer": "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
   },
   {
     "type": "MCQ",
-    "question": "Is it okay to use the same password everywhere? / هل من الجيد استخدام نفس كلمة المرور في كل مكان؟",
+    "question": "Which one of these is a 100% secure website? / أي من هذه المواقع آمن بنسبة 100٪؟",
     "options": [
-      "Yes / نعم",
-      "No / لا"
+      "http://camelcodeqa.com",
+      "http://camelcoodeqa.com",
+      "https://camelcodeqa.com",
+      "None of the above / لا شيء مما سبق"
     ],
-    "answer": "No / لا"
+    "answer": "None of the above / لا شيء مما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is two-factor authentication? / ما هو التحقق بخطوتين؟",
+    "options": [
+      "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
+      "Using a fingerprint / استخدام بصمة",
+      "Using face ID / استخدام تقنية التعرف على الوجه",
+      "Using OTP / استخدام رمز لمرة واحدة"
+    ],
+    "answer": "Using a password and another step / استخدام كلمة مرور وخطوة إضافية"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the best description of digital footprint? / ما أفضل وصف للبصمة الرقمية؟",
+    "options": [
+      "Hackers tracks after an attack / آثار الهاكر بعد الهجوم",
+      "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت",
+      "Hackers sending fake messages / الهاكر يرسلون رسائل مزيفة",
+      "Blackmailing / الابتزاز الإلكتروني"
+    ],
+    "answer": "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت"
   },
   {
     "type": "MCQ",
@@ -65,101 +89,80 @@
   },
   {
     "type": "MCQ",
-    "question": "What should you do before clicking a link? / ماذا يجب أن تفعل قبل الضغط على رابط؟",
-    "options": [
-      "Check if it looks real / تتأكد أنه يبدو حقيقياً",
-      "Click fast / تضغط بسرعة",
-      "Share it with friends / تشاركه مع الأصدقاء",
-      "Ignore it / تتجاهله"
-    ],
-    "answer": "Check if it looks real / تتأكد أنه يبدو حقيقياً"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is two-factor authentication? / ما هو التحقق بخطوتين؟",
-    "options": [
-      "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
-      "Using only a fingerprint / استخدام بصمة فقط",
-      "Using only face ID / استخدام تقنية التعرف على الوجه فقط",
-      "Using your pet’s name / استخدام اسم الحيوان الأليف"
-    ],
-    "answer": "Using a password and another step / استخدام كلمة مرور وخطوة إضافية"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is a secure website URL? / ما هو رابط الموقع الآمن؟",
-    "options": [
-      "http://example.com",
-      "ftp://example.com",
-      "https://example.com",
-      "http://www.example.com"
-    ],
-    "answer": "https://example.com"
-  },
-  {
-    "type": "MCQ",
-    "question": "Why is it bad to click unknown links? / لماذا من السيء الضغط على روابط غير معروفة؟",
-    "options": [
-      "They make your computer faster / تجعل جهازك أسرع",
-      "They could install viruses / قد تثبت فيروسات",
-      "They help you save money / تساعدك على التوفير",
-      "They change your wallpaper / تغير خلفية الشاشة"
-    ],
-    "answer": "They could install viruses / قد تثبت فيروسات"
-  },
-  {
-    "type": "MCQ",
-    "question": "What is a digital footprint? / ما هو الأثر الرقمي؟",
-    "options": [
-      "A new phone / هاتف جديد",
-      "Your online activity history / سجل نشاطك على الإنترنت",
-      "Your keyboard / لوحة المفاتيح",
-      "Your photo / صورتك"
-    ],
-    "answer": "Your online activity history / سجل نشاطك على الإنترنت"
-  },
-  {
-    "type": "MCQ",
-    "question": "What can happen if you download something from an untrusted source? / ماذا يمكن أن يحدث إذا حملت شيئًا من مصدر غير موثوق؟",
-    "options": [
-      "Nothing / لا شيء",
-      "Your device might get a virus / قد يصاب جهازك بفيروس",
-      "It helps your computer / يساعد جهازك",
-      "You get free money / تحصل على أموال مجانية"
-    ],
-    "answer": "Your device might get a virus / قد يصاب جهازك بفيروس"
-  },
-  {
-    "type": "MCQ",
-    "question": "Is it okay to open attachments from unknown emails? / هل من الجيد فتح المرفقات من رسائل غير معروفة؟",
+    "question": "Is this a weak password? FarhanAlsaadi1107$ / هل هذه كلمة مرور ضعيفة؟",
     "options": [
       "Yes / نعم",
-      "Only if they look interesting / فقط إذا كانت تبدو ممتعة",
-      "No, they might contain viruses / لا، قد تحتوي على فيروسات",
-      "If they say it's a prize / إذا قالوا إنها جائزة"
+      "No / لا"
     ],
-    "answer": "No, they might contain viruses / لا، قد تحتوي على فيروسات"
+    "answer": "Yes / نعم"
   },
-{
-  "type": "MCQ",
-  "question": "What should you do before downloading anything online? / ماذا يجب أن تفعل قبل تحميل أي شيء من الإنترنت؟",
-  "options": [
-    "Check the website’s reputation / التحقق من سمعة الموقع",
-    "Download it quickly before it disappears / تحميله بسرعة قبل أن يختفي",
-    "Click the biggest download button / النقر على أكبر زر تحميل",
-    "Ignore the warning messages / تجاهل رسائل التحذير"
-  ],
-  "answer": "Check the website’s reputation / التحقق من سمعة الموقع"
-},
   {
     "type": "MCQ",
-    "question": "Why are trusted websites safer? / لماذا تعتبر المواقع الموثوقة أكثر أماناً؟",
+    "question": "Is this a weak password? 1qaz2wsx3edc / هل هذه كلمة مرور ضعيفة؟",
     "options": [
-      "Because they are colorful / لأنها ملونة",
-      "Because they are from real companies / لأنها من شركات حقيقية",
-      "Because they have many ads / لأنها تحتوي على إعلانات كثيرة",
-      "Because they offer free stuff / لأنها تقدم أشياء مجانية"
+      "Yes / نعم",
+      "No / لا"
     ],
-    "answer": "Because they are from real companies / لأنها من شركات حقيقية"
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? 123456qwerty / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? Xsd23&xc$ / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Deleting messages will make them permanently deleted? / هل حذف الرسائل يجعلها تُحذف نهائيًا؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which website is legit? / أي موقع من التالي حقيقي؟",
+    "options": [
+      "https://rnicrosoft.com",
+      "http://microsoft.com",
+      "https://microsuft.com",
+      "https://microsoft.com"
+    ],
+    "answer": "https://microsoft.com"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to check if your password is strong? / كيف تتحقق إذا كانت كلمة مرورك قوية؟",
+    "options": [
+      "Use password checker websites / استخدم مواقع فحص كلمات المرور",
+      "Use password checker app / استخدم تطبيق لفحص كلمات المرور",
+      "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا",
+      "Check if it has one upper case, one lower case, and one special character / تحقق من وجود حرف كبير وصغير ورمز خاص"
+    ],
+    "answer": "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to secure our accounts? / كيف نحمي حساباتنا؟",
+    "options": [
+      "Having strong password only / استخدام كلمة مرور قوية فقط",
+      "Having the same strong password for all accounts / استخدام نفس الكلمة لجميع الحسابات",
+      "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب",
+      "Having a long password / امتلاك كلمة مرور طويلة"
+    ],
+    "answer": "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب"
   }
 ]
