@@ -1,6 +1,6 @@
 {
   "Cybersecurity_1": ["cyber", "encryption", "hidden_pages", "phishing", "guessing_passwords", "attacks", "MFA", "CSYC"],
-  "Cybersecurity_2": ["IDOR"],
+  "Cybersecurity_2": ["general_questions"],
   "Robotics": ["sensors", "motors", "navigation"],
   "Game_Design_1": ["what_is_programming", "loops", "if-else", "variables", "design_thinking"]
 }
