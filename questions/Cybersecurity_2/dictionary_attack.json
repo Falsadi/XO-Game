@@ -2,6 +2,55 @@
 [
   {
     "type": "MCQ",
+    "question": "How to guess the victim’s password faster? / كيف نخمن كلمة مرور الضحية بشكل أسرع؟",
+    "options": [
+      "Try all possible passwords / تجربة جميع كلمات المرور الممكنة",
+      "Make a custom passwords file based on his personal data / إنشاء ملف كلمات مخصص بناءً على بياناته الشخصية",
+      "Try all leaked passwords / تجربة جميع كلمات المرور المسربة",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Make a custom passwords file based on his personal data / إنشاء ملف كلمات مخصص بناءً على بياناته الشخصية"
+  },
+  {
+    "type": "MCQ",
+    "question": "Does a dictionary attack guarantee getting the victim’s password? / هل يضمن هجوم القاموس الحصول على كلمة مرور الضحية؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to protect from dictionary attacks? / كيف نحمي أنفسنا من هجمات القاموس؟",
+    "options": [
+      "Have a strong password / امتلاك كلمة مرور قوية",
+      "Change the password frequently / تغيير كلمة المرور بشكل متكرر",
+      "Have MFA applied / تفعيل التحقق بخطوتين",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "If I have a very strong password does it 100% make me secure? / إذا كانت لدي كلمة مرور قوية جدًا هل تجعلني آمنًا بنسبة 100٪؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is it safe to use my personal data in the password? / هل من الآمن استخدام بياناتي الشخصية في كلمة المرور؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
     "question": "What is phishing? / ما هو التصيّد؟",
     "options": [
       "A cybersecurity tool / أداة للأمن السيبراني",
