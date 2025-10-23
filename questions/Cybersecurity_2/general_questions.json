@@ -1,0 +1,168 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What is phishing? / ما هو التصيّد؟",
+    "options": [
+      "A kind of virus / نوع من الفيروسات",
+      "A hacking tool / أداة اختراق",
+      "A cyber attack / هجوم إلكتروني",
+      "A cybersecurity tool / أداة للأمن السيبراني"
+    ],
+    "answer": "A cyber attack / هجوم إلكتروني"
+  },
+  {
+    "type": "MCQ",
+    "question": "How do we get hacked? / كيف يتم اختراقنا؟",
+    "options": [
+      "Download games from untrusted sources / تنزيل الألعاب من مصادر غير موثوقة",
+      "Download apps from random websites / تنزيل تطبيقات من مواقع عشوائية",
+      "Having weak passwords / امتلاك كلمات مرور ضعيفة",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first thing to do after our device gets hacked? / ما أول شيء يجب فعله بعد اختراق جهازنا؟",
+    "options": [
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Call the police / الاتصال بالشرطة",
+      "Format the device / تهيئة الجهاز"
+    ],
+    "answer": "Disconnect from the internet / فصل الاتصال بالإنترنت"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first thing to do after our social media account gets hacked? / ما أول شيء يجب فعله بعد اختراق حساب التواصل الاجتماعي؟",
+    "options": [
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Reset the password / إعادة تعيين كلمة المرور",
+      "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
+    ],
+    "answer": "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which one of these is a 100% secure website? / أي من هذه المواقع آمن بنسبة 100٪؟",
+    "options": [
+      "http://camelcodeqa.com",
+      "http://camelcoodeqa.com",
+      "https://camelcodeqa.com",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "None of the above / لا شيء مما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is two-factor authentication? / ما هو التحقق بخطوتين؟",
+    "options": [
+      "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
+      "Using a fingerprint / استخدام بصمة",
+      "Using face ID / استخدام تقنية التعرف على الوجه",
+      "Using OTP / استخدام رمز لمرة واحدة"
+    ],
+    "answer": "Using a password and another step / استخدام كلمة مرور وخطوة إضافية"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the best description of digital footprint? / ما أفضل وصف للبصمة الرقمية؟",
+    "options": [
+      "Hackers tracks after an attack / آثار الهاكر بعد الهجوم",
+      "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت",
+      "Hackers sending fake messages / الهاكر يرسلون رسائل مزيفة",
+      "Blackmailing / الابتزاز الإلكتروني"
+    ],
+    "answer": "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does encryption do? / ماذا يفعل التشفير؟",
+    "options": [
+      "Deletes messages / يحذف الرسائل",
+      "Changes photos / يغير الصور",
+      "Makes messages secret / يجعل الرسائل سرية",
+      "Draws emojis / يرسم رموز تعبيرية"
+    ],
+    "answer": "Makes messages secret / يجعل الرسائل سرية"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? FarhanAlsaadi1107$ / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? 1qaz2wsx3edc / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? 123456qwerty / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? Xsd23&xc$ / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Deleting messages will make them permanently deleted? / هل حذف الرسائل يجعلها تُحذف نهائيًا؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which website is legit? / أي موقع من التالي حقيقي؟",
+    "options": [
+      "https://rnicrosoft.com",
+      "http://microsoft.com",
+      "https://microsuft.com",
+      "https://microsoft.com"
+    ],
+    "answer": "https://microsoft.com"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to check if your password is strong? / كيف تتحقق إذا كانت كلمة مرورك قوية؟",
+    "options": [
+      "Use password checker websites / استخدم مواقع فحص كلمات المرور",
+      "Use password checker app / استخدم تطبيق لفحص كلمات المرور",
+      "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا",
+      "Check if it has one upper case, one lower case, and one special character / تحقق من وجود حرف كبير وصغير ورمز خاص"
+    ],
+    "answer": "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to secure our accounts? / كيف نحمي حساباتنا؟",
+    "options": [
+      "Having strong password only / استخدام كلمة مرور قوية فقط",
+      "Having the same strong password for all accounts / استخدام نفس الكلمة لجميع الحسابات",
+      "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب",
+      "Having a long password / امتلاك كلمة مرور طويلة"
+    ],
+    "answer": "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب"
+  }
+]
