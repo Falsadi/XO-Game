@@ -2,6 +2,134 @@
 [
   {
     "type": "MCQ",
+    "question": "Which option is true about website page source? / أي من الخيارات التالية صحيحة حول كود صفحة الموقع (Page Source)؟",
+    "options": [
+      "It is the code written to make the website / هو الكود المكتوب لإنشاء الموقع",
+      "It is the visual appearance of the website / هو الشكل المرئي للموقع",
+      "The page source is something unnecessary for the website / كود الصفحة غير ضروري للموقع",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "It is the code written to make the website / هو الكود المكتوب لإنشاء الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can be found in the page source? / ماذا يمكن أن نجد في كود صفحة الموقع؟",
+    "options": [
+      "The code used to have images in the website / الكود المستخدم لإضافة الصور في الموقع",
+      "The code used to have text in the website / الكود المستخدم لإضافة النصوص في الموقع",
+      "Some comments that might contain sensitive information / بعض التعليقات التي قد تحتوي على معلومات حساسة",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <img>? / ماذا يفعل هذا الكود <img>؟",
+    "options": [
+      "Include a video in the website / يضيف فيديو في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include an image in the website / يضيف صورة في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <!-- -->? / ماذا يفعل هذا الكود <!-- -->؟",
+    "options": [
+      "Include a video in the website / يضيف فيديو في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a comment in the website / يضيف تعليقًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <a>? / ماذا يفعل هذا الكود <a>؟",
+    "options": [
+      "Include a link in the website / يضيف رابطًا في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a link in the website / يضيف رابطًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <h1>? / ماذا يفعل هذا الكود <h1>؟",
+    "options": [
+      "Include a link in the website / يضيف رابطًا في الموقع",
+      "Include a title in the website / يضيف عنوانًا في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a title in the website / يضيف عنوانًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What kind of information is valuable to be gathered about someone? / ما نوع المعلومات التي تعتبر ذات قيمة عند جمعها عن شخص ما؟",
+    "options": [
+      "Address / العنوان",
+      "DoB / تاريخ الميلاد",
+      "Full name / الاسم الكامل",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does the server do? / ماذا يفعل الخادم (السيرفر)؟",
+    "options": [
+      "Call the client to get website files / يستدعي العميل للحصول على ملفات الموقع",
+      "Respond to the client with the website files / يرد على العميل بملفات الموقع",
+      "Create games / ينشئ ألعابًا",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Respond to the client with the website files / يرد على العميل بملفات الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "How can we connect to the server? / كيف يمكننا الاتصال بالخادم؟",
+    "options": [
+      "Using hydra (a brute-force tool) / باستخدام hydra (أداة لكسر كلمات المرور)",
+      "Using ssh (secure shell) / باستخدام ssh (قشرة آمنة)",
+      "Using gobuster (directory discovery) / باستخدام gobuster (اكتشاف المجلدات)",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "Using ssh (secure shell) / باستخدام ssh (قشرة آمنة)"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can be found in the server? / ماذا يمكن أن نجِد في السيرفر؟",
+    "options": [
+      "Website files and folders / ملفات ومجلدات الموقع",
+      "Sensitive files about the website company / ملفات حساسة عن شركة الموقع",
+      "Just random data / بيانات عشوائية فقط",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Website files and folders / ملفات ومجلدات الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "Can we change the website content if we accessed the website server? / هل يمكننا تغيير محتوى الموقع إذا تمكنا من الوصول إلى سيرفر الموقع؟",
+    "options": [
+      "Yes (if you have write access) / نعم (إذا كان لديك صلاحية الكتابة)",
+      "No / لا"
+    ],
+    "answer": "Yes (if you have write access) / نعم (إذا كان لديك صلاحية الكتابة)"
+  },
+  {
+    "type": "MCQ",
+    "question": "Can we take down the website after accessing the server? / هل يمكننا إسقاط الموقع بعد الوصول إلى السيرفر؟",
+    "options": [
+      "Yes (if you control the server or services) / نعم (إذا تحكمت بالخادم أو بالخدمات)",
+      "No / لا"
+    ],
+    "answer": "Yes (if you control the server or services) / نعم (إذا تحكمت بالخادم أو بالخدمات)"
+  },
+  {
+    "type": "MCQ",
     "question": "How to guess the victim’s password faster? / كيف نخمن كلمة مرور الضحية بشكل أسرع؟",
     "options": [
       "Try all possible passwords / تجربة جميع كلمات المرور الممكنة",
