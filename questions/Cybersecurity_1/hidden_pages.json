@@ -3,12 +3,12 @@
     "type": "MCQ",
     "question": "Which of the following is a way hackers find hidden web pages? / أي من التالي يستخدمه المخترقون لاكتشاف الصفحات المخفية؟",
     "options": [
-      "Playing games / لعب الألعاب",
+      "B and C",
       "Using a tool like Gobuster / استخدام أداة مثل Gobuster",
       "Making random websites / إنشاء مواقع عشوائية",
       "Guessing URLs by hand / تخمين الروابط يدويًا"
     ],
-    "answer": "Using a tool like Gobuster / استخدام أداة مثل Gobuster"
+    "answer": "B and C"
   },
   {
     "type": "MCQ",
