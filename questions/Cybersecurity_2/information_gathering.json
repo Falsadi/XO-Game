@@ -1,0 +1,470 @@
+[
+  {
+    "type": "MCQ",
+    "question": "Which option is true about website page source? / أي من الخيارات التالية صحيحة حول كود صفحة الموقع (Page Source)؟",
+    "options": [
+      "It is the code written to make the website / هو الكود المكتوب لإنشاء الموقع",
+      "It is the visual appearance of the website / هو الشكل المرئي للموقع",
+      "The page source is something unnecessary for the website / كود الصفحة غير ضروري للموقع",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "It is the code written to make the website / هو الكود المكتوب لإنشاء الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What can be found in the page source? / ماذا يمكن أن نجد في كود صفحة الموقع؟",
+    "options": [
+      "The code used to have images in the website / الكود المستخدم لإضافة الصور في الموقع",
+      "The code used to have text in the website / الكود المستخدم لإضافة النصوص في الموقع",
+      "Some comments that might contain sensitive information / بعض التعليقات التي قد تحتوي على معلومات حساسة",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <img>? / ماذا يفعل هذا الكود <img>؟",
+    "options": [
+      "Include a video in the website / يضيف فيديو في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include an image in the website / يضيف صورة في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <!-- -->? / ماذا يفعل هذا الكود <!-- -->؟",
+    "options": [
+      "Include a video in the website / يضيف فيديو في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a comment in the website / يضيف تعليقًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <a>? / ماذا يفعل هذا الكود <a>؟",
+    "options": [
+      "Include a link in the website / يضيف رابطًا في الموقع",
+      "Include an image in the website / يضيف صورة في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a link in the website / يضيف رابطًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this code do <h1>? / ماذا يفعل هذا الكود <h1>؟",
+    "options": [
+      "Include a link in the website / يضيف رابطًا في الموقع",
+      "Include a title in the website / يضيف عنوانًا في الموقع",
+      "Include a comment in the website / يضيف تعليقًا في الموقع",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Include a title in the website / يضيف عنوانًا في الموقع"
+  },
+  {
+    "type": "MCQ",
+    "question": "What kind of information is valuable to be gathered about someone? / ما نوع المعلومات التي تعتبر ذات قيمة عند جمعها عن شخص ما؟",
+    "options": [
+      "Address / العنوان",
+      "DoB / تاريخ الميلاد",
+      "Full name / الاسم الكامل",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is phishing? / ما هو التصيّد؟",
+    "options": [
+      "A cybersecurity tool / أداة للأمن السيبراني",
+      "A cyber attack / هجوم إلكتروني",
+      "A virus / فيروس",
+      "A malicious software / برنامج خبيث"
+    ],
+    "answer": "A cyber attack / هجوم إلكتروني"
+  },
+  {
+    "type": "MCQ",
+    "question": "How do we know if the message is a phishing message? / كيف نعرف أن الرسالة تصيّد؟",
+    "options": [
+      "Contains language and grammar mistakes / تحتوي على أخطاء لغوية ونحوية",
+      "Has generic greetings / تحتوي على تحية عامة مثل (عزيزي المستخدم)",
+      "Offer free vouchers or gifts / تقدم قسائم أو هدايا مجانية",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "How do we secure ourselves from phishing attacks? / كيف نحمي أنفسنا من هجمات التصيّد؟",
+    "options": [
+      "Having a strong password / امتلاك كلمة مرور قوية",
+      "Apply MFA / تفعيل التحقق بخطوتين",
+      "Having a weak password / امتلاك كلمة مرور ضعيفة",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "Apply MFA / تفعيل التحقق بخطوتين"
+  },
+  {
+    "type": "MCQ",
+    "question": "How do we secure ourselves from phishing attacks? / كيف نحمي أنفسنا من هجمات التصيّد؟",
+    "options": [
+      "Avoid clicking on suspicious links / تجنب النقر على الروابط المشبوهة",
+      "Check the sender identity / التحقق من هوية المرسل",
+      "Not accepting any voucher or free gifts from unknown parties / عدم قبول أي قسائم أو هدايا من جهات غير معروفة",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "Phishing can be performed through / يمكن تنفيذ التصيّد من خلال",
+    "options": [
+      "SMS / الرسائل النصية",
+      "Emails / البريد الإلكتروني",
+      "Phone calls / المكالمات الهاتفية",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is it ok to download attachments from unknown emails? / هل من الآمن تنزيل المرفقات من رسائل غير معروفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these helps protect against phishing? / أي من هذه يساعد في الحماية من التصيُّد؟",
+    "options": [
+      "Using the same password for all sites / استخدام نفس كلمة المرور في كل المواقع",
+      "Enabling two-factor authentication (2FA) / تفعيل التحقق بخطوتين (2FA)",
+      "Clicking every email link to check legitimacy / النقر على كل رابط في البريد للتحقق",
+      "Installing any random browser extension / تثبيت أي إضافة متصفح عشوائية"
+    ],
+    "answer": "Enabling two-factor authentication (2FA) / تفعيل التحقق بخطوتين (2FA)"
+  },
+  {
+    "type": "MCQ",
+    "question": "What to do if you shared your password in a phishing email accidentally? / ماذا تفعل إذا شاركت كلمة مرورك بالخطأ في بريد تصيّد؟",
+    "options": [
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password immediately / تغيير كلمة المرور فورًا",
+      "Apply MFA / تفعيل التحقق بخطوتين",
+      "B and C / الخياران ب و ج"
+    ],
+    "answer": "B and C / الخياران ب و ج"
+  },
+   {
+    "type": "MCQ",
+    "question": "What does this command “ls” do? / ماذا يفعل الأمر “ls”؟",
+    "options": [
+      "Create a new file / إنشاء ملف جديد",
+      "Create a new folder / إنشاء مجلد جديد",
+      "Take us to a different folder / ينقلنا إلى مجلد آخر",
+      "List all files and folders / يعرض جميع الملفات والمجلدات"
+    ],
+    "answer": "List all files and folders / يعرض جميع الملفات والمجلدات"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this command “cd” do? / ماذا يفعل الأمر “cd”؟",
+    "options": [
+      "Create a new file / إنشاء ملف جديد",
+      "Create a new folder / إنشاء مجلد جديد",
+      "Take us to a different folder / ينقلنا إلى مجلد آخر",
+      "List all files and folders / يعرض جميع الملفات والمجلدات"
+    ],
+    "answer": "Take us to a different folder / ينقلنا إلى مجلد آخر"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this command “nano” do? / ماذا يفعل الأمر “nano”؟",
+    "options": [
+      "Create a new file or open an existing file / إنشاء ملف جديد أو فتح ملف موجود",
+      "Create a new folder / إنشاء مجلد جديد",
+      "Take us to a different folder / ينقلنا إلى مجلد آخر",
+      "List all files and folders / يعرض جميع الملفات والمجلدات"
+    ],
+    "answer": "Create a new file or open an existing file / إنشاء ملف جديد أو فتح ملف موجود"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this command do “nano Farhan.txt”? / ماذا يفعل الأمر “nano Farhan.txt”؟",
+    "options": [
+      "Create a folder called Farhan.txt / إنشاء مجلد باسم Farhan.txt",
+      "Delete a file called Farhan.txt / حذف ملف باسم Farhan.txt",
+      "Create a file called Farhan.txt / إنشاء ملف باسم Farhan.txt",
+      "Filename isn’t valid / اسم الملف غير صالح"
+    ],
+    "answer": "Create a file called Farhan.txt / إنشاء ملف باسم Farhan.txt"
+  },
+  {
+    "type": "MCQ",
+    "question": "Can we use nano to create a folder? / هل يمكننا استخدام nano لإنشاء مجلد؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this command do “cd /Desktop”? / ماذا يفعل الأمر “cd /Desktop”؟",
+    "options": [
+      "It will take the user to the home folder / سينقل المستخدم إلى المجلد الرئيسي",
+      "It will take the user to the Desktop folder / سينقل المستخدم إلى مجلد سطح المكتب",
+      "It will create a folder called Desktop / سينشئ مجلدًا باسم Desktop",
+      "This command won’t work / هذا الأمر لن يعمل"
+    ],
+    "answer": "It will take the user to the Desktop folder / سينقل المستخدم إلى مجلد سطح المكتب"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does this command do “ls /Downloads”? / ماذا يفعل الأمر “ls /Downloads”؟",
+    "options": [
+      "It will show only files in Downloads folder / سيعرض فقط الملفات داخل مجلد التحميلات",
+      "It will show only folders in Downloads folder / سيعرض فقط المجلدات داخل مجلد التحميلات",
+      "It will show all files and folders in Downloads folder / سيعرض جميع الملفات والمجلدات داخل مجلد التحميلات",
+      "It will show all the files in the device / سيعرض جميع ملفات الجهاز"
+    ],
+    "answer": "It will show all files and folders in Downloads folder / سيعرض جميع الملفات والمجلدات داخل مجلد التحميلات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why do we use terminal instead of GUI? / لماذا نستخدم الطرفية بدلًا من الواجهة الرسومية؟",
+    "options": [
+      "To create files / لإنشاء ملفات",
+      "To create folders / لإنشاء مجلدات",
+      "To do tasks faster / لتنفيذ المهام بسرعة أكبر",
+      "It is simpler than GUI / لأنها أبسط من الواجهة الرسومية"
+    ],
+    "answer": "To do tasks faster / لتنفيذ المهام بسرعة أكبر"
+  },
+  {
+    "type": "MCQ",
+    "question": "Why do we use Kali Linux instead of Windows? / لماذا نستخدم Kali Linux بدلًا من Windows؟",
+    "options": [
+      "It is simpler / لأنه أبسط",
+      "It has a lot of hacking tools / يحتوي على العديد من أدوات الاختراق",
+      "It has a nicer interface / يمتلك واجهة أجمل",
+      "It is expensive / لأنه مكلف"
+    ],
+    "answer": "It has a lot of hacking tools / يحتوي على العديد من أدوات الاختراق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first step in hacking? / ما هي الخطوة الأولى في عملية الاختراق؟",
+    "options": [
+      "Creating a virus / إنشاء فيروس",
+      "Information gathering / جمع المعلومات",
+      "Finding a weakness in the system / اكتشاف ثغرة في النظام",
+      "Taking advantage of a weakness in the system / استغلال الثغرة في النظام"
+    ],
+    "answer": "Information gathering / جمع المعلومات"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the last step in hacking? / ما هي الخطوة الأخيرة في عملية الاختراق؟",
+    "options": [
+      "Hiding or removing tracks / إخفاء أو إزالة الآثار",
+      "Information gathering / جمع المعلومات",
+      "Finding a weakness in the system / اكتشاف ثغرة في النظام",
+      "Taking advantage of a weakness in the system / استغلال الثغرة في النظام"
+    ],
+    "answer": "Hiding or removing tracks / إخفاء أو إزالة الآثار"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the second step in hacking? / ما هي الخطوة الثانية في عملية الاختراق؟",
+    "options": [
+      "Creating a virus / إنشاء فيروس",
+      "Information gathering / جمع المعلومات",
+      "Finding a weakness in the system / اكتشاف ثغرة في النظام",
+      "Taking advantage of a weakness in the system / استغلال الثغرة في النظام"
+    ],
+    "answer": "Finding a weakness in the system / اكتشاف ثغرة في النظام"
+  },
+  {
+    "type": "MCQ",
+    "question": "Does the information gathering step take months in some scenarios? / هل يمكن أن تستغرق مرحلة جمع المعلومات شهورًا في بعض الحالات؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+{
+    "type": "MCQ",
+    "question": "What is phishing? / ما هو التصيّد؟",
+    "options": [
+      "A kind of virus / نوع من الفيروسات",
+      "A hacking tool / أداة اختراق",
+      "A cyber attack / هجوم إلكتروني",
+      "A cybersecurity tool / أداة للأمن السيبراني"
+    ],
+    "answer": "A cyber attack / هجوم إلكتروني"
+  },
+  {
+    "type": "MCQ",
+    "question": "How do we get hacked? / كيف يتم اختراقنا؟",
+    "options": [
+      "Download games from untrusted sources / تنزيل الألعاب من مصادر غير موثوقة",
+      "Download apps from random websites / تنزيل تطبيقات من مواقع عشوائية",
+      "Having weak passwords / امتلاك كلمات مرور ضعيفة",
+      "All of the above / جميع ما سبق"
+    ],
+    "answer": "All of the above / جميع ما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first thing to do after our device gets hacked? / ما أول شيء يجب فعله بعد اختراق جهازنا؟",
+    "options": [
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Call the police / الاتصال بالشرطة",
+      "Format the device / تهيئة الجهاز"
+    ],
+    "answer": "Disconnect from the internet / فصل الاتصال بالإنترنت"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the first thing to do after our social media account gets hacked? / ما أول شيء يجب فعله بعد اختراق حساب التواصل الاجتماعي؟",
+    "options": [
+      "Disconnect from the internet / فصل الاتصال بالإنترنت",
+      "Change the password / تغيير كلمة المرور",
+      "Reset the password / إعادة تعيين كلمة المرور",
+      "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
+    ],
+    "answer": "Reset the password and log out all devices / إعادة تعيين كلمة المرور وتسجيل الخروج من جميع الأجهزة"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which one of these is a 100% secure website? / أي من هذه المواقع آمن بنسبة 100٪؟",
+    "options": [
+      "http://camelcodeqa.com",
+      "http://camelcoodeqa.com",
+      "https://camelcodeqa.com",
+      "None of the above / لا شيء مما سبق"
+    ],
+    "answer": "None of the above / لا شيء مما سبق"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is two-factor authentication? / ما هو التحقق بخطوتين؟",
+    "options": [
+      "Using a password and another step / استخدام كلمة مرور وخطوة إضافية",
+      "Using a fingerprint / استخدام بصمة",
+      "Using face ID / استخدام تقنية التعرف على الوجه",
+      "Using OTP / استخدام رمز لمرة واحدة"
+    ],
+    "answer": "Using a password and another step / استخدام كلمة مرور وخطوة إضافية"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the best description of digital footprint? / ما أفضل وصف للبصمة الرقمية؟",
+    "options": [
+      "Hackers tracks after an attack / آثار الهاكر بعد الهجوم",
+      "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت",
+      "Hackers sending fake messages / الهاكر يرسلون رسائل مزيفة",
+      "Blackmailing / الابتزاز الإلكتروني"
+    ],
+    "answer": "Any activity you do on the internet / أي نشاط تقوم به على الإنترنت"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does encryption do? / ماذا يفعل التشفير؟",
+    "options": [
+      "Deletes messages / يحذف الرسائل",
+      "Changes photos / يغير الصور",
+      "Makes messages secret / يجعل الرسائل سرية",
+      "Draws emojis / يرسم رموز تعبيرية"
+    ],
+    "answer": "Makes messages secret / يجعل الرسائل سرية"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? FarhanAlsaadi1107$ / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? 1qaz2wsx3edc / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? 123456qwerty / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "Yes / نعم"
+  },
+  {
+    "type": "MCQ",
+    "question": "Is this a weak password? Xsd23&xc$ / هل هذه كلمة مرور ضعيفة؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Deleting messages will make them permanently deleted? / هل حذف الرسائل يجعلها تُحذف نهائيًا؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا"
+    ],
+    "answer": "No / لا"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which website is legit? / أي موقع من التالي حقيقي؟",
+    "options": [
+      "https://rnicrosoft.com",
+      "http://microsoft.com",
+      "https://microsuft.com",
+      "https://microsoft.com"
+    ],
+    "answer": "https://microsoft.com"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to check if your password is strong? / كيف تتحقق إذا كانت كلمة مرورك قوية؟",
+    "options": [
+      "Use password checker websites / استخدم مواقع فحص كلمات المرور",
+      "Use password checker app / استخدم تطبيق لفحص كلمات المرور",
+      "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا",
+      "Check if it has one upper case, one lower case, and one special character / تحقق من وجود حرف كبير وصغير ورمز خاص"
+    ],
+    "answer": "Check if it was leaked before / تحقق مما إذا كانت قد تسرّبت سابقًا"
+  },
+  {
+    "type": "MCQ",
+    "question": "How to secure our accounts? / كيف نحمي حساباتنا؟",
+    "options": [
+      "Having strong password only / استخدام كلمة مرور قوية فقط",
+      "Having the same strong password for all accounts / استخدام نفس الكلمة لجميع الحسابات",
+      "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب",
+      "Having a long password / امتلاك كلمة مرور طويلة"
+    ],
+    "answer": "Having a different strong password for each account / استخدام كلمة قوية مختلفة لكل حساب"
+  }
+]
