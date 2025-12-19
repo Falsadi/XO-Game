@@ -1,0 +1,77 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What does object detection allow AI to do? / ماذا يسمح اكتشاف الأشياء للذكاء الاصطناعي أن يفعل؟",
+    "options": [
+      "Recognize and identify objects / التعرف على الأشياء وتحديدها",
+      "Play music / تشغيل الموسيقى",
+      "Print documents / طباعة المستندات",
+      "Send emails / إرسال رسائل البريد الإلكتروني"
+    ],
+    "answer": "Recognize and identify objects / التعرف على الأشياء وتحديدها"
+  },
+  {
+    "type": "TF",
+    "question": "Object detection uses a camera to identify objects / اكتشاف الأشياء يستخدم الكاميرا للتعرف على الأشياء",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which of these can object detection recognize? / أي من هذه يمكن لاكتشاف الأشياء التعرف عليه؟",
+    "options": [
+      "A cat / قطة",
+      "Thoughts / الأفكار",
+      "Dreams / الأحلام",
+      "Feelings / المشاعر"
+    ],
+    "answer": "A cat / قطة"
+  },
+  {
+    "type": "TF",
+    "question": "Object detection can identify multiple objects at the same time / اكتشاف الأشياء يمكنه التعرف على عدة أشياء في نفس الوقت",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What does the 'Start Object Detection' block do? / ماذا يفعل مكعب 'Start Object Detection'؟",
+    "options": [
+      "Stops the program / يوقف البرنامج",
+      "Starts detecting objects / يبدأ اكتشاف الأشياء",
+      "Deletes objects / يحذف الأشياء",
+      "Changes colors / يغير الألوان"
+    ],
+    "answer": "Starts detecting objects / يبدأ اكتشاف الأشياء"
+  },
+  {
+    "type": "TF",
+    "question": "AI needs to be trained with data to detect objects accurately / الذكاء الاصطناعي يحتاج للتدريب بالبيانات لاكتشاف الأشياء بدقة",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "Object detection is used in which of the following? / اكتشاف الأشياء يستخدم في أي من التالي؟",
+    "options": [
+      "Self-driving cars / السيارات ذاتية القيادة",
+      "Cooking food / طهي الطعام",
+      "Writing stories / كتابة القصص",
+      "Sleeping / النوم"
+    ],
+    "answer": "Self-driving cars / السيارات ذاتية القيادة"
+  },
+  {
+    "type": "TF",
+    "question": "Object detection can work in the dark without any light / اكتشاف الأشياء يمكنه العمل في الظلام دون أي ضوء",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What information can object detection provide? / ما المعلومات التي يمكن لاكتشاف الأشياء توفيرها؟",
+    "options": [
+      "Object name and location / اسم الشيء وموقعه",
+      "Object's feelings / مشاعر الشيء",
+      "Object's memories / ذكريات الشيء",
+      "Object's future / مستقبل الشيء"
+    ],
+    "answer": "Object name and location / اسم الشيء وموقعه"
+  }
+]
