@@ -1,0 +1,99 @@
+[
+  {
+    "type": "MCQ",
+    "question": "Which of these devices uses AI at home? / أي من هذه الأجهزة تستخدم الذكاء الاصطناعي في المنزل؟",
+    "options": [
+      "Gas oven / فرن الغاز",
+      "Alexa or Siri",
+      "Mirror / مرآة",
+      "Flashlight / مصباح يدوي"
+    ],
+    "answer": "Alexa or Siri"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which can I share with Artificial Intelligence? / اي من الخيارات التاليه يمكنني مشاركتها مع الذكاء الاصطناعي؟",
+    "options": [
+      "Passwords / كلمات المرور",
+      "Address / العنوان",
+      "Family members names / اسماء افراد الاسره",
+      "Scientific questions / أسئله علميه"
+    ],
+    "answer": "Scientific questions / أسئله علميه"
+  },
+  {
+    "type": "MCQ",
+    "question": "Where does AI get its answers? / من أين يحصل الذكاء الاصطناعي على إجاباته؟",
+    "options": [
+      "From TV / من التلفاز",
+      "Books / الكتب",
+      "From stored data / من البيانات المخزنة",
+      "Humans / الإنسان"
+    ],
+    "answer": "From stored data / من البيانات المخزنة"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is a feature of AI? / ما هي ميزة الذكاء الاصطناعي؟",
+    "options": [
+      "Thinking and learning / التفكير والتعلم",
+      "Cooking / الطبخ",
+      "Handwriting / الكتابة اليدوية",
+      "Flying planes / قيادة الطائرة"
+    ],
+    "answer": "Thinking and learning / التفكير والتعلم"
+  },
+  {
+    "type": "TF",
+    "question": "Is AI always correct? / هل الذكاء الاصطناعي دائمًا على حق؟",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is Artificial Intelligence? / ما هو الذكاء الاصطناعي؟",
+    "options": [
+      "Human robot / انسان الي",
+      "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات",
+      "New language / لغه جديده",
+      "A game / لعبه"
+    ],
+    "answer": "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات"
+  },
+  {
+    "type": "MCQ",
+    "question": "How does Artificial Intelligence learn? / كيف يتعلم الذكاء الاصطناعي؟",
+    "options": [
+      "Playing games / بلعب الألعاب",
+      "Watching movies / بمشاهدة الأفلام",
+      "Listening to music / بالاستماع إلى الموسيقى",
+      "Studying data / بدراسة البيانات"
+    ],
+    "answer": "Studying data / بدراسة البيانات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Can you share your personal photo with Artificial Intelligence? / هل يمكنك مشاركة صورتك الشخصية مع الذكاء الصناعي؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا",
+      "Yes if I was at home / نعم، إذا كنت في المنزل",
+      "Yes if someone told me to do so / فقط إذا طلب مني أحد ذلك"
+    ],
+    "answer": "No / لا"
+  },
+    {
+    "type": "TF",
+    "question": "AI can help us with homework and research / يمكن للذكاء الاصطناعي مساعدتنا في فهم الدروس",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "AI needs data to improve its performance / يحتاج الذكاء الاصطناعي إلى البيانات لتحسين أدائه",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "It is safe to share personal information with AI / من الآمن مشاركة معلومات سكني مع الذكاء الاصطناعي",
+    "answer": "false"
+  }
+]
