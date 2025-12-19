@@ -1,149 +1,99 @@
 [
   {
     "type": "MCQ",
-    "question": "What is programming? / ما هي البرمجة؟",
+    "question": "Which of these devices uses AI at home? / أي من هذه الأجهزة تستخدم الذكاء الاصطناعي في المنزل؟",
     "options": [
-      "Giving instructions / إعطاء تعليمات",
-      "Playing games / لعب الألعاب",
-      "Watching videos / مشاهدة الفيديوهات",
-      "Drawing pictures / رسم الصور"
+      "Gas oven / فرن الغاز",
+      "Alexa or Siri",
+      "Mirror / مرآة",
+      "Flashlight / مصباح يدوي"
     ],
-    "answer": "Giving instructions / إعطاء تعليمات"
+    "answer": "Alexa or Siri"
   },
   {
     "type": "MCQ",
-    "question": "Why do we use programming? / لماذا نستخدم البرمجة؟",
+    "question": "Which can I share with Artificial Intelligence? / اي من الخيارات التاليه يمكنني مشاركتها مع الذكاء الاصطناعي؟",
     "options": [
-      "To move computers / لتحريك الكمبيوتر",
-      "To turn on computers / لتشغيل الكمبيوتر",
-      "To watch cartoons / لمشاهدة الرسوم",
-      "To control computers / للتحكم في الكمبيوتر"
+      "Passwords / كلمات المرور",
+      "Address / العنوان",
+      "Family members names / اسماء افراد الاسره",
+      "Scientific questions / أسئله علميه"
     ],
-    "answer": "To control computers / للتحكم في الكمبيوتر"
+    "answer": "Scientific questions / أسئله علميه"
   },
   {
     "type": "MCQ",
-    "question": "Which is programming? / أي مثال يعبر عن البرمجة؟",
+    "question": "Where does AI get its answers? / من أين يحصل الذكاء الاصطناعي على إجاباته؟",
     "options": [
-      "Turning on a computer / تشغيل الكمبيوتر",
-      "Telling a robot to move / إخبار الروبوت بالتحرك",
-      "Clicking icons / النقر على الرموز",
-      "Typing words / كتابة الكلمات"
+      "From TV / من التلفاز",
+      "Books / الكتب",
+      "From stored data / من البيانات المخزنة",
+      "Humans / الإنسان"
     ],
-    "answer": "Telling a robot to move / إخبار الروبوت بالتحرك"
+    "answer": "From stored data / من البيانات المخزنة"
   },
   {
     "type": "MCQ",
-    "question": "How does a computer follow instructions? / كيف يتبع الكمبيوتر التعليمات؟",
+    "question": "What is a feature of AI? / ما هي ميزة الذكاء الاصطناعي؟",
     "options": [
-      "Randomly / عشوائيًا",
-      "By guessing / بالتخمين",
-      "Step by step / خطوة بخطوة",
-      "Backwards / بالعكس"
+      "Thinking and learning / التفكير والتعلم",
+      "Cooking / الطبخ",
+      "Handwriting / الكتابة اليدوية",
+      "Flying planes / قيادة الطائرة"
     ],
-    "answer": "Step by step / خطوة بخطوة"
-  },
-  {
-    "type": "MCQ",
-    "question": "What if instructions are in the wrong order? / ماذا إذا كانت التعليمات غير مرتبة؟",
-    "options": [
-      "It works fine / يعمل جيدًا",
-      "It stops or fails / يتوقف أو يفشل",
-      "It fixes itself / يصلح نفسه",
-      "Nothing happens / لا يحدث شيء"
-    ],
-    "answer": "It stops or fails / يتوقف أو يفشل"
-  },
-  {
-    "type": "MCQ",
-    "question": "How does a computer know what to do? / كيف يعرف الكمبيوتر ما يفعله؟",
-    "options": [
-      "By learning / بالتعلم",
-      "By guessing / بالتخمين",
-      "By copying / بالنسخ",
-      "By instructions / بالتعليمات"
-    ],
-    "answer": "By instructions / بالتعليمات"
+    "answer": "Thinking and learning / التفكير والتعلم"
   },
   {
     "type": "TF",
-    "question": "Instructions must be given in the correct order / يجب إعطاء التعليمات بالترتيب الصحيح",
+    "question": "Is AI always correct? / هل الذكاء الاصطناعي دائمًا على حق؟",
+    "answer": "false"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is Artificial Intelligence? / ما هو الذكاء الاصطناعي؟",
+    "options": [
+      "Human robot / انسان الي",
+      "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات",
+      "New language / لغه جديده",
+      "A game / لعبه"
+    ],
+    "answer": "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات"
+  },
+  {
+    "type": "MCQ",
+    "question": "How does Artificial Intelligence learn? / كيف يتعلم الذكاء الاصطناعي؟",
+    "options": [
+      "Playing games / بلعب الألعاب",
+      "Watching movies / بمشاهدة الأفلام",
+      "Listening to music / بالاستماع إلى الموسيقى",
+      "Studying data / بدراسة البيانات"
+    ],
+    "answer": "Studying data / بدراسة البيانات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Can you share your personal photo with Artificial Intelligence? / هل يمكنك مشاركة صورتك الشخصية مع الذكاء الصناعي؟",
+    "options": [
+      "Yes / نعم",
+      "No / لا",
+      "Yes if I was at home / نعم، إذا كنت في المنزل",
+      "Yes if someone told me to do so / فقط إذا طلب مني أحد ذلك"
+    ],
+    "answer": "No / لا"
+  },
+    {
+    "type": "TF",
+    "question": "AI can help us with homework and research / يمكن للذكاء الاصطناعي مساعدتنا في فهم الدروس",
     "answer": "true"
   },
   {
     "type": "TF",
-    "question": "Programming is only used by scientists / البرمجة تُستخدم فقط من قبل العلماء",
-    "answer": "false"
-  },
-  {
-    "type": "MCQ",
-    "question": "What does the following block do 'move 10 pixels' ما هو دور مكعب",
-    "options": [
-      "Stops / يوقف الشخصية",
-      "Moves / يحرك الشخصية",
-      "Costume change / يغير شكلها",
-      "Deletes it / يمسحها"
-    ],
-    "answer": "Moves / يحرك الشخصية"
-  },
-  {
-    "type": "MCQ",
-    "question": "Why do we use events? / لماذا نستخدم الأحداث؟",
-    "options": [
-      "Decoration / للزينة",
-      "To take action / لتنفيذ الأوامر",
-      "Change sound / لتغيير الصوت",
-      "Stop game / لإيقاف اللعبة"
-    ],
-    "answer": "To take action / لتنفيذ الأوامر"
-  },
-  {
-    "type": "MCQ",
-    "question": "ما وظيفة مكعب 'What does the following block do 'point towards left edge",
-    "options": [
-      "يغير لون الشخصية – Changes the Actor color",
-      "يجعل الشخصية يواجه اليسار – Turns the Actor to face left",
-      "يجعل الشخصية أسرع – Makes the Actor faster",
-      "يعيد الشخصية للمنزل – Sends the Actor home"
-    ],
-    "answer": "يجعل الشخصية يواجه اليسار – Turns the Actor to face left"
-  },
-  {
-    "type": "MCQ",
-    "question": "Which block detects a key press? / أي مكعب يكتشف ضغط مفتاح؟",
-    "options": [
-      "Repeat 10",
-      "If Touching?",
-      "Change [x] by 10",
-      "When Key Pressed"
-    ],
-    "answer": "When Key Pressed"
+    "question": "AI needs data to improve its performance / يحتاج الذكاء الاصطناعي إلى البيانات لتحسين أدائه",
+    "answer": "true"
   },
   {
     "type": "TF",
-    "question": "Computers can guess what you want them to do / يمكن للكمبيوتر أن يخمن ما تريد أن يفعله",
+    "question": "It is safe to share personal information with AI / من الآمن مشاركة معلومات سكني مع الذكاء الاصطناعي",
     "answer": "false"
-  },
-  {
-    "type": "MCQ",
-    "question": "What happens in a program when the user presses a specific key? / ماذا يحدث في البرنامج عندما يضغط المستخدم على مفتاح معين؟",
-    "options": [
-      "Program repeats forever / يكرر البرنامج للأبد",
-      "Sprite moves randomly / تتحرك الشخصية عشوائيًا",
-      "Takes an action / يقوم بفعل معين",
-      "Game stops / تتوقف اللعبة"
-    ],
-    "answer": "Takes an action / يقوم بفعل معين"
-  },
-  {
-    "type": "MCQ",
-    "question": "Which block makes actor move right when a key is pressed? / أي مكعب يجعل الشخصية تتحرك يمينًا عند الضغط على مفتاح؟",
-    "options": [
-      "Change background",
-      "Forever loop",
-      "Track score",
-      "When Key Pressed Move"
-    ],
-    "answer": "When Key Pressed Move"
   }
 ]
