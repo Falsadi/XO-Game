@@ -1,0 +1,72 @@
+[
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of using the following block 'If/Else' ما هو الغرض من استخدام المكعب التالي",
+    "options": [
+      "To store data / لتخزين البيانات",
+      "To repeat actions / لتكرار الأفعال",
+      "To make decisions / لاتخاذ القرارات",
+      "To create animations / لإنشاء الرسوم المتحركة"
+    ],
+    "answer": "To make decisions / لاتخاذ القرارات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block is used to check conditions? / أي بلوك نستخدم للتأكد من الشروط؟",
+    "options": [
+      "forever",
+      "repeat",
+      "If/Else",
+      "repeat until"
+    ],
+    "answer": "If/Else"
+  },
+  {
+    "type": "MCQ",
+    "question": "AI can detect your hands through / الذكاء الاصطناعي يستطيع تتبع اليد عن طريق",
+    "options": [
+      "Screen / الشاشه",
+      "Camera / كاميرا",
+      "Keyboard / كيبورد",
+      "Mouse / ماوس"
+    ],
+    "answer": "Camera / كاميرا"
+  },
+  {
+    "type": "TF",
+    "question": "Can AI differentiate between right and left hands? / الذكاء الاصطناعي يستطيع التفرقه بين اليد اليمنى و اليسرى",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Hand Detection technology allows the program to recognize hand movement and interact with it without needing a keyboard / تقنية تتبع اليد (Hand Detection) تسمح للبرنامج بالتعرف على حركة اليد والتفاعل معها دون الحاجة إلى لوحة مفاتيح",
+    "answer": "true"
+  },
+  {
+    "type": "TF",
+    "question": "Programming is the foundation of Artificial Intelligence / الذكاء الاصطناعي أساسه البرمجة؟",
+    "answer": "true"
+  },
+  {
+    "type": "MCQ",
+    "question": "What is the purpose of using If/Else? / ما الهدف من استخدام If/Else؟",
+    "options": [
+      "To store data / لتخزين البيانات",
+      "To create animations / لإنشاء الرسوم المتحركة",
+      "To repeat actions / لتكرار الأفعال",
+      "To make decisions / لاتخاذ القرارات"
+    ],
+    "answer": "To make decisions / لاتخاذ القرارات"
+  },
+  {
+    "type": "MCQ",
+    "question": "Which block is used to check conditions? / أي بلوك يستخدم للتأكد من الشروط؟",
+    "options": [
+      "If/Else",
+      "repeat until",
+      "repeat",
+      "forever"
+    ],
+    "answer": "If/Else"
+  }
+]
