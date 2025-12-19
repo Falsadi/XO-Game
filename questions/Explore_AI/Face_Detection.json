@@ -1,99 +1,87 @@
 [
   {
-    "type": "MCQ",
-    "question": "Which of these devices uses AI at home? / أي من هذه الأجهزة تستخدم الذكاء الاصطناعي في المنزل؟",
-    "options": [
-      "Gas oven / فرن الغاز",
-      "Alexa or Siri",
-      "Mirror / مرآة",
-      "Flashlight / مصباح يدوي"
-    ],
-    "answer": "Alexa or Siri"
+    "type": "TF",
+    "question": "The 'show detection' block makes face detection appear / المكعب 'show detection' يجعل تحديد الوجه يظهر؟",
+    "answer": "true"
   },
   {
     "type": "MCQ",
-    "question": "Which can I share with Artificial Intelligence? / اي من الخيارات التاليه يمكنني مشاركتها مع الذكاء الاصطناعي؟",
+    "question": "What is programming? / ما هي البرمجة؟",
     "options": [
-      "Passwords / كلمات المرور",
-      "Address / العنوان",
-      "Family members names / اسماء افراد الاسره",
-      "Scientific questions / أسئله علميه"
+      "A way to give instructions to a computer / طريقة لإعطاء الأوامر للكمبيوتر",
+      "A type of game / نوع من الألعاب",
+      "A tool for drawing / أداة للرسم",
+      "A physical activity / نشاط بدني"
     ],
-    "answer": "Scientific questions / أسئله علميه"
+    "answer": "A way to give instructions to a computer / طريقة لإعطاء الأوامر للكمبيوتر"
   },
   {
     "type": "MCQ",
-    "question": "Where does AI get its answers? / من أين يحصل الذكاء الاصطناعي على إجاباته؟",
+    "question": "What helps us to create AI? / ما اللذي يساعدنا في صناعة الذكاء الاصطناعي؟",
     "options": [
-      "From TV / من التلفاز",
-      "Books / الكتب",
-      "From stored data / من البيانات المخزنة",
-      "Humans / الإنسان"
+      "Camera / كاميرا",
+      "Games / الالعاب",
+      "Phones / الهاتف",
+      "Programming / البرمجه"
     ],
-    "answer": "From stored data / من البيانات المخزنة"
+    "answer": "Programming / البرمجه"
   },
   {
     "type": "MCQ",
-    "question": "What is a feature of AI? / ما هي ميزة الذكاء الاصطناعي؟",
+    "question": "What is the importance of following steps in order? / ما أهمية اتباع الخطوات بالترتيب في البرمجه؟",
     "options": [
-      "Thinking and learning / التفكير والتعلم",
-      "Cooking / الطبخ",
-      "Handwriting / الكتابة اليدوية",
-      "Flying planes / قيادة الطائرة"
+      "To confuse the computer / لإرباك الكمبيوتر",
+      "To make the code look pretty / لجعل الكود يبدو جميلاً",
+      "To ensure the program works correctly / لضمان عمل البرنامج بشكل صحيح",
+      "To finish faster / لإنهاء العمل بسرعة"
     ],
-    "answer": "Thinking and learning / التفكير والتعلم"
+    "answer": "To ensure the program works correctly / لضمان عمل البرنامج بشكل صحيح"
   },
   {
     "type": "TF",
-    "question": "Is AI always correct? / هل الذكاء الاصطناعي دائمًا على حق؟",
+    "question": "The 'Start Face Detection' block makes the program start tracking hands / المكعب 'Start Face Detection' يجعل البرنامج يبدأ تتبع اليد؟",
     "answer": "false"
   },
   {
     "type": "MCQ",
-    "question": "What is Artificial Intelligence? / ما هو الذكاء الاصطناعي؟",
+    "question": "What is a loop in programming? / ما هي الحلقة في البرمجة؟",
     "options": [
-      "Human robot / انسان الي",
-      "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات",
-      "New language / لغه جديده",
-      "A game / لعبه"
+      "Repeating instructions / تكرار التعليمات",
+      "Moving sprites randomly / تحريك الشخصيات عشوائيًا",
+      "Changing backgrounds / تغيير الخلفيات",
+      "Fixing errors / إصلاح الأخطاء"
     ],
-    "answer": "Application learns and takes decisions / برنامج يتعلم ويتخاذ القرارات"
+    "answer": "Repeating instructions / تكرار التعليمات"
   },
   {
     "type": "MCQ",
-    "question": "How does Artificial Intelligence learn? / كيف يتعلم الذكاء الاصطناعي؟",
+    "question": "Which block makes something happen forever? / أي مكعب يجعل الشيء يستمر إلى الأبد؟",
     "options": [
-      "Playing games / بلعب الألعاب",
-      "Watching movies / بمشاهدة الأفلام",
-      "Listening to music / بالاستماع إلى الموسيقى",
-      "Studying data / بدراسة البيانات"
+      "forever",
+      "start face detection",
+      "repeat 10",
+      "repeat until"
     ],
-    "answer": "Studying data / بدراسة البيانات"
+    "answer": "forever"
   },
   {
-    "type": "MCQ",
-    "question": "Can you share your personal photo with Artificial Intelligence? / هل يمكنك مشاركة صورتك الشخصية مع الذكاء الصناعي؟",
-    "options": [
-      "Yes / نعم",
-      "No / لا",
-      "Yes if I was at home / نعم، إذا كنت في المنزل",
-      "Yes if someone told me to do so / فقط إذا طلب مني أحد ذلك"
-    ],
-    "answer": "No / لا"
-  },
-    {
     "type": "TF",
-    "question": "AI can help us with homework and research / يمكن للذكاء الاصطناعي مساعدتنا في فهم الدروس",
+    "question": "A loop must always repeat forever / يجب أن تكرر الحلقة دائمًا إلى الأبد",
+    "answer": "false"
+  },
+  {
+    "type": "TF",
+    "question": "The 'repeat until' loop will stop as soon as the condition becomes true / حلقة 'تكرار حتى' تتوقف بمجرد أن تصبح الحالة صحيحة",
     "answer": "true"
   },
   {
     "type": "TF",
-    "question": "AI needs data to improve its performance / يحتاج الذكاء الاصطناعي إلى البيانات لتحسين أدائه",
-    "answer": "true"
+    "question": "The following block repeats an action forever 'Repeat 10' / المكعب التالي يكرر الفعل للأبد",
+    "answer": "false"
   },
   {
     "type": "TF",
-    "question": "It is safe to share personal information with AI / من الآمن مشاركة معلومات سكني مع الذكاء الاصطناعي",
+    "question": "The following block repeat actions only once 'Forever' / المكعب التالي ينفذ الأوامر مرة واحدة فقط",
     "answer": "false"
   }
 ]
